@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+data/*
+!data/splits/
+checkpoints/*
+!checkpoints/SHA256SUMS
+*.pt
+*.onnx
+*.zip
+*.ulg
+external/
+
+# Local test / inference outputs
+runs/
+bus.jpg
