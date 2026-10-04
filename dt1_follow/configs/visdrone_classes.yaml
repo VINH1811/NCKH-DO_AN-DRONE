@@ -1,0 +1,52 @@
+# VisDrone class mapping for DT1 - Autonomous Person Following
+# Raw VisDrone annotations are NOT modified.
+
+dataset: VisDrone2019
+task: person_following
+
+# Original VisDrone category IDs
+raw_classes:
+  0: ignored_regions
+  1: pedestrian
+  2: people
+  3: bicycle
+  4: car
+  5: van
+  6: truck
+  7: tricycle
+  8: awning_tricycle
+  9: bus
+  10: motor
+  11: others
+
+# DT1 target definition
+target:
+  primary_class:
+    id: 1
+    name: pedestrian
+
+  crowd_class:
+    id: 2
+    name: people
+
+# Evaluation / conversion policy
+policy:
+  pedestrian:
+    action: keep
+    target_name: person
+
+  people:
+    action: separate
+    target_name: people
+
+  ignored_regions:
+    action: ignore
+
+  other_classes:
+    action: ignore
+
+# Important:
+# - Keep the original VisDrone annotations unchanged.
+# - "pedestrian" is the primary individual-person class for DT1.
+# - "people" is kept separate because it may represent grouped/crowd persons.
+# - ignored_regions must not be treated as negative/background samples.
