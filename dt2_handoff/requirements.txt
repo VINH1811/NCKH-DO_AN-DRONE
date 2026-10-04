@@ -1,0 +1,10 @@
+# ĐT2 — bàn giao camera mặt đất sang drone
+# Cần GPU CUDA. Bản tham chiếu: torch 2.7.1+cu118, Python 3.12
+torch>=2.1
+torchvision>=0.16
+torchreid>=0.2.5
+numpy>=1.24
+pandas>=2.0
+Pillow>=10.0
+mat4py>=0.6          # đọc qut_attribute_v8.mat của AG-ReID.v2
+gdown>=5.0           # tải dataset và trọng số từ Google Drive
