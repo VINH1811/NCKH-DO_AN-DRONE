@@ -35,7 +35,9 @@ Ba đề tài nối thành một chuỗi demo:
 ├── common/                   # dùng chung cho cả 3 đề tài
 │   ├── record_env.sh         # ghi pip freeze, nvidia-smi, commit hash
 │   ├── sha256_checkpoints.sh # khóa hash checkpoint
-│   ├── bootstrap_ci.py       # khoảng tin cậy 95% bằng bootstrap
+│   ├── bootstrap_ci.py       # khoảng tin cậy 95% và so sánh cặp
+│   ├── chuan_hoa_metrics.py  # đưa CSV về đúng mẫu 17 cột
+│   ├── gop_metrics.py        # gộp metrics ba đề tài thành một bảng
 │   ├── latency.py            # đo p50/p95 sau warm-up
 │   └── metrics_template.csv  # mẫu CSV kết quả
 ├── dt1_follow/
@@ -43,6 +45,7 @@ Ba đề tài nối thành một chuỗi demo:
 ├── dt3_retrieval/
 └── docs/
     ├── gpu_schedule.md       # lịch dùng GPU
+    ├── metrics_tong_hop.csv  # BẢNG GỘP ba đề tài (sinh lại được, không sửa tay)
     └── crosscheck/           # biên bản kiểm tra chéo
 ```
 
@@ -93,6 +96,29 @@ VT03-yolo11s-visdrone-20261005,2026-10-05,abc1234,VT-03,VisDrone-DET,val,yolo11s
 
 - Mỗi dòng là **một metric** của một lần chạy, để gộp CSV của cả nhóm cho dễ.
 - `chance_level` để trống nếu không áp dụng (ví dụ AP của detector).
+
+### Bảng gộp ba đề tài
+
+```bash
+python common/gop_metrics.py        # -> docs/metrics_tong_hop.csv
+```
+
+Script quét `*/metrics/*.csv`, **chỉ nhận file đúng 17 cột**, file nào chưa đúng
+thì bỏ qua và báo tên. Kết quả thêm một cột `de_tai` ở đầu để lọc.
+
+`docs/metrics_tong_hop.csv` là **file sinh lại được** — ai cập nhật metrics thì
+chạy lại script, đừng sửa tay.
+
+CSV chưa đúng mẫu thì chuyển bằng:
+
+```bash
+python common/chuan_hoa_metrics.py --vao <csv cũ> --ra <csv mới>     --doi-ten gpu=hardware,n_images=n --dat precision=fp32 --commit auto
+```
+
+Script **giữ nguyên file gốc**, ghi ra file mới đặt hậu tố
+**`-ban-sua-du-17-cot`** để chủ nhân file biết bản nào đã chuyển. Cột thừa không
+bị vứt mà gộp vào `notes`. Khi gộp bảng, có bản `-ban-sua-du-17-cot` thì nó thay
+cho bản gốc.
 
 ## 4. Quy ước thống kê
 
