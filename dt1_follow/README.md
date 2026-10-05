@@ -23,6 +23,26 @@ Dùng cùng một `run_id` cho thông tin môi trường và dự đoán của c
 
 Sẽ bổ sung lệnh cài đặt và chạy cụ thể khi có mã nguồn và cấu hình thí nghiệm.
 
+## Công việc ngày 04/10/2026
+
+- VT-01: thiết lập Ultralytics (YOLO11/YOLO-World), tải VisDrone DET/MOT và chốt class mapping.
+- VT-02: thiết lập PX4 SITL + Gazebo, chạy ví dụ Offboard và lưu log.
+
+Tiến độ và nguồn tài liệu: [báo cáo thiết lập](reports/20261004-setup.md).
+Mapping đề xuất: [class_mapping.json](configs/class_mapping.json).
+
+Đã cài distro WSL `Ubuntu-24.04`. Mở từ PowerShell:
+
+```powershell
+wsl -d Ubuntu-24.04
+```
+
+Sau khi thiết lập tài khoản, mở thư mục repo trong môi trường Ubuntu 24.04:
+
+```bash
+cd /mnt/f/DoAnTotNghiep/source/NCKH-DO_AN-DRONE
+```
+
 ## Quy ước lưu trữ
 
 - `data/splits/`: chỉ commit manifest mô tả các split; không commit dữ liệu gốc.

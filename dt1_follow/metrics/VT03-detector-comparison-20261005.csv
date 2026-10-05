@@ -1,0 +1,3 @@
+model,dataset,target,images,AP,AP50,AP75,AP_small,AP_medium,AP_large,latency_p50_ms,latency_p95_ms,latency_mean_ms,peak_vram_mb,imgsz,conf,gpu
+yolo11s,VisDrone2019-DET-val,pedestrian,548,0.1001,0.2354,0.0721,0.0653,0.3175,0.8616,25.37,45.55,28.9,93.97,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,548,0.0848,0.2029,0.0576,0.0521,0.2767,0.8272,26.71,43.14,28.29,688.45,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU

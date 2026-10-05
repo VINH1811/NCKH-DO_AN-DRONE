@@ -1,0 +1,26 @@
+[
+  {
+    "model": "yolo11s",
+    "images": 548,
+    "detections": 54296,
+    "latency_p50_ms": 25.37335100009841,
+    "latency_p95_ms": 45.5467059502098,
+    "latency_mean_ms": 28.896407912393475,
+    "peak_vram_mb": 93.97412109375,
+    "imgsz": 640,
+    "conf": 0.001,
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU"
+  },
+  {
+    "model": "yolov8s-worldv2",
+    "images": 548,
+    "detections": 62503,
+    "latency_p50_ms": 26.712696000231517,
+    "latency_p95_ms": 43.138710699895455,
+    "latency_mean_ms": 28.292175145998375,
+    "peak_vram_mb": 688.4482421875,
+    "imgsz": 640,
+    "conf": 0.001,
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU"
+  }
+]
