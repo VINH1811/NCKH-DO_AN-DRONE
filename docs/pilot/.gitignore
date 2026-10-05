@@ -1,0 +1,5 @@
+# Nguồn .md giữ ở máy, chỉ đẩy PDF lên repo (quyết định 05/10)
+*.md
+!.gitignore
+*.docx
+*._build.md
