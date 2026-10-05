@@ -1,0 +1,40 @@
+{
+  "annotations": 250,
+  "annotated_tracks": 245,
+  "keyframes": 98552,
+  "embedding_shape": [
+    98552,
+    768
+  ],
+  "norm_range": [
+    0.9999998211860657,
+    1.0000001192092896
+  ],
+  "sources": {
+    "drone": {
+      "keyframes": 3902,
+      "tracks": 1387,
+      "cameras": 1
+    },
+    "edata": {
+      "keyframes": 23436,
+      "tracks": 4272,
+      "cameras": 9
+    },
+    "video": {
+      "keyframes": 71214,
+      "tracks": 32404,
+      "cameras": 8
+    }
+  },
+  "annotation_cameras": "nguon  camera_id             \nedata  SanCanteenLemon/Cam1      39\n       SanCanteenLemon/Cam2      10\n       SanCanteenLemon/Cam3      11\n       SanTruong/Cam1            49\n       SanTruong/Cam2            42\n       SanTruong/Cam3            48\n       SanhGiangDuongHai/Cam1    11\n       SanhGiangDuongMot/Cam1    18\nvideo  DuongGiangVien             3\n       SanCanteenLemon1           8\n       SanCanteenLemon2           1\n       SanCanteenLemon3           4\n       SanTruong1                 2\n       SanhGiangDuongHai          2\n       SanhGiangDuongMot          2",
+  "split_counts": {
+    "edata/dev": 70,
+    "edata/test": 158,
+    "video/dev": 6,
+    "video/test": 16
+  },
+  "integrity": "passed for extracted metadata and embeddings",
+  "physical_identity_disjoint": "not verifiable; no person_id mapping",
+  "original_evaluator": "not supplied; max-cosine track ranking is explicit local protocol"
+}

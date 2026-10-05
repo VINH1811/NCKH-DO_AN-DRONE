@@ -1,0 +1,7 @@
+﻿__pycache__/
+*.pyc
+data/*
+!data/splits/
+!data/splits/**
+checkpoints/*
+!checkpoints/SHA256SUMS

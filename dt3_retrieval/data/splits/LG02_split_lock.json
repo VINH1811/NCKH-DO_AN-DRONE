@@ -1,0 +1,58 @@
+{
+  "manifest_sha256": "36741170d67087ac169cc5f2021edc7855aaceeb0a229ecb74d2a6493e373d2b",
+  "input_sha256": {
+    "README.md": "4d85c929131cb626b08517407ba1a9405159cf2e1b43db768e80985711198107",
+    "index.db": "3620f865970a625fb55afcd5033d31df962a71b92851fba0ab2eedc8f62c283c",
+    "emb/emb_f32.npy": "7202ddba63f16a1ecc1332054788fe6eef61d0f55bddbaaaba908edf38a37bbf",
+    "emb/emb_kf_id.npy": "c2ca2fdba983e0bc94dbc581b2373c447af8f76bb1b85f9f8e97d53f43c1cda9",
+    "manifest/annotations_250.csv": "7d77e56e9a75a190cdac588027c5d32d6c851e760427a361be96fc2a5659bbbe",
+    "manifest/keyframes.csv": "ca860562d903854c7cd999635c6a20481b5bec1f905cdde3ad2c01997f97191a",
+    "manifest/speaker_asr.csv": "5976834bbeaaf5befd611b32df6f8c20ae6193c2d0db7f51e8332a16032717a6",
+    "manifest/thong_ke.json": "e9d20aaa9356d7e4c5e860fc2183b2bbba968f1ecac069a343fa15c9c7c1b394",
+    "manifest/tracks.csv": "82b95a3973ebd9c3d061de460dd30d41f5cd69c3b1ed898266cb836503ff3b2d"
+  },
+  "config_sha256": "f0f2d06ed4783f5449fa4faa3852fb05e1876e47d74f0a66296134456fba3700",
+  "split_unit": "camera_id; track_id is dataset-local identity, no cross-camera identity mapping",
+  "dev_cameras": [
+    "SanCanteenLemon/Cam2",
+    "SanTruong/Cam2",
+    "SanhGiangDuongMot/Cam1",
+    "DuongGiangVien",
+    "SanCanteenLemon2",
+    "SanhGiangDuongMot"
+  ],
+  "counts": {
+    "edata/dev": 70,
+    "edata/test": 158,
+    "video/dev": 6,
+    "video/test": 16
+  },
+  "config": {
+    "run_id": "LG02-mclip-secondpaper-20261005",
+    "dataset_root": "data/SecondPaper_M1",
+    "model": "M-CLIP/XLM-Roberta-Large-Vit-L-14",
+    "model_revision": "40afa80a85e8efa990384a24bbe5a1f6f1cc81b5",
+    "image_model": "open_clip ViT-L-14 pretrained=openai (provided embeddings)",
+    "embedding_dim": 768,
+    "seed": 20261005,
+    "dev_cameras": [
+      "SanCanteenLemon/Cam2",
+      "SanTruong/Cam2",
+      "SanhGiangDuongMot/Cam1",
+      "DuongGiangVien",
+      "SanCanteenLemon2",
+      "SanhGiangDuongMot"
+    ],
+    "split_unit": "camera_id; track_id is dataset-local identity, no cross-camera identity mapping",
+    "gallery_policy": "all keyframes of same source; shared fixed gallery for dev/test queries",
+    "deleted_policy": "include all entries in official M1 keyframes manifest",
+    "track_score": "maximum cosine over keyframes of track",
+    "relevance": "one annotated target track per query; other matching people not exhaustively labeled",
+    "evaluate_split": "dev",
+    "precision": "FP32",
+    "warmup": 5,
+    "latency_repeats": 3,
+    "bootstrap_samples": 1000,
+    "max_tokens": 512
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "gallery": {
+    "edata": {
+      "keyframes": 23436,
+      "tracks": 4272,
+      "cameras": 9
+    },
+    "video": {
+      "keyframes": 71214,
+      "tracks": 32404,
+      "cameras": 8
+    }
+  },
+  "config": {
+    "run_id": "LG02-mclip-secondpaper-20261005",
+    "dataset_root": "data/SecondPaper_M1",
+    "model": "M-CLIP/XLM-Roberta-Large-Vit-L-14",
+    "model_revision": "40afa80a85e8efa990384a24bbe5a1f6f1cc81b5",
+    "image_model": "open_clip ViT-L-14 pretrained=openai (provided embeddings)",
+    "embedding_dim": 768,
+    "seed": 20261005,
+    "dev_cameras": [
+      "SanCanteenLemon/Cam2",
+      "SanTruong/Cam2",
+      "SanhGiangDuongMot/Cam1",
+      "DuongGiangVien",
+      "SanCanteenLemon2",
+      "SanhGiangDuongMot"
+    ],
+    "split_unit": "camera_id; track_id is dataset-local identity, no cross-camera identity mapping",
+    "gallery_policy": "all keyframes of same source; shared fixed gallery for dev/test queries",
+    "deleted_policy": "include all entries in official M1 keyframes manifest",
+    "track_score": "maximum cosine over keyframes of track",
+    "relevance": "one annotated target track per query; other matching people not exhaustively labeled",
+    "evaluate_split": "dev",
+    "precision": "FP32",
+    "warmup": 5,
+    "latency_repeats": 3,
+    "bootstrap_samples": 1000,
+    "max_tokens": 512
+  },
+  "split_sha256": "36741170d67087ac169cc5f2021edc7855aaceeb0a229ecb74d2a6493e373d2b",
+  "test_evaluated": false
+}

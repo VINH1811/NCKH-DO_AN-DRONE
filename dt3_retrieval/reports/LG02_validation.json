@@ -1,0 +1,9 @@
+{
+  "independent_frame_sort_then_track_dedup_matches_all_query_ranks": 76,
+  "manifest_rows": 250,
+  "test_queries_unevaluated": 174,
+  "test_predictions_present": false,
+  "split_hash_matches": true,
+  "config_lock_matches": true,
+  "unit_tests": 4
+}

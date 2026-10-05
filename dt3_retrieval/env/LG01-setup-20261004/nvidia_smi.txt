@@ -1,0 +1,54 @@
+﻿Sun Oct  4 18:30:28 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.62                 KMD Version: 610.62        CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3050 ...  WDDM  |   00000000:01:00.0  On |                  N/A |
+| N/A   53C    P0             17W /   67W |    1684MiB /   4096MiB |      4%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A            4052    C+G   ...ms\Microsoft VS Code\Code.exe      N/A      |
+|    0   N/A  N/A            6080    C+G   ...xyewy\ShellExperienceHost.exe      N/A      |
+|    0   N/A  N/A            6756    C+G   ...8bbwe\PhoneExperienceHost.exe      N/A      |
+|    0   N/A  N/A            7284    C+G   ...5823\EA Desktop\EADesktop.exe      N/A      |
+|    0   N/A  N/A            7376    C+G   ...5n1h2txyewy\TextInputHost.exe      N/A      |
+|    0   N/A  N/A            8532    C+G   ...A Desktop\EACefSubProcess.exe      N/A      |
+|    0   N/A  N/A            8648    C+G   ...ogram Files\DeskIn\DeskIn.exe      N/A      |
+|    0   N/A  N/A            9876    C+G   ...\plugins\capture\ZaloCall.exe      N/A      |
+|    0   N/A  N/A           10716    C+G   C:\Windows\explorer.exe               N/A      |
+|    0   N/A  N/A           10904    C+G   ...ntrolPanel\SystemSettings.exe      N/A      |
+|    0   N/A  N/A           11052    C+G   ...2txyewy\CrossDeviceResume.exe      N/A      |
+|    0   N/A  N/A           11160    C+G   ...IA App\CEF\NVIDIA Overlay.exe      N/A      |
+|    0   N/A  N/A           11428    C+G   ...y\StartMenuExperienceHost.exe      N/A      |
+|    0   N/A  N/A           11524    C+G   ..._cw5n1h2txyewy\SearchHost.exe      N/A      |
+|    0   N/A  N/A           12840    C+G   ...em32\ApplicationFrameHost.exe      N/A      |
+|    0   N/A  N/A           15020    C+G   ....0.4258.53\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A           15364    C+G   ...iles\Riot Vanguard\vgtray.exe      N/A      |
+|    0   N/A  N/A           16880    C+G   ...Chrome\Application\chrome.exe      N/A      |
+|    0   N/A  N/A           17240    C+G   ...t\Edge\Application\msedge.exe      N/A      |
+|    0   N/A  N/A           17440    C+G   ...8aw4\AcerPurifiedVoiceApp.exe      N/A      |
+|    0   N/A  N/A           18228    C+G   ...Chrome\Application\chrome.exe      N/A      |
+|    0   N/A  N/A           18628    C+G   ...cord\app-1.0.9260\Discord.exe      N/A      |
+|    0   N/A  N/A           19088    C+G   ...ms\Zalo\Zalo-26.9.10\Zalo.exe      N/A      |
+|    0   N/A  N/A           20780    C+G   ....0.4258.53\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A           20916    C+G   ...4__8wekyb3d8bbwe\ms-teams.exe      N/A      |
+|    0   N/A  N/A           22024    C+G   ...erwolf\0.311.0.6\Overwolf.exe      N/A      |
+|    0   N/A  N/A           22296    C+G   ...gram Files\Parsec\parsecd.exe      N/A      |
+|    0   N/A  N/A           22708    C+G   ...0.311.0.6\OverwolfBrowser.exe      N/A      |
+|    0   N/A  N/A           23548    C+G   ...yApp\MicrosoftSecurityApp.exe      N/A      |
+|    0   N/A  N/A           23572    C+G   ...lare WARP\Cloudflare WARP.exe      N/A      |
+|    0   N/A  N/A           24020    C+G   C:\Windows\explorer.exe               N/A      |
+|    0   N/A  N/A           25652    C+G   ...IA App\CEF\NVIDIA Overlay.exe      N/A      |
+|    0   N/A  N/A           26740    C+G   ...lientElectron\Riot Client.exe      N/A      |
+|    0   N/A  N/A           27244    C+G   ...x64__dt26b99r8h8gj\RtkUWP.exe      N/A      |
+|    0   N/A  N/A           31712    C+G   ...indows\System32\ShellHost.exe      N/A      |
++-----------------------------------------------------------------------------------------+

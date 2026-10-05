@@ -1,0 +1,10 @@
+﻿torch==2.6.0
+torchvision==0.21.0
+multilingual-clip==1.0.10
+open_clip_torch==2.30.0
+transformers==4.44.2
+huggingface-hub==0.26.2
+sentencepiece==0.2.0
+numpy==1.26.4
+pandas==2.2.3
+Pillow==10.4.0
