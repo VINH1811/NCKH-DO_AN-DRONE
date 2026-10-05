@@ -1,3 +1,23 @@
-model,dataset,target,images,AP,AP50,AP75,AP_small,AP_medium,AP_large,latency_p50_ms,latency_p95_ms,latency_mean_ms,peak_vram_mb,imgsz,conf,gpu
-yolo11s,VisDrone2019-DET-val,pedestrian,548,0.1001,0.2354,0.0721,0.0653,0.3175,0.8616,25.37,45.55,28.9,93.97,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
-yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,548,0.0848,0.2029,0.0576,0.0521,0.2767,0.8272,26.71,43.14,28.29,688.45,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+run_id,model,dataset,target,metric,value,ci95_low,ci95_high,chance_level,n_images,paired_n_images,imgsz,conf,gpu
+VT03-yolo11s-visdrone-20261005,yolo11s,VisDrone2019-DET-val,pedestrian,AP,0.10012871626139815,,,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yolo11s-visdrone-20261005,yolo11s,VisDrone2019-DET-val,pedestrian,AP50,0.23541008455180887,,,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yolo11s-visdrone-20261005,yolo11s,VisDrone2019-DET-val,pedestrian,AP75,0.07212665999186403,,,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yolo11s-visdrone-20261005,yolo11s,VisDrone2019-DET-val,pedestrian,AP_small,0.06530783129127807,,,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yolo11s-visdrone-20261005,yolo11s,VisDrone2019-DET-val,pedestrian,AP_medium,0.3174874206287197,,,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yolo11s-visdrone-20261005,yolo11s,VisDrone2019-DET-val,pedestrian,AP_large,0.8616420034860629,,,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yolo11s-visdrone-20261005,yolo11s,VisDrone2019-DET-val,pedestrian,latency_p50_ms,25.37335100009841,,,,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yolo11s-visdrone-20261005,yolo11s,VisDrone2019-DET-val,pedestrian,latency_p95_ms,45.5467059502098,,,,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yolo11s-visdrone-20261005,yolo11s,VisDrone2019-DET-val,pedestrian,latency_mean_ms,28.896407912393475,,,,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yolo11s-visdrone-20261005,yolo11s,VisDrone2019-DET-val,pedestrian,peak_vram_mb,93.97412109375,,,,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yolo11s-visdrone-20261005,yolo11s,VisDrone2019-DET-val,pedestrian,mean_per_image_AP,0.15003718435764313,0.13553565442562104,0.1653260502964258,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yoloworld-visdrone-20261005,yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,AP,0.08483479003931155,,,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yoloworld-visdrone-20261005,yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,AP50,0.20285222794265165,,,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yoloworld-visdrone-20261005,yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,AP75,0.05762920990719624,,,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yoloworld-visdrone-20261005,yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,AP_small,0.052143776487966684,,,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yoloworld-visdrone-20261005,yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,AP_medium,0.2767212070753226,,,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yoloworld-visdrone-20261005,yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,AP_large,0.8271768675541293,,,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yoloworld-visdrone-20261005,yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,latency_p50_ms,26.712696000231517,,,,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yoloworld-visdrone-20261005,yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,latency_p95_ms,43.138710699895455,,,,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yoloworld-visdrone-20261005,yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,latency_mean_ms,28.292175145998375,,,,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yoloworld-visdrone-20261005,yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,peak_vram_mb,688.4482421875,,,,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU
+VT03-yoloworld-visdrone-20261005,yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,mean_per_image_AP,0.1342739462852478,0.12008529845625163,0.14897039569914342,0.0,548,520,640,0.001,NVIDIA GeForce RTX 3050 Laptop GPU

@@ -1,0 +1,24 @@
+{
+  "n_images": 520,
+  "n_bootstrap": 10000,
+  "seed": 20261005,
+  "yolo11s": {
+    "mean_per_image_ap": 0.15003718435764313,
+    "ci95_low": 0.13553565442562104,
+    "ci95_high": 0.1653260502964258,
+    "chance_level": 0.0
+  },
+  "yolov8s-worldv2": {
+    "mean_per_image_ap": 0.1342739462852478,
+    "ci95_low": 0.12008529845625163,
+    "ci95_high": 0.14897039569914342,
+    "chance_level": 0.0
+  },
+  "paired_comparison": {
+    "metric": "mean_per_image_ap_difference",
+    "difference_yolo11_minus_world": 0.015763241797685623,
+    "ci95_low": 0.01010165810585022,
+    "ci95_high": 0.02169314883649349,
+    "bootstrap_prob_difference_le_0": 0.0
+  }
+}

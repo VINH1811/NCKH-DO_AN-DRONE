@@ -254,3 +254,41 @@ YOLO11s đạt độ chính xác cao hơn ở tất cả các chỉ số AP và 
 Tốc độ xử lý của hai model gần tương đương.
 
 Do đó, **YOLO11s được lựa chọn làm detector chính cho VT-04**.
+## So sánh cặp theo từng ảnh
+
+Để phục vụ công cụ đánh giá chung của nhóm, AP được tính riêng trên từng ảnh có ít nhất một pedestrian ground truth.
+
+Số ảnh dùng để so sánh cặp:
+
+    520
+
+Các file AP theo từng ảnh:
+
+    metrics/VT03-yolo11s-per-image-ap.npy
+    metrics/VT03-yolov8s-worldv2-per-image-ap.npy
+    metrics/VT03-paired-image-names.npy
+
+Mean per-image AP:
+
+    YOLO11s      : 0.150037
+    YOLO-World   : 0.134274
+
+Paired difference:
+
+    YOLO11s - YOLO-World = 0.015763
+
+Bootstrap 95% CI:
+
+    0.010102 -> 0.021693
+
+Số bootstrap sample:
+
+    10000
+
+Trong 10000 bootstrap sample, không có sample nào có chênh lệch <= 0.
+
+Kết quả này cho thấy YOLO11s có mean per-image AP cao hơn YOLO-World trên tập ảnh được ghép cặp.
+
+File kết quả paired comparison:
+
+    metrics/VT03-paired-comparison-20261005.csv

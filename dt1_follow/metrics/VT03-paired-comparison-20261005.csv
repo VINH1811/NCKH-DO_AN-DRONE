@@ -1,0 +1,2 @@
+run_id,comparison,dataset,target,metric,value,ci95_low,ci95_high,chance_level,n_images,bootstrap_samples,bootstrap_prob_difference_le_0
+VT03-paired-visdrone-20261005,yolo11s_minus_yolov8s-worldv2,VisDrone2019-DET-val,pedestrian,mean_per_image_ap_difference,0.015763241797685623,0.01010165810585022,0.02169314883649349,0.0,520,10000,0.0
