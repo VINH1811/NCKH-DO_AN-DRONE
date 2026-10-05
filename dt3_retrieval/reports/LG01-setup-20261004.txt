@@ -1,0 +1,21 @@
+﻿Date: 2026-10-04
+Task: LG-01
+Environment: dt3_py310
+Torch: 2.6.0+cu124
+CUDA available: True
+
+OpenCLIP:
+  Model: xlm-roberta-base-ViT-B-32
+  Pretrained: laion5b_s13b_b90k
+  Text embedding shape: (1, 512)
+  Finite: True
+
+M-CLIP:
+  Model: M-CLIP/XLM-Roberta-Large-Vit-B-32
+  Text embedding shape: (1, 512)
+  Finite: True
+  Checkpoint choice: provisional, awaiting SecondPaper confirmation
+
+Scope: model loading and text encoding checked on CPU.
+Image retrieval and GPU model inference: not yet tested.
+SecondPaper data: received from Vinh.

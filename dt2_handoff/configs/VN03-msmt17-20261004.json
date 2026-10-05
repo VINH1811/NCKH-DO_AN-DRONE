@@ -1,0 +1,17 @@
+{
+  "goc": "D:/Data/AG-ReID.v2/AG-ReID.v2",
+  "protocol": [
+    "D:/Data/AG-ReID.v2/exp1_aerial_to_cctv.txt",
+    "D:/Data/AG-ReID.v2/exp2_aerial_to_wearable.txt",
+    "D:/Data/AG-ReID.v2/exp4_cctv_to_aerial.txt",
+    "D:/Data/AG-ReID.v2/exp5_wearable_to_aerial.txt"
+  ],
+  "ckpt": "models/osnet_x1_0_msmt17.pth",
+  "model": "osnet_x1_0",
+  "ra": "bao_cao/vn03/x1_0_msmt17",
+  "lo": 64,
+  "fp16": false,
+  "bootstrap": 1000,
+  "gop_theo_nguoi": false,
+  "lenh": "eval_agreid.py --goc D:/Data/AG-ReID.v2/AG-ReID.v2 --protocol D:/Data/AG-ReID.v2/exp1_aerial_to_cctv.txt --protocol D:/Data/AG-ReID.v2/exp2_aerial_to_wearable.txt --protocol D:/Data/AG-ReID.v2/exp4_cctv_to_aerial.txt --protocol D:/Data/AG-ReID.v2/exp5_wearable_to_aerial.txt --model osnet_x1_0 --ckpt models/osnet_x1_0_msmt17.pth --ra bao_cao/vn03/x1_0_msmt17"
+}

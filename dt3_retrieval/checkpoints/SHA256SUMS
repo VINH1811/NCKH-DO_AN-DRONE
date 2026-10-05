@@ -1,0 +1,5 @@
+﻿e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  hf_cache/hub/models--laion--CLIP-ViT-B-32-xlm-roberta-base-laion5B-s13B-b90k/.no_exist/506d40eb551f4801a1c27fc20a31c7b8f590deda/open_clip_model.safetensors
+a5412f19cca70db8d434f68361f7254bd322a553455a63dbb709bd6a650cf378  hf_cache/hub/models--laion--CLIP-ViT-B-32-xlm-roberta-base-laion5B-s13B-b90k/snapshots/506d40eb551f4801a1c27fc20a31c7b8f590deda/open_clip_pytorch_model.bin
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-B-32/.no_exist/85949a3ac1415027bdf7a5d0994bba8d992fe494/model.safetensors
+c33a6bec12ba8251492f1e4068c39507c1512692a2e0e7f37cdcf8cdaf7aa2f8  hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-B-32/snapshots/85949a3ac1415027bdf7a5d0994bba8d992fe494/pytorch_model.bin
+2dfa19f172412917cab174da04b46e2134811b723666965fd0aabd97caa6e23b  hf_cache/hub/models--xlm-roberta-large/snapshots/c23d21b0620b635a76227c604d44e43a9f0ee389/model.safetensors

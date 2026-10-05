@@ -1,0 +1,4 @@
+﻿Torch: 2.6.0+cu124
+CUDA runtime: 12.4
+CUDA available: True
+

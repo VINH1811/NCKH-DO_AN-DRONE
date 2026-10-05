@@ -1,0 +1,7 @@
+﻿run_id,vong,model_p50_ms,model_p95_ms,pipeline_tb_ms,so_anh,protocol,model,precision,thiet_bi,batch
+VN03-ain-20261004,1,1.116,1.12,1.828,1280,exp1_aerial_to_cctv,osnet_ain_x1_0,fp32,cuda,64
+VN03-ain-20261004,2,1.116,1.12,1.823,1280,exp1_aerial_to_cctv,osnet_ain_x1_0,fp32,cuda,64
+VN03-ain-20261004,3,1.116,1.118,1.887,1280,exp1_aerial_to_cctv,osnet_ain_x1_0,fp32,cuda,64
+VN03-msmt17-20261004,1,1.087,1.09,1.822,1280,exp1_aerial_to_cctv,osnet_x1_0,fp32,cuda,64
+VN03-msmt17-20261004,2,1.089,1.092,1.81,1280,exp1_aerial_to_cctv,osnet_x1_0,fp32,cuda,64
+VN03-msmt17-20261004,3,1.089,1.093,1.831,1280,exp1_aerial_to_cctv,osnet_x1_0,fp32,cuda,64

@@ -1,0 +1,26 @@
+{
+  "ghi_luc": "04/10/2026 18:46:46",
+  "ghi_chu": "VN-02: OSNet + AG-ReID.v2",
+  "precision": "fp32",
+  "lenh_chay": "ghi_moi_truong.py --ra bao_cao/vn02 --ckpt-thu-muc models --precision fp32 --ghi-chu VN-02: OSNet + AG-ReID.v2",
+  "interpreter": "C:/Users/Mr Vinh/.conda/envs/nckh/python.exe",
+  "python": "3.12.12",
+  "he_dieu_hanh": "Windows 11 (AMD64)",
+  "git": {
+    "commit": "5927ac788b9975f846fe534035813faabbb57ccf",
+    "nhanh": "main",
+    "ban_lam_viec_sach": false,
+    "mo_ta": "update"
+  },
+  "phan_cung": {
+    "nvidia_smi": "NVIDIA GeForce RTX 3060 Laptop GPU, 6144 MiB, 546.30",
+    "torch": "2.7.1+cu118",
+    "cuda_cua_torch": "11.8",
+    "co_gpu": true,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "vram_gb": 6.4,
+    "compute_capability": "8.6",
+    "torchvision": "0.22.1+cu118"
+  },
+  "so_checkpoint": 2
+}

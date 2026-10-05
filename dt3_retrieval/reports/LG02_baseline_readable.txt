@@ -1,0 +1,71 @@
+﻿BASELINE SECOND PAPER — M-CLIP — 05/10/2026
+Mô hình: M-CLIP/XLM-Roberta-Large-Vit-L-14
+Tập đánh giá: dev; tập test chưa đánh giá.
+GPU: NVIDIA GeForce RTX 3050 Laptop GPU; precision: FP32.
+
+CAMERA CỐ ĐỊNH — KẾT QUẢ CHÍNH
+Số truy vấn: 70
+Số camera/video trong gallery: 9
+Số track trong gallery: 4272
+Số keyframe trong gallery: 23436
+
+Recall@1: 2,86%
+  Khoảng tin cậy 95%: 0,00% đến 7,35%
+  Mức ngẫu nhiên: 0,0234%
+
+Recall@5: 14,29%
+  Khoảng tin cậy 95%: 4,41% đến 24,32%
+  Mức ngẫu nhiên: 0,1170%
+
+Recall@10: 18,57%
+  Khoảng tin cậy 95%: 8,82% đến 29,17%
+  Mức ngẫu nhiên: 0,2341%
+
+mAP: 8,75%
+  Khoảng tin cậy 95%: 4,55% đến 13,94%
+  Mức ngẫu nhiên: 0,2092%
+
+Text model p50: 23,57 ms
+Text model p95: 32,91 ms
+Pipeline với gallery có sẵn p50: 28,09 ms
+Pipeline với gallery có sẵn p95: 38,68 ms
+
+VIDEO ĐIỆN THOẠI — KẾT QUẢ RIÊNG
+Số truy vấn: 6
+Số camera/video trong gallery: 8
+Số track trong gallery: 32404
+Số keyframe trong gallery: 71214
+
+Recall@1: 0,00%
+  Khoảng tin cậy 95%: 0,00% đến 0,00%
+  Mức ngẫu nhiên: 0,0031%
+
+Recall@5: 16,67%
+  Khoảng tin cậy 95%: 0,00% đến 50,00%
+  Mức ngẫu nhiên: 0,0154%
+
+Recall@10: 16,67%
+  Khoảng tin cậy 95%: 0,00% đến 50,00%
+  Mức ngẫu nhiên: 0,0309%
+
+mAP: 10,61%
+  Khoảng tin cậy 95%: 0,78% đến 26,70%
+  Mức ngẫu nhiên: 0,0338%
+
+Text model p50: 27,11 ms
+Text model p95: 30,79 ms
+Pipeline với gallery có sẵn p50: 44,12 ms
+Pipeline với gallery có sẵn p95: 52,08 ms
+
+SPLIT ĐÃ KHÓA
+Camera cố định: 70 câu dev; 158 câu test.
+Video điện thoại: 6 câu dev; 16 câu test.
+Tổng: 76 câu dev; 174 câu test; 250 câu.
+Không trùng camera/track giữa hai nhóm truy vấn; chưa xác minh danh tính thật qua camera.
+
+GHI CHÚ
+Mỗi câu chỉ gán nhãn một track đúng, nên mAP tương đương MRR trong thiết lập này.
+Video chỉ có 6 câu dev; CI bootstrap [0,0] cho Recall@1 không chứng minh xác suất đúng thật bằng 0.
+Pipeline đã có gallery; không gồm detector, nhúng ảnh, đọc video hoặc tải mô hình.
+Latency đo 3 lần sau warm-up; chưa xác minh khung giờ GPU riêng.
+Đây là baseline snapshot M1; chưa xác nhận protocol trùng evaluator paper gốc.
