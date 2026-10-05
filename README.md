@@ -96,73 +96,162 @@ VT03-yolo11s-visdrone-20261005,2026-10-05,abc1234,VT-03,VisDrone-DET,val,yolo11s
 
 ## 4. Quy ước thống kê
 
-Thống nhất ngày 05/10 (C-03). **Mọi con số trong báo cáo cuối phải theo mục này.**
+Chốt ngày 05/10 (C-03). Gộp từ hai bản đề xuất: quy trình và công cụ (Vinh),
+cách diễn giải và giới hạn phương pháp (Lương). **Mọi con số trong báo cáo cuối
+phải theo mục này.**
 
-### 4.1. Ba thứ luôn đi kèm mỗi con số
+Dẫn giải chi tiết các phương pháp khoảng tin cậy và tính toán cỡ mẫu:
+[dt3_retrieval/reports/LG02_statistical_reporting.md](dt3_retrieval/reports/LG02_statistical_reporting.md).
+
+### 4.1. Bốn thứ luôn đi kèm mỗi con số
 
 | Bắt buộc | Nghĩa là |
 |---|---|
-| **n** | Số mục tạo ra con số: số truy vấn, số ảnh, hay số track. Không có n thì không đọc được độ tin cậy |
-| **Mức ngẫu nhiên** | Điểm của một hệ thống đoán bừa trên cùng tập đó. Không có nó thì "Rank-1 20%" không nói lên điều gì — có thể là rất tốt, có thể là vô dụng |
-| **Khoảng tin cậy 95%** | Bootstrap 1.000 lần, lấy mẫu lại có hoàn lại theo mục |
+| **n** | Số mục tạo ra con số: số truy vấn, số ảnh, hay số track |
+| **Đơn vị lấy mẫu** | Lấy mẫu theo gì: theo truy vấn, theo track, hay theo camera. Quyết định cách tính khoảng tin cậy |
+| **Mức ngẫu nhiên** | Điểm của hệ thống đoán bừa trên cùng tập. Không có nó thì "Rank-1 20%" không nói lên điều gì |
+| **Khoảng tin cậy 95% + tên phương pháp** | Ghi rõ dùng bootstrap, Wilson hay exact. Phương pháp khác nhau cho kết luận khác nhau |
 
-Mức ngẫu nhiên nên tính bằng **mô phỏng** (xáo thứ hạng rồi chấm lại bằng đúng
-hàm chấm điểm), không tính bằng công thức — như vậy nó dùng chung một đường chấm
-với kết quả thật, so sánh mới sòng phẳng.
+Mức ngẫu nhiên nên tính bằng **mô phỏng** — xáo thứ hạng rồi chấm lại bằng đúng
+hàm chấm điểm — để nó đi chung một đường chấm với kết quả thật.
+
+Các truy vấn **gộp cụm theo track hoặc camera thì không độc lập**. Khi đó bootstrap
+phải lấy mẫu theo cụm, không lấy mẫu theo từng truy vấn rời.
 
 ### 4.2. So sánh hai cấu hình: dùng so sánh cặp
 
 **Không kết luận bằng cách nhìn hai khoảng tin cậy có chồng nhau hay không.**
-Cách đó yếu, và thường bảo "chưa đủ bằng chứng" trong khi thật ra có.
 
-Lý do: hai cấu hình chạy trên **cùng một tập truy vấn**, mà truy vấn thì có cái
-dễ cái khó. Phần dao động do "truy vấn khó" xuất hiện ở cả hai bên và **tự triệt
-tiêu khi lấy hiệu**. Nên phải lấy hiệu theo **từng truy vấn** rồi bootstrap trên
-hiệu đó.
+Hai cấu hình chạy trên **cùng một tập truy vấn**, mà truy vấn có cái dễ cái khó.
+Phần dao động đó xuất hiện ở cả hai bên và **tự triệt tiêu khi lấy hiệu**. Nên
+lấy hiệu theo **từng mục** rồi bootstrap trên hiệu đó.
 
 > Khoảng tin cậy của **hiệu** không chứa 0 → khác biệt có ý nghĩa.
 
-Kèm theo **tỉ lệ thắng theo truy vấn** — "A hơn ở 87% truy vấn" cho biết A thắng
-đều hay chỉ thắng nhờ vài trường hợp cá biệt, điều mà trung bình không nói được.
+Kèm **tỉ lệ thắng theo mục** — "A hơn ở 87% truy vấn" cho biết A thắng đều hay
+chỉ nhờ vài ca cá biệt, điều trung bình không nói được.
 
-### 4.3. Công cụ chung
+**Hai cách cho kết luận ngược nhau — ví dụ thật từ ĐT1:**
+
+```
+yolo11s          AP = 15,00%  [13,60 – 16,67]
+yolov8s-worldv2  AP = 13,43%  [11,99 – 15,04]    <- hai khoảng CHỒNG nhau
+
+So sánh cặp (n = 520 ảnh)
+  hiệu = +1,58%  [+1,05 – +2,15]                 <- CÓ ý nghĩa
+  yolo11s hơn ở 59,2% số ảnh · worldv2 hơn ở 30,0% · hoà 10,8%
+```
+
+Nhìn hai khoảng thì không chốt được detector. So sánh cặp thì chốt được. Đây là
+lý do quy ước chọn so sánh cặp, không phải hình thức.
+
+Lý do kỹ thuật thấy rõ hơn ở ĐT2: với Rank-1 trên exp5, **82,9% truy vấn hoà**
+(cả hai cùng trúng hoặc cùng trượt). Những mục đó không mang thông tin về khác
+biệt — so sánh cặp bỏ qua chúng, so hai khoảng rời rạc thì vẫn gánh hết nhiễu.
+
+### 4.3. Cách diễn giải
+
+Với **metric chính đã chọn trước**:
+
+| Khoảng tin cậy so với mức ngẫu nhiên | Ghi là |
+|---|---|
+| Hoàn toàn ở trên | Có bằng chứng vượt baseline ngẫu nhiên theo protocol này |
+| Cắt qua mức ngẫu nhiên | **"Chưa đủ bằng chứng rằng metric khác mức ngẫu nhiên với dữ liệu và phương pháp hiện tại"** |
+| Hoàn toàn ở dưới | Có bằng chứng kém hơn baseline |
+
+Câu ở giữa **không được** diễn giải thành "mô hình bằng ngẫu nhiên", "mô hình vô
+dụng", hay "không kết luận được gì". Nó chỉ nói về bằng chứng, không nói về mô hình.
+
+Vượt ngẫu nhiên **không** đồng nghĩa đủ tốt để vận hành. Hai câu hỏi khác nhau.
+
+Nếu kiểm định nhiều metric hoặc nhiều mô hình, phải **định trước metric chính**
+hoặc xử lý đa kiểm định.
+
+### 4.4. Metric hiếm lần trúng — chỗ phải cẩn thận nhất
+
+Khi số lần trúng rất ít, **bootstrap percentile cho cận dưới suy biến về 0** —
+nhiều mẫu lấy lại không chứa mục trúng nào. Đó là giới hạn của phương pháp, **không
+phải bằng chứng rằng n không đủ**.
+
+Ví dụ thật, ĐT3 Recall@1 = 2/70, mức ngẫu nhiên 0,0234%:
+
+| Phương pháp | Khoảng 95% | Loại trừ ngẫu nhiên? |
+|---|---|---|
+| Bootstrap percentile theo cụm | [0,00 – 7,35]% | Không |
+| Wilson | [0,787 – 9,832]% | Có |
+| Clopper–Pearson | [0,348 – 9,943]% | Có |
+| Binomial một phía | p = 0,00013 | Có |
+
+Nhưng Wilson, Clopper–Pearson và binomial đều **giả định các phép thử độc lập**,
+trong khi truy vấn gộp cụm theo track và camera thì không. Nên chúng **lạc quan**.
+Còn bootstrap theo cụm thì trung thực với tương quan nhưng suy biến khi hiếm trúng.
+
+> **Với rất ít lần trúng, không phương pháp nào sạch.** Phải nói ra giới hạn, đừng
+> chọn con số thuận lợi.
+
+**Quy tắc chốt:** khi số lần trúng **< 5**, báo cáo **cả hai** — khoảng bootstrap
+theo cụm *và* kiểm định một phía so với mức ngẫu nhiên — rồi kết luận theo
+**phương pháp đã đăng ký trước**, nêu rõ phương pháp còn lại cho kết quả gì.
+
+> **CẦN QUYẾT TRƯỚC 10/10:** phương pháp chính cho nhóm metric này là bootstrap
+> theo cụm hay kiểm định nhị thức? Chốt **trước khi** Lương mở tập test.
+> Đổi phương pháp sau khi nhìn số là chọn phương pháp theo kết quả.
+
+### 4.5. Cỡ mẫu: không có một n tối thiểu chung
+
+Cỡ mẫu gắn với **mục tiêu cụ thể** (độ chính xác ước lượng hay power), effect
+size, alpha, đơn vị độc lập và cách lấy mẫu. Ví dụ thiết kế với truy vấn độc lập,
+p ≈ 2/70:
+
+| Mục tiêu | Cỡ mẫu |
+|---|---:|
+| Phát hiện Recall@1 = 3% vượt chance 1/4.272, power ≥ 80% | n ≈ 53 |
+| Ước lượng tỉ lệ với sai số ±2 điểm phần trăm | n ≈ 267 |
+| Sai số ±1 điểm phần trăm | n ≈ 1.067 |
+| Sai số ±2 điểm phần trăm khi chưa biết p (thiết kế bảo thủ) | n ≈ 2.401 |
+
+Đây là **số hoạch định xấp xỉ**, cho phép thử độc lập. Gộp cụm theo track hoặc
+camera thì phải hoạch định bằng mô phỏng lấy mẫu theo nhóm. **Thêm câu mô tả cho
+cùng một người không tự động thêm bằng chứng độc lập.**
+
+Các metric khác — mAP, hiệu giữa hai mô hình, tỉ lệ báo nhầm, p95 độ trễ — cần
+thiết kế riêng. Không áp n của metric này sang metric kia.
+
+### 4.6. Công cụ chung
 
 Mỗi đề tài xuất một **vector điểm theo từng mục** (`.npy`, `.npz` hoặc `.csv`) —
-ĐT1 mỗi ảnh một AP, ĐT2 và ĐT3 mỗi truy vấn một AP hoặc một chỉ báo trúng/trượt.
-Sau đó dùng chung một công cụ:
+ĐT1 mỗi ảnh một AP, ĐT2 và ĐT3 mỗi truy vấn một AP hoặc chỉ báo trúng/trượt.
+Đã chạy được trên cả ba định dạng của ba đề tài.
 
 ```bash
 # một cấu hình
 python common/bootstrap_ci.py --diem kq.npz --khoa ap --ten "M-CLIP"     --ngau-nhien 0.003 --metric mAP --phan-tram
 
-# so sánh cặp, đồng thời ghi vào CSV theo mẫu chung ở mục 3
-python common/bootstrap_ci.py     --diem   a/predictions_exp1.npz --khoa ap --ten "AIN đa nguồn"     --diem-b b/predictions_exp1.npz            --ten-b "MSMT17"     --ngau-nhien 0.00308 --metric mAP --phan-tram     --ra dt2_handoff/metrics/ket_qua_chuan.csv     --run-id VN03-ain-20261004 --task-id VN-03     --dataset AG-ReID.v2 --split exp1_aerial_to_cctv
+# so sánh cặp, ghi luôn vào CSV theo mẫu mục 3
+python common/bootstrap_ci.py     --diem   a/kq.npz --khoa ap --ten "cấu hình A"     --diem-b b/kq.npz            --ten-b "cấu hình B"     --ngau-nhien 0.00308 --metric mAP --phan-tram     --ra <đề-tài>/metrics/ket_qua_chuan.csv --run-id ... --task-id ...
 ```
 
-Công cụ tự ghi thêm một dòng `<metric>_hieu_cap` vào CSV, nên bảng kết quả của
-cả nhóm có sẵn cả con số lẫn kết luận so sánh.
+Công cụ tự thêm dòng `<metric>_hieu_cap` vào CSV, nên bảng của cả nhóm có sẵn cả
+con số lẫn kết luận so sánh. **CSV phải đúng 17 cột ở mục 3** để gộp được ba đề tài.
 
-**Ví dụ đã chạy thật** (ĐT2, AG-ReID.v2, UAV→CCTV, n = 2.356):
+### 4.7. Kỷ luật đánh giá
 
-```
-AIN đa nguồn   mAP = 22,22%  [21,08 – 23,29]     mức ngẫu nhiên 0,308%
-MSMT17         mAP =  5,62%  [ 5,07 –  6,18]
-
-So sánh cặp (AIN trừ MSMT17)
-  hiệu trung bình = +16,60%  [+15,60 – +17,55]   -> có ý nghĩa
-  AIN hơn ở 87,0% truy vấn · MSMT17 hơn ở 12,8% · hoà 0,3%
-```
-
-### 4.4. Kỷ luật đánh giá
-
-- Dữ liệu pilot quay **ít nhất 2 phiên**: **phiên 1 chọn ngưỡng, phiên 2 để
-  test**. Xem kết quả test rồi thì **không chỉnh ngưỡng nữa**.
-- Split **chia theo phiên quay / danh tính**, không chia ngẫu nhiên theo frame.
-- Benchmark gốc giữ nguyên **evaluator và protocol của tác giả**. Thấy chỗ nào
-  lạ cũng đừng "sửa cho hợp lý" — sửa là mất khả năng so với bài báo. Muốn thử
-  cách khác thì báo cáo **riêng** như thí nghiệm phụ.
-- Kết quả trên dữ liệu tự thu báo cáo **riêng**, không gộp bảng với benchmark gốc
-  (khác miền, khác protocol).
+- **Không mở tập test chỉ để tăng n cho khoảng tin cậy đẹp hơn.** Test là đánh giá
+  cuối sau khi khoá mọi cấu hình. Có thể báo cáo thêm số gộp dev+test, nhưng phải
+  gắn nhãn *"có dữ liệu đã dùng để phát triển"* và không dùng nó để ước lượng hiệu
+  năng trên dữ liệu chưa thấy.
+- **Không đổi phương pháp thống kê sau khi đã nhìn kết quả.** Thống nhất trước,
+  giữ cố định.
+- Pilot quay **ít nhất 2 phiên**: phiên 1 chọn ngưỡng, phiên 2 để test.
+- Split **chia theo phiên quay / danh tính / camera**, không chia ngẫu nhiên frame.
+- Benchmark gốc giữ nguyên **evaluator và protocol của tác giả**. Thấy chỗ lạ cũng
+  đừng "sửa cho hợp lý" — sửa là mất khả năng so với bài báo. Muốn thử cách khác
+  thì báo cáo **riêng** như thí nghiệm phụ.
+- Dữ liệu tự thu báo cáo **riêng**, không gộp bảng với benchmark gốc.
+- **Nguồn dữ liệu khác nhau thì báo cáo riêng.** Bộ 250 mô tả gồm 228 câu trên
+  `edata` (9 camera, gallery 4.272 track) và 22 câu trên video (gallery 32.404
+  track) — hai mức ngẫu nhiên khác nhau, không dùng chung một con số chance, và
+  không lấy trung bình đơn giản giữa hai nguồn.
 - Lưu **dự đoán thô** vào `predictions/<run_id>/` để người kiểm tra chéo tính lại
   metric mà không cần GPU.
 
