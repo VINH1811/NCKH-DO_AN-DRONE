@@ -193,35 +193,64 @@ Vượt ngẫu nhiên **không** đồng nghĩa đủ tốt để vận hành. H
 Nếu kiểm định nhiều metric hoặc nhiều mô hình, phải **định trước metric chính**
 hoặc xử lý đa kiểm định.
 
-### 4.4. Metric hiếm lần trúng — chỗ phải cẩn thận nhất
+### 4.4. Metric hiếm lần trúng — đã chốt 05/10
 
 Khi số lần trúng rất ít, **bootstrap percentile cho cận dưới suy biến về 0** —
 nhiều mẫu lấy lại không chứa mục trúng nào. Đó là giới hạn của phương pháp, **không
-phải bằng chứng rằng n không đủ**.
+phải bằng chứng rằng kết quả không vượt ngẫu nhiên**.
 
-Ví dụ thật, ĐT3 Recall@1 = 2/70, mức ngẫu nhiên 0,0234%:
+**Chỗ mấu chốt: đây là hai câu hỏi khác nhau, không phải hai phương pháp tranh nhau.**
 
-| Phương pháp | Khoảng 95% | Loại trừ ngẫu nhiên? |
+| Câu hỏi | Tương quan giữa truy vấn có ảnh hưởng? | Công cụ |
 |---|---|---|
-| Bootstrap percentile theo cụm | [0,00 – 7,35]% | Không |
-| Wilson | [0,787 – 9,832]% | Có |
-| Clopper–Pearson | [0,348 – 9,943]% | Có |
-| Binomial một phía | p = 0,00013 | Có |
+| "Có vượt ngẫu nhiên không?" | **Không** | Kiểm định hoán vị một phía |
+| "Dao động bao nhiêu nếu đổi bộ truy vấn?" | **Có** | Bootstrap theo cụm |
 
-Nhưng Wilson, Clopper–Pearson và binomial đều **giả định các phép thử độc lập**,
-trong khi truy vấn gộp cụm theo track và camera thì không. Nên chúng **lạc quan**.
-Còn bootstrap theo cụm thì trung thực với tương quan nhưng suy biến khi hiếm trúng.
+Vì sao câu đầu không bị ảnh hưởng: giả thuyết không là *"hệ thống xếp hạng ngẫu
+nhiên"*. Dưới giả thuyết đó, **mỗi mục là một lần bốc độc lập** — bất kể điểm thật
+của mô hình có tương quan giữa các truy vấn hay không. Tương quan làm giảm cỡ mẫu
+hiệu dụng khi **ước lượng khoảng**, chứ không làm hỏng **phép kiểm định**.
 
-> **Với rất ít lần trúng, không phương pháp nào sạch.** Phải nói ra giới hạn, đừng
-> chọn con số thuận lợi.
+Hệ quả, cả hai lập luận quen thuộc đều sai chỗ:
 
-**Quy tắc chốt:** khi số lần trúng **< 5**, báo cáo **cả hai** — khoảng bootstrap
-theo cụm *và* kiểm định một phía so với mức ngẫu nhiên — rồi kết luận theo
-**phương pháp đã đăng ký trước**, nêu rõ phương pháp còn lại cho kết quả gì.
+- "Bootstrap không loại trừ mức ngẫu nhiên nên chưa kết luận được" — dùng sai công
+  cụ cho câu hỏi đó.
+- "Kiểm định nhị thức lạc quan vì giả định độc lập" — độc lập **đúng** dưới giả
+  thuyết không, nên không phải vấn đề cho phép kiểm định.
 
-> **CẦN QUYẾT TRƯỚC 10/10:** phương pháp chính cho nhóm metric này là bootstrap
-> theo cụm hay kiểm định nhị thức? Chốt **trước khi** Lương mở tập test.
-> Đổi phương pháp sau khi nhìn số là chọn phương pháp theo kết quả.
+**Quy tắc chốt — luôn báo cáo cả hai, mỗi cái trả lời câu của nó:**
+
+| Trong báo cáo | Lấy từ |
+|---|---|
+| Kết luận "vượt / chưa vượt ngẫu nhiên" | **Kiểm định hoán vị một phía** |
+| Khoảng tin cậy ghi trong CSV | **Bootstrap theo cụm** |
+| Khi số lần trúng **< 5** | Ghi thêm *"khoảng bootstrap suy biến do hiếm lần trúng"* |
+
+Quy tắc cố định cho mọi lần chạy, nên **không có chỗ chọn phương pháp theo kết quả**.
+
+Dùng **hoán vị** làm chuẩn chứ không phải nhị thức, vì hoán vị chạy được cho mọi
+metric và mọi cỡ gallery khác nhau giữa các truy vấn. Trên dữ liệu ĐT3 hai cách
+cho kết quả trùng nhau (p = 0,000155 so với 0,000131), nên nhị thức vẫn là lối tắt
+chấp nhận được cho metric trúng/trượt.
+
+```bash
+python common/bootstrap_ci.py --diem per_query.csv --khoa "Recall@1"     --p-null p_null_r1 --ngau-nhien 0.000234 --metric "Recall@1" --phan-tram
+```
+
+`--p-null` nhận một số, hoặc tên cột khi mỗi truy vấn có gallery khác cỡ. Công cụ
+tự cảnh báo và tự ghi `p_mot_phia` cùng `so_trung` vào cột `notes` của CSV.
+
+**Ví dụ thật — ca khó nhất hiện có, ĐT3 Recall@1 = 2/70:**
+
+```
+Recall@1 = 2,86%  [khoảng tin cậy 95%: 0,00 – 7,14]   mức ngẫu nhiên 0,023%
+kiểm định một phía: p = 0,000135  (2 lần trúng)
+  -> VƯỢT ngẫu nhiên
+  Lưu ý: dưới 5 lần trúng, khoảng bootstrap suy biến; kết luận lấy theo kiểm định
+```
+
+Bootstrap không chỉ ra được, nhưng kết quả **thật sự vượt ngẫu nhiên**. Nếu chỉ
+nhìn khoảng bootstrap thì đã kết luận sai theo hướng thận trọng quá mức.
 
 ### 4.5. Cỡ mẫu: không có một n tối thiểu chung
 

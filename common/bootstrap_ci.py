@@ -121,6 +121,39 @@ def so_sanh_cap(a: np.ndarray, b: np.ndarray, n_boot: int, hat: int) -> dict:
     }
 
 
+def kiem_dinh_ngau_nhien(x: np.ndarray, p_null, n_mo_phong: int = 200000,
+                         hat: int = 0) -> dict:
+    """Kiểm định hoán vị một phía: kết quả này có vượt xếp hạng ngẫu nhiên không?
+
+    Giả thuyết không là hệ thống xếp hạng ngẫu nhiên. Dưới giả thuyết đó, mỗi
+    mục là MỘT LẦN BỐC ĐỘC LẬP với xác suất p_null — bất kể điểm thật của mô
+    hình có tương quan giữa các truy vấn hay không.
+
+    Đây là chỗ hay nhầm: tương quan giữa truy vấn làm giảm cỡ mẫu hiệu dụng khi
+    ƯỚC LƯỢNG KHOẢNG, nhưng không làm hỏng PHÉP KIỂM ĐỊNH này. Vì vậy khi số lần
+    trúng quá ít khiến bootstrap suy biến, phép kiểm định vẫn dùng được.
+
+    p_null nhận một số, hoặc một vector cùng độ dài x khi mỗi mục có gallery
+    khác cỡ (khi đó là tổng các Bernoulli khác xác suất).
+    """
+    x = np.asarray(x, dtype=float)
+    pn = np.full(len(x), float(p_null)) if np.isscalar(p_null)         else np.asarray(p_null, dtype=float)
+    if len(pn) != len(x):
+        raise SystemExit("p_null phải là một số hoặc vector cùng độ dài điểm")
+    quan_sat = float(x.sum())
+    rng = np.random.default_rng(hat)
+    lo = 0
+    con = n_mo_phong
+    while con > 0:                       # chia mẻ để không ngốn bộ nhớ
+        me = min(con, 20000)
+        gia = (rng.random((me, len(pn))) < pn).sum(axis=1)
+        lo += int((gia >= quan_sat).sum())
+        con -= me
+    return {"so_trung": quan_sat, "n": len(x),
+            "p_mot_phia": (lo + 1) / (n_mo_phong + 1),   # hiệu chỉnh, không ra 0
+            "n_mo_phong": n_mo_phong}
+
+
 def commit_hien_tai() -> str:
     try:
         r = subprocess.run(["git", "rev-parse", "--short", "HEAD"],
@@ -145,6 +178,10 @@ def main() -> int:
     ap.add_argument("--hat", type=int, default=0)
     ap.add_argument("--phan-tram", action="store_true",
                     help="in và ghi theo %% thay vì 0–1")
+    ap.add_argument("--p-null", default="",
+                    help="xác suất trúng dưới xếp hạng ngẫu nhiên: một số, hoặc "
+                         "tên cột trong file CSV khi gallery khác cỡ từng mục. "
+                         "Có tham số này thì chạy thêm kiểm định một phía.")
     # các cột của mẫu CSV chung
     ap.add_argument("--ra", default="", help="ghi thêm vào CSV theo mẫu chung")
     ap.add_argument("--run-id", default="")
@@ -172,6 +209,22 @@ def main() -> int:
         print(f"  mức ngẫu nhiên = {a.ngau_nhien*k:.3f}{don}"
               f"   (gấp {tb/a.ngau_nhien:.1f} lần)" if a.ngau_nhien > 0 else "")
 
+    kd = None
+    if a.p_null:
+        try:
+            pn = float(a.p_null)
+        except ValueError:
+            import pandas as pd
+            pn = pd.read_csv(a.diem, encoding="utf-8-sig")[a.p_null].to_numpy()
+        kd = kiem_dinh_ngau_nhien(x, pn, hat=a.hat)
+        print(f"  kiểm định một phía vs xếp hạng ngẫu nhiên: "
+              f"p = {kd['p_mot_phia']:.6f}  ({int(kd['so_trung'])} lần trúng)")
+        print("    -> " + ("VƯỢT ngẫu nhiên (p < 0,05)" if kd["p_mot_phia"] < 0.05
+                           else "CHƯA đủ bằng chứng vượt ngẫu nhiên"))
+        if kd["so_trung"] < 5:
+            print("    Lưu ý: dưới 5 lần trúng — khoảng bootstrap ở trên suy "
+                  "biến, kết luận vượt ngẫu nhiên lấy theo kiểm định này.")
+
     hang = [{"run_id": a.run_id, "date": date.today().isoformat(),
              "commit": commit_hien_tai(), "task_id": a.task_id,
              "dataset": a.dataset, "split": a.split, "model": a.model or a.ten,
@@ -181,7 +234,13 @@ def main() -> int:
              "n": len(x),
              "chance_level": ("" if np.isnan(a.ngau_nhien)
                               else round(a.ngau_nhien * k, 5)),
-             "hardware": a.hardware, "notes": a.notes}]
+             "hardware": a.hardware,
+             "notes": (a.notes + ("; " if a.notes else "")
+                       + (f"p_mot_phia={kd['p_mot_phia']:.6f}; "
+                          f"so_trung={int(kd['so_trung'])}"
+                          + ("; bootstrap suy bien do hiem lan trung"
+                             if kd["so_trung"] < 5 else "") if kd else "")
+                       ).strip("; ")}]
 
     if a.diem_b:
         y = nap_diem(a.diem_b, a.khoa_b or a.khoa)
