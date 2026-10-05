@@ -1,0 +1,17 @@
+{
+  "model": "M-CLIP/XLM-Roberta-Large-Vit-L-14",
+  "checkpoint_sha256": "0ad09a3a1ccf35d93c95c08686506fc59c966d77ac1f5833413366c4d327cb2d",
+  "device": "cuda",
+  "precision": "FP32",
+  "batch_size": 1,
+  "torch": "2.6.0+cu124",
+  "cuda_runtime": "12.4",
+  "hardware": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "model_latency_scope": "tokenization + M-CLIP text inference + normalization; excludes loading and D2H",
+  "pipeline_latency_scope": "tokenization + text inference + normalization + D2H + exact cosine + max per track + full ranking; cached gallery; excludes image indexing, model loading and IO",
+  "implementation_sha256": "7570adc839a086db5c4a362b05133b0f0ce6696332d250c23491d4368f69d2bc",
+  "peak_allocated_mib": 2149.01904296875,
+  "peak_reserved_mib": 2172.0,
+  "split_sha256": "36741170d67087ac169cc5f2021edc7855aaceeb0a229ecb74d2a6493e373d2b",
+  "query_embeddings_sha256": "77b4693fa639d13856c430a04820aebec76f944ffe7368a75471c6ab6ac6dda9"
+}
