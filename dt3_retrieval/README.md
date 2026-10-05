@@ -84,6 +84,12 @@ conda run --no-capture-output -n dt3_py310 python -m unittest discover -s src -p
 
 ## Thống kê và tốc độ
 
+Quy ước diễn giải CI, vai trò của dev/test và hoạch định cỡ mẫu:
+[LG02_statistical_reporting.md](reports/LG02_statistical_reporting.md).
+Nếu CI hợp lệ đã chọn trước bao gồm chance, phải nêu chưa đủ bằng chứng khác chance theo phương pháp đó.
+Với hiếm lần trúng, cần kiểm tra độ phù hợp của CI; không suy từ cận bootstrap bằng 0 ra “không kết luận được gì”.
+Không mở test chỉ để tăng n; kết quả gộp dev+test chỉ là báo cáo mô tả bổ sung sau khi khóa cấu hình.
+
 CI 95%: 1.000 bootstrap, resample theo track đích để các câu của cùng track đi cùng nhau.
 Đây là CI có điều kiện trên camera đã chọn, không phải CI khái quát hóa qua camera.
 Mức ngẫu nhiên với N track và một relevant: Recall@k = min(k,N)/N; mAP = H_N/N.
