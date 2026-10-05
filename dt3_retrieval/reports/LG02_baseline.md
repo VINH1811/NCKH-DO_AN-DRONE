@@ -18,6 +18,11 @@ Gallery: **23.436 keyframe → 4.272 track**, tìm trên cả 9 camera, không l
 CI resample theo track đích, 1.000 lần, seed 20261005; camera được giữ cố định.
 Kết quả là baseline của snapshot M1 theo protocol bên dưới, không phải khẳng định tái lập số liệu paper cũ.
 
+**Diễn giải Recall@1:** CI bootstrap hiện bao gồm mức ngẫu nhiên nên chưa đủ bằng chứng vượt chance theo CI này.
+Cận 0 với chỉ 2 lần trúng cũng có thể phản ánh giới hạn bootstrap percentile; không có nghĩa “không thể kết luận gì”.
+Đối chiếu Wilson/exact chỉ phù hợp dưới giả định truy vấn độc lập, không thay thế tự động CI theo nhóm đang dùng.
+Xem [quy ước thống kê đề xuất](LG02_statistical_reporting.md) về cách diễn giải, cỡ mẫu và báo cáo đủ 250 câu sau khi khóa cấu hình.
+
 ## Latency
 
 Warm-up 5 lần mỗi nguồn, 3 repeat × 70 query = 210 mẫu cho `edata`.
