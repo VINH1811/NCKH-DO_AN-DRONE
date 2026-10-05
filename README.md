@@ -96,14 +96,75 @@ VT03-yolo11s-visdrone-20261005,2026-10-05,abc1234,VT-03,VisDrone-DET,val,yolo11s
 
 ## 4. Quy ước thống kê
 
-Thống nhất ngày 05/10 (C-03):
+Thống nhất ngày 05/10 (C-03). **Mọi con số trong báo cáo cuối phải theo mục này.**
 
-- Luôn báo cáo **n** (số truy vấn / ảnh / track) và **mức ngẫu nhiên**.
-- **Khoảng tin cậy 95%** bằng bootstrap: `python common/bootstrap_ci.py --predictions <dir> --metric <tên> --n-boot 1000`.
-- So sánh hai cấu hình bằng **so sánh cặp trên cùng truy vấn**.
-- Dữ liệu pilot quay **ít nhất 2 phiên**: **phiên 1 để chọn ngưỡng, phiên 2 để test**. Sau khi xem kết quả test thì không chỉnh ngưỡng nữa.
-- Split **chia theo phiên quay / danh tính**, không chia ngẫu nhiên frame.
-- Benchmark gốc phải giữ **evaluator và protocol gốc**. Kết quả trên dữ liệu tự thu báo cáo **riêng** (chuyển miền).
+### 4.1. Ba thứ luôn đi kèm mỗi con số
+
+| Bắt buộc | Nghĩa là |
+|---|---|
+| **n** | Số mục tạo ra con số: số truy vấn, số ảnh, hay số track. Không có n thì không đọc được độ tin cậy |
+| **Mức ngẫu nhiên** | Điểm của một hệ thống đoán bừa trên cùng tập đó. Không có nó thì "Rank-1 20%" không nói lên điều gì — có thể là rất tốt, có thể là vô dụng |
+| **Khoảng tin cậy 95%** | Bootstrap 1.000 lần, lấy mẫu lại có hoàn lại theo mục |
+
+Mức ngẫu nhiên nên tính bằng **mô phỏng** (xáo thứ hạng rồi chấm lại bằng đúng
+hàm chấm điểm), không tính bằng công thức — như vậy nó dùng chung một đường chấm
+với kết quả thật, so sánh mới sòng phẳng.
+
+### 4.2. So sánh hai cấu hình: dùng so sánh cặp
+
+**Không kết luận bằng cách nhìn hai khoảng tin cậy có chồng nhau hay không.**
+Cách đó yếu, và thường bảo "chưa đủ bằng chứng" trong khi thật ra có.
+
+Lý do: hai cấu hình chạy trên **cùng một tập truy vấn**, mà truy vấn thì có cái
+dễ cái khó. Phần dao động do "truy vấn khó" xuất hiện ở cả hai bên và **tự triệt
+tiêu khi lấy hiệu**. Nên phải lấy hiệu theo **từng truy vấn** rồi bootstrap trên
+hiệu đó.
+
+> Khoảng tin cậy của **hiệu** không chứa 0 → khác biệt có ý nghĩa.
+
+Kèm theo **tỉ lệ thắng theo truy vấn** — "A hơn ở 87% truy vấn" cho biết A thắng
+đều hay chỉ thắng nhờ vài trường hợp cá biệt, điều mà trung bình không nói được.
+
+### 4.3. Công cụ chung
+
+Mỗi đề tài xuất một **vector điểm theo từng mục** (`.npy`, `.npz` hoặc `.csv`) —
+ĐT1 mỗi ảnh một AP, ĐT2 và ĐT3 mỗi truy vấn một AP hoặc một chỉ báo trúng/trượt.
+Sau đó dùng chung một công cụ:
+
+```bash
+# một cấu hình
+python common/bootstrap_ci.py --diem kq.npz --khoa ap --ten "M-CLIP"     --ngau-nhien 0.003 --metric mAP --phan-tram
+
+# so sánh cặp, đồng thời ghi vào CSV theo mẫu chung ở mục 3
+python common/bootstrap_ci.py     --diem   a/predictions_exp1.npz --khoa ap --ten "AIN đa nguồn"     --diem-b b/predictions_exp1.npz            --ten-b "MSMT17"     --ngau-nhien 0.00308 --metric mAP --phan-tram     --ra dt2_handoff/metrics/ket_qua_chuan.csv     --run-id VN03-ain-20261004 --task-id VN-03     --dataset AG-ReID.v2 --split exp1_aerial_to_cctv
+```
+
+Công cụ tự ghi thêm một dòng `<metric>_hieu_cap` vào CSV, nên bảng kết quả của
+cả nhóm có sẵn cả con số lẫn kết luận so sánh.
+
+**Ví dụ đã chạy thật** (ĐT2, AG-ReID.v2, UAV→CCTV, n = 2.356):
+
+```
+AIN đa nguồn   mAP = 22,22%  [21,08 – 23,29]     mức ngẫu nhiên 0,308%
+MSMT17         mAP =  5,62%  [ 5,07 –  6,18]
+
+So sánh cặp (AIN trừ MSMT17)
+  hiệu trung bình = +16,60%  [+15,60 – +17,55]   -> có ý nghĩa
+  AIN hơn ở 87,0% truy vấn · MSMT17 hơn ở 12,8% · hoà 0,3%
+```
+
+### 4.4. Kỷ luật đánh giá
+
+- Dữ liệu pilot quay **ít nhất 2 phiên**: **phiên 1 chọn ngưỡng, phiên 2 để
+  test**. Xem kết quả test rồi thì **không chỉnh ngưỡng nữa**.
+- Split **chia theo phiên quay / danh tính**, không chia ngẫu nhiên theo frame.
+- Benchmark gốc giữ nguyên **evaluator và protocol của tác giả**. Thấy chỗ nào
+  lạ cũng đừng "sửa cho hợp lý" — sửa là mất khả năng so với bài báo. Muốn thử
+  cách khác thì báo cáo **riêng** như thí nghiệm phụ.
+- Kết quả trên dữ liệu tự thu báo cáo **riêng**, không gộp bảng với benchmark gốc
+  (khác miền, khác protocol).
+- Lưu **dự đoán thô** vào `predictions/<run_id>/` để người kiểm tra chéo tính lại
+  metric mà không cần GPU.
 
 ## 5. Đo tốc độ
 

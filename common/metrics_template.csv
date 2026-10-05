@@ -1,0 +1,2 @@
+run_id,date,commit,task_id,dataset,split,model,checkpoint_sha256,precision,metric,value,ci95_low,ci95_high,n,chance_level,hardware,notes
+VT03-yolo11s-visdrone-20261005,2026-10-05,abc1234,VT-03,VisDrone-DET,val,yolo11s,<sha256>,fp16,AP50_person,42.1,40.3,43.8,1610,,RTX 3060 Laptop 6GB,person-only

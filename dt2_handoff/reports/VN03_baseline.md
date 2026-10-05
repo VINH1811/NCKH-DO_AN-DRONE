@@ -30,10 +30,27 @@ mAP (%):
 
 **1. Huấn luyện khái quát miền quan trọng hơn hẳn quy mô dữ liệu nguồn.**
 
-OSNet-AIN đa nguồn hơn OSNet MSMT17 **2,3 đến 3,5 lần** ở cả bốn chiều, và các
-khoảng tin cậy không hề chồng lên nhau. Hai mô hình cùng kiến trúc, cùng cỡ, chỉ
-khác cách huấn luyện. Với bài toán mặt đất ↔ trên cao, cơ chế khái quát miền
-đóng góp lớn hơn nhiều so với việc tăng dữ liệu cùng miền.
+OSNet-AIN đa nguồn hơn OSNet MSMT17 **2,3 đến 3,5 lần** ở cả bốn chiều. Hai mô
+hình cùng kiến trúc, cùng cỡ, chỉ khác cách huấn luyện.
+
+**So sánh cặp trên cùng truy vấn** (quy ước C-03, mục 4.2 README gốc) — hiệu
+Rank-1 theo từng truy vấn, bootstrap 1.000 lần:
+
+| Chiều | Hiệu Rank-1 | Khoảng tin cậy 95% | AIN thắng ở |
+|---|---:|---|---:|
+| UAV → CCTV | +24,07 | [+22,28 – +25,89] | 87,0% truy vấn |
+| CCTV → UAV | +18,88 | [+16,84 – +20,98] | — |
+| UAV → kính đeo | +17,75 | [+15,80 – +19,69] | — |
+| kính đeo → UAV | +11,41 | [+9,87 – +12,99] | — |
+
+Cả tám phép so (bốn chiều × Rank-1 và mAP) đều có khoảng tin cậy của hiệu **không
+chứa 0**, nên khác biệt có ý nghĩa ở mọi chiều. Với bài toán mặt đất ↔ trên cao,
+cơ chế khái quát miền đóng góp lớn hơn nhiều so với tăng dữ liệu cùng miền.
+
+> Ở lần nộp đầu tôi lập luận bằng "hai khoảng tin cậy không chồng nhau". Cách đó
+> đúng nhưng yếu hơn; quy ước C-03 chốt dùng so sánh cặp. Ở đây hai cách cho cùng
+> kết luận vì chênh lệch quá lớn, nhưng khi so hai cấu hình sát nhau thì chúng sẽ
+> khác nhau — số liệu chuẩn nằm ở `metrics/ket_qua_chuan.csv`.
 
 **2. CCTV bắt cặp với UAV tốt hơn kính đeo, ở cả hai chiều.**
 
@@ -90,6 +107,7 @@ python dt2_handoff/src/eval_agreid.py --goc $P/AG-ReID.v2 \
 | Môi trường | `env/VN02-setup-20261004/` |
 | Config từng lần chạy | `configs/VN03-*.json` |
 | Dự đoán thô | `predictions/VN03-*/` — tính lại metric không cần GPU |
+| Số liệu theo mẫu chung | `metrics/ket_qua_chuan.csv` — 24 dòng, gồm cả so sánh cặp |
 
 Ngưỡng và lựa chọn mô hình **chưa** đụng tới tập test nào của pilot; đây là chạy
 trực tiếp trọng số công bố trên benchmark gốc, giữ nguyên protocol của tác giả.

@@ -28,7 +28,8 @@ dt2_handoff/
 |---|---|---|
 | **VN-01** (M1) | Xong | Gói SecondPaper giao Lương: 98.552 ảnh, 250 mô tả, 500 file ghi âm |
 | **VN-02** | Xong | `env/VN02-setup-20261004/`, `checkpoints/SHA256SUMS` |
-| **VN-03** | Xong | `metrics/ket_qua.csv`, `reports/VN03_baseline.md` |
+| **VN-03** | Xong | `metrics/ket_qua_chuan.csv` (mẫu chung), `reports/VN03_baseline.md` |
+| **C-03** | Xong | `common/bootstrap_ci.py` + mục 4 README gốc |
 
 ## Môi trường
 
