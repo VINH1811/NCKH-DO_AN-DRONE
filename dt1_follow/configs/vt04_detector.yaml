@@ -1,0 +1,39 @@
+task_id: VT-04
+date: 2026-10-06
+
+detector:
+  name: yolo11s
+  framework: ultralytics
+  weights: weights/detectors/yolo11s.pt
+  weights_sha256: 85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5
+
+target:
+  class_name: person
+  class_id: 0
+
+inference:
+  imgsz: 640
+  conf: 0.25
+  iou: 0.7
+  device: 0
+
+crop:
+  enabled: true
+  padding_ratio: 0.10
+  min_width: 10
+  min_height: 20
+
+selection_reason:
+  source: VT-03
+  dataset: VisDrone2019-DET-val
+  AP: 0.1001
+  AP50: 0.2354
+  AP75: 0.0721
+  AP_small: 0.0653
+  latency_p50_ms: 25.37
+  latency_p95_ms: 45.55
+  peak_vram_mb: 93.97
+
+notes:
+  - YOLO11s selected over YOLO-World based on VT-03 comparison.
+  - Configuration intended for detector/crop package M3.
