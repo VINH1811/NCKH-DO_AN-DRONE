@@ -1,0 +1,29 @@
+{
+  "dev_queries": 76,
+  "audio_files_verified": 76,
+  "ASR_columns": [
+    "asr_whisper",
+    "asr_phowhisper"
+  ],
+  "missing_ASR": {
+    "asr_whisper": 0,
+    "asr_phowhisper": 0
+  },
+  "ASR_status": "Provided transcripts reused as-is; no manual corrections; recognizer not rerun; recognizer model/decoding config not verified",
+  "ASR_latency_included": false,
+  "test_query_count_processed": 0,
+  "translation_review_counts": {
+    "corrected": 32,
+    "reviewed": 42,
+    "ambiguous_preserved": 2
+  },
+  "OpenCLIP_context_tokens": 77,
+  "max_tokens_by_variant": {
+    "typed_vi": 34,
+    "typed_en_reviewed": 40,
+    "spoken_whisper_vi": 36,
+    "spoken_phowhisper_vi": 33
+  },
+  "query_truncation_count": 0,
+  "split_manifest_sha256": "36741170d67087ac169cc5f2021edc7855aaceeb0a229ecb74d2a6493e373d2b"
+}

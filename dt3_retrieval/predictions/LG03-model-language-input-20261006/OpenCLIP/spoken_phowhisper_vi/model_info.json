@@ -1,0 +1,15 @@
+{
+  "family": "OpenCLIP",
+  "variant": "spoken_phowhisper_vi",
+  "dimension": 512,
+  "text_precision": "FP32",
+  "checkpoint_sha256": "a5412f19cca70db8d434f68361f7254bd322a553455a63dbb709bd6a650cf378",
+  "split_sha256": "36741170d67087ac169cc5f2021edc7855aaceeb0a229ecb74d2a6493e373d2b",
+  "config_sha256": "337352b2e3b11dde75e5da734f34d8197453dd4e902033307c0c2e0b432e9db5",
+  "review_sha256": "da42a6f815a9c5865dc49a31f4e90651f9fc201c71e6c2582249f891fd885eee",
+  "query_embeddings_sha256": "88e7f6e57baa64610db69341a7c36611645f3a1bd9d349c7a61b3c4fa90299c1",
+  "hardware": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "peak_allocated_mib": 1409.6533203125,
+  "asr_latency_included": false,
+  "implementation_sha256": "51be3344a5f6c72bc207e15e135a475fb7bfb835c4c9d6f90c8325a52e908ccf"
+}

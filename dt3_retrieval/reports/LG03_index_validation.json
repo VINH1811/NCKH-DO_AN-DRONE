@@ -1,0 +1,10 @@
+{
+  "gallery_rows": 94650,
+  "image_dimension": 512,
+  "norm_min": 0.9999998211860657,
+  "norm_max": 1.0000001192092896,
+  "index_complete": true,
+  "source_archive_sha256": "bfb97da0fe9b731e3f549c767367f560f2865dc14e18aa282063186c7ec3dc83",
+  "index_sha256": "6dceb5657fde881c80907d5f47f62b1450a07685a3b245d34fe5beaefd64063c",
+  "split_sha256": "36741170d67087ac169cc5f2021edc7855aaceeb0a229ecb74d2a6493e373d2b"
+}

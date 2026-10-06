@@ -1,0 +1,13 @@
+{
+  "independently_verified_query_ranks": 608,
+  "baseline_typed_vi_ranks_unchanged": true,
+  "comparison_rows": 16,
+  "standard_csv_shape": [
+    128,
+    17
+  ],
+  "paired_rows": 80,
+  "test_queries_encoded": 0,
+  "split_unchanged": true,
+  "unit_tests_passed": 8
+}

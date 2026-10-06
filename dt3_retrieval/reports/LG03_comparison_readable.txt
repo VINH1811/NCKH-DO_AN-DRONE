@@ -1,0 +1,196 @@
+﻿LG-03 — MÔ HÌNH × NGÔN NGỮ × GÕ/NÓI — DEV, 06/10/2026
+
+Mỗi cấu hình dùng cùng 76 câu dev; edata (70 câu) và video (6 câu) báo cáo riêng.
+174 câu test chưa được mã hóa hoặc đánh giá. Latency truy vấn nói không gồm chạy ASR.
+
+edata | M-CLIP | Gõ — tiếng Việt trực tiếp | n=70
+  Recall@1: 2.86%
+    CI 95%: [0.00; 7.35]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@5: 14.29%
+    CI 95%: [4.41; 24.32]% — CI trên mức ngẫu nhiên
+  Recall@10: 18.57%
+    CI 95%: [8.82; 29.17]% — CI trên mức ngẫu nhiên
+  mAP: 8.75%
+    CI 95%: [4.55; 13.94]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 29.75/51.80 ms
+  Pipeline gallery có sẵn p50/p95: 34.61/58.21 ms
+
+video | M-CLIP | Gõ — tiếng Việt trực tiếp | n=6
+  Recall@1: 0.00%
+    CI 95%: [0.00; 0.00]% — CI dưới mức ngẫu nhiên
+  Recall@5: 16.67%
+    CI 95%: [0.00; 50.00]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@10: 16.67%
+    CI 95%: [0.00; 50.00]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  mAP: 10.61%
+    CI 95%: [0.78; 26.70]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 28.64/41.06 ms
+  Pipeline gallery có sẵn p50/p95: 45.03/63.64 ms
+
+edata | M-CLIP | Gõ — bản dịch tiếng Anh đã rà soát | n=70
+  Recall@1: 5.71%
+    CI 95%: [1.35; 11.76]% — CI trên mức ngẫu nhiên
+  Recall@5: 14.29%
+    CI 95%: [4.41; 25.00]% — CI trên mức ngẫu nhiên
+  Recall@10: 21.43%
+    CI 95%: [10.29; 33.33]% — CI trên mức ngẫu nhiên
+  mAP: 10.13%
+    CI 95%: [5.08; 16.13]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 27.62/40.32 ms
+  Pipeline gallery có sẵn p50/p95: 32.60/45.76 ms
+
+video | M-CLIP | Gõ — bản dịch tiếng Anh đã rà soát | n=6
+  Recall@1: 16.67%
+    CI 95%: [0.00; 50.00]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@5: 33.33%
+    CI 95%: [0.00; 66.67]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@10: 50.00%
+    CI 95%: [16.67; 83.33]% — CI trên mức ngẫu nhiên
+  mAP: 28.02%
+    CI 95%: [3.03; 58.57]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 28.83/47.27 ms
+  Pipeline gallery có sẵn p50/p95: 45.72/70.21 ms
+
+edata | M-CLIP | Nói — bản chép Whisper tiếng Việt | n=70
+  Recall@1: 0.00%
+    CI 95%: [0.00; 0.00]% — CI dưới mức ngẫu nhiên
+  Recall@5: 7.14%
+    CI 95%: [1.47; 13.16]% — CI trên mức ngẫu nhiên
+  Recall@10: 11.43%
+    CI 95%: [4.41; 18.59]% — CI trên mức ngẫu nhiên
+  mAP: 4.55%
+    CI 95%: [2.26; 6.96]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 24.68/34.79 ms
+  Pipeline gallery có sẵn p50/p95: 29.08/41.23 ms
+
+video | M-CLIP | Nói — bản chép Whisper tiếng Việt | n=6
+  Recall@1: 0.00%
+    CI 95%: [0.00; 0.00]% — CI dưới mức ngẫu nhiên
+  Recall@5: 16.67%
+    CI 95%: [0.00; 50.00]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@10: 16.67%
+    CI 95%: [0.00; 50.00]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  mAP: 8.73%
+    CI 95%: [0.21; 25.29]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 26.60/35.90 ms
+  Pipeline gallery có sẵn p50/p95: 42.97/56.31 ms
+
+edata | M-CLIP | Nói — bản chép PhoWhisper tiếng Việt | n=70
+  Recall@1: 2.86%
+    CI 95%: [0.00; 7.35]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@5: 17.14%
+    CI 95%: [8.82; 25.71]% — CI trên mức ngẫu nhiên
+  Recall@10: 25.71%
+    CI 95%: [16.18; 35.72]% — CI trên mức ngẫu nhiên
+  mAP: 10.46%
+    CI 95%: [6.33; 15.78]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 20.87/28.63 ms
+  Pipeline gallery có sẵn p50/p95: 24.84/32.92 ms
+
+video | M-CLIP | Nói — bản chép PhoWhisper tiếng Việt | n=6
+  Recall@1: 0.00%
+    CI 95%: [0.00; 0.00]% — CI dưới mức ngẫu nhiên
+  Recall@5: 16.67%
+    CI 95%: [0.00; 50.00]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@10: 16.67%
+    CI 95%: [0.00; 50.00]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  mAP: 8.99%
+    CI 95%: [0.15; 25.55]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 20.89/25.36 ms
+  Pipeline gallery có sẵn p50/p95: 34.13/38.31 ms
+
+edata | OpenCLIP | Gõ — tiếng Việt trực tiếp | n=70
+  Recall@1: 7.14%
+    CI 95%: [0.00; 17.11]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@5: 24.29%
+    CI 95%: [13.24; 36.11]% — CI trên mức ngẫu nhiên
+  Recall@10: 28.57%
+    CI 95%: [17.65; 40.30]% — CI trên mức ngẫu nhiên
+  mAP: 14.04%
+    CI 95%: [6.75; 23.13]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 11.90/18.75 ms
+  Pipeline gallery có sẵn p50/p95: 14.72/21.56 ms
+
+video | OpenCLIP | Gõ — tiếng Việt trực tiếp | n=6
+  Recall@1: 0.00%
+    CI 95%: [0.00; 0.00]% — CI dưới mức ngẫu nhiên
+  Recall@5: 16.67%
+    CI 95%: [0.00; 50.00]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@10: 33.33%
+    CI 95%: [0.00; 66.67]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  mAP: 6.82%
+    CI 95%: [0.57; 14.70]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 13.15/18.08 ms
+  Pipeline gallery có sẵn p50/p95: 23.16/29.07 ms
+
+edata | OpenCLIP | Gõ — bản dịch tiếng Anh đã rà soát | n=70
+  Recall@1: 4.29%
+    CI 95%: [0.00; 10.00]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@5: 18.57%
+    CI 95%: [7.35; 29.73]% — CI trên mức ngẫu nhiên
+  Recall@10: 30.00%
+    CI 95%: [18.05; 41.43]% — CI trên mức ngẫu nhiên
+  mAP: 12.19%
+    CI 95%: [6.84; 18.36]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 12.83/19.30 ms
+  Pipeline gallery có sẵn p50/p95: 15.95/22.86 ms
+
+video | OpenCLIP | Gõ — bản dịch tiếng Anh đã rà soát | n=6
+  Recall@1: 0.00%
+    CI 95%: [0.00; 0.00]% — CI dưới mức ngẫu nhiên
+  Recall@5: 0.00%
+    CI 95%: [0.00; 0.00]% — CI dưới mức ngẫu nhiên
+  Recall@10: 16.67%
+    CI 95%: [0.00; 50.00]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  mAP: 4.39%
+    CI 95%: [0.69; 9.28]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 12.18/17.32 ms
+  Pipeline gallery có sẵn p50/p95: 22.72/30.32 ms
+
+edata | OpenCLIP | Nói — bản chép Whisper tiếng Việt | n=70
+  Recall@1: 2.86%
+    CI 95%: [0.00; 8.11]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@5: 7.14%
+    CI 95%: [1.47; 14.47]% — CI trên mức ngẫu nhiên
+  Recall@10: 18.57%
+    CI 95%: [7.35; 29.17]% — CI trên mức ngẫu nhiên
+  mAP: 6.52%
+    CI 95%: [2.46; 13.05]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 11.26/18.46 ms
+  Pipeline gallery có sẵn p50/p95: 14.00/21.24 ms
+
+video | OpenCLIP | Nói — bản chép Whisper tiếng Việt | n=6
+  Recall@1: 0.00%
+    CI 95%: [0.00; 0.00]% — CI dưới mức ngẫu nhiên
+  Recall@5: 16.67%
+    CI 95%: [0.00; 50.00]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@10: 16.67%
+    CI 95%: [0.00; 50.00]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  mAP: 4.16%
+    CI 95%: [0.45; 10.65]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 11.37/16.08 ms
+  Pipeline gallery có sẵn p50/p95: 21.64/25.64 ms
+
+edata | OpenCLIP | Nói — bản chép PhoWhisper tiếng Việt | n=70
+  Recall@1: 5.71%
+    CI 95%: [0.00; 12.17]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@5: 17.14%
+    CI 95%: [8.57; 26.47]% — CI trên mức ngẫu nhiên
+  Recall@10: 22.86%
+    CI 95%: [11.76; 34.29]% — CI trên mức ngẫu nhiên
+  mAP: 12.00%
+    CI 95%: [5.80; 19.12]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 11.15/19.18 ms
+  Pipeline gallery có sẵn p50/p95: 13.82/21.84 ms
+
+video | OpenCLIP | Nói — bản chép PhoWhisper tiếng Việt | n=6
+  Recall@1: 0.00%
+    CI 95%: [0.00; 0.00]% — CI dưới mức ngẫu nhiên
+  Recall@5: 33.33%
+    CI 95%: [0.00; 66.67]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  Recall@10: 33.33%
+    CI 95%: [0.00; 66.67]% — CI chứa mức ngẫu nhiên; chưa đủ bằng chứng theo CI đã chọn
+  mAP: 13.31%
+    CI 95%: [0.82; 29.31]% — CI trên mức ngẫu nhiên
+  Text model p50/p95: 12.33/17.85 ms
+  Pipeline gallery có sẵn p50/p95: 22.82/27.05 ms

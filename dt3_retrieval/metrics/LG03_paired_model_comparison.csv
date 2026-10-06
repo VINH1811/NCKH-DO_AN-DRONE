@@ -1,0 +1,81 @@
+contrast,variant,source,metric,n,difference_percentage_points,ci95_low_pp,ci95_high_pp,interpretation
+OpenCLIP minus M-CLIP,typed_vi,edata,Recall@1,70,4.285714285714286,-4.411764705882353,14.864864864864865,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_vi,edata,Recall@5,70,10.0,0.0,20.59436274509803,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_vi,edata,Recall@10,70,10.0,-1.4705882352941175,22.058823529411764,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_vi,edata,mAP,70,5.2883377573888355,-2.8472963782790535,13.787757272311302,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_vi,video,Recall@1,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_vi,video,Recall@5,6,0.0,-50.0,50.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_vi,video,Recall@10,6,16.666666666666664,0.0,50.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_vi,video,mAP,6,-3.795155479355395,-19.82445000361531,9.646873496504222,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_en_reviewed,edata,Recall@1,70,-1.4285714285714286,-7.142857142857142,4.166666666666666,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_en_reviewed,edata,Recall@5,70,4.285714285714286,-2.859243697478991,11.76470588235294,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_en_reviewed,edata,Recall@10,70,8.571428571428571,-0.032894736842103395,18.571428571428573,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_en_reviewed,edata,mAP,70,2.054112028408984,-3.303343493983017,6.980174343894144,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_en_reviewed,video,Recall@1,6,-16.666666666666664,-50.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_en_reviewed,video,Recall@5,6,-33.33333333333333,-66.66666666666666,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_en_reviewed,video,Recall@10,6,-33.33333333333333,-66.66666666666666,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,typed_en_reviewed,video,mAP,6,-23.627753901429326,-50.2178687008784,-2.3341662791076354,M-CLIP higher under selected CI
+OpenCLIP minus M-CLIP,spoken_whisper_vi,edata,Recall@1,70,2.857142857142857,0.0,8.108108108108109,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_whisper_vi,edata,Recall@5,70,0.0,-7.352941176470589,6.578947368421052,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_whisper_vi,edata,Recall@10,70,7.142857142857142,-4.288865546218487,17.153474903474894,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_whisper_vi,edata,mAP,70,1.9751190405289765,-2.7784458294044416,7.7985316839915635,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_whisper_vi,video,Recall@1,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_whisper_vi,video,Recall@5,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_whisper_vi,video,Recall@10,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_whisper_vi,video,mAP,6,-4.567835021899961,-14.846743206580598,0.877592012765375,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_phowhisper_vi,edata,Recall@1,70,2.857142857142857,-4.411764705882353,10.81081081081081,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_phowhisper_vi,edata,Recall@5,70,0.0,-10.00735294117647,9.45945945945946,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_phowhisper_vi,edata,Recall@10,70,-2.857142857142857,-13.23529411764706,6.944444444444445,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_phowhisper_vi,edata,mAP,70,1.5398861137696669,-5.395242397499227,8.982969943371351,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_phowhisper_vi,video,Recall@1,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_phowhisper_vi,video,Recall@5,6,16.666666666666664,0.0,50.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_phowhisper_vi,video,Recall@10,6,16.666666666666664,0.0,50.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP minus M-CLIP,spoken_phowhisper_vi,video,mAP,6,4.320292224892847,-11.82385908174039,23.470339128345632,CI overlaps zero; paired comparison inconclusive
+M-CLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,edata,Recall@1,70,2.857142857142857,0.0,7.1481092436974745,CI overlaps zero; paired comparison inconclusive
+M-CLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,edata,Recall@5,70,0.0,-7.148109243697479,6.944444444444445,CI overlaps zero; paired comparison inconclusive
+M-CLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,edata,Recall@10,70,2.857142857142857,-4.411764705882353,10.818318318318312,CI overlaps zero; paired comparison inconclusive
+M-CLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,edata,mAP,70,1.3797748118734636,-2.3776075749453316,5.62767275394289,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,edata,Recall@1,70,-2.857142857142857,-7.352941176470589,0.0,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,edata,Recall@5,70,-7.142857142857142,-15.288690476190478,0.0,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,edata,Recall@10,70,-7.142857142857142,-16.666666666666664,1.4705882352941175,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,edata,mAP,70,-4.205949252339877,-8.349556199386033,-1.0062973029502107,typed Vietnamese higher under selected CI
+M-CLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,edata,Recall@1,70,0.0,-4.411764705882353,4.411764705882353,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,edata,Recall@5,70,2.857142857142857,-6.756756756756757,11.428571428571429,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,edata,Recall@10,70,7.142857142857142,0.0,16.176470588235293,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,edata,mAP,70,1.7035480365235094,-2.057011452211251,5.733303547518651,CI overlaps zero; paired comparison inconclusive
+M-CLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,video,Recall@1,6,16.666666666666664,0.0,50.0,CI overlaps zero; paired comparison inconclusive
+M-CLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,video,Recall@5,6,16.666666666666664,0.0,50.0,CI overlaps zero; paired comparison inconclusive
+M-CLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,video,Recall@10,6,33.33333333333333,0.0,66.66666666666666,CI overlaps zero; paired comparison inconclusive
+M-CLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,video,mAP,6,17.410187267264487,0.055287104735198274,49.53833036768337,variant higher under selected CI
+M-CLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,video,Recall@1,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,video,Recall@5,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,video,Recall@10,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,video,mAP,6,-1.8790579420998643,-4.725520039561437,0.028185634043753335,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,video,Recall@1,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,video,Recall@5,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,video,Recall@10,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+M-CLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,video,mAP,6,-1.61782054510978,-4.549156844116572,-0.05321824396988141,typed Vietnamese higher under selected CI
+OpenCLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,edata,Recall@1,70,-2.857142857142857,-13.513513513513514,5.88235294117647,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,edata,Recall@5,70,-5.714285714285714,-16.176470588235293,4.411764705882353,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,edata,Recall@10,70,1.4285714285714286,-7.352941176470589,10.294117647058822,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,edata,mAP,70,-1.8544509171063877,-9.2653874166341,5.013365164706022,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,edata,Recall@1,70,-4.285714285714286,-8.833204334365325,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,edata,Recall@5,70,-17.142857142857142,-25.71428571428571,-8.571428571428571,typed Vietnamese higher under selected CI
+OpenCLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,edata,Recall@10,70,-10.0,-19.11764705882353,-1.4705882352941175,typed Vietnamese higher under selected CI
+OpenCLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,edata,mAP,70,-7.519167969199738,-12.1125014190347,-3.77638179640643,typed Vietnamese higher under selected CI
+OpenCLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,edata,Recall@1,70,-1.4285714285714286,-5.714285714285714,2.941176470588235,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,edata,Recall@5,70,-7.142857142857142,-15.277777777777779,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,edata,Recall@10,70,-5.714285714285714,-14.705882352941178,1.4705882352941175,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,edata,mAP,70,-2.044903607095659,-5.535281065201567,1.3228980233769227,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,video,Recall@1,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,video,Recall@5,6,-16.666666666666664,-50.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,video,Recall@10,6,-16.666666666666664,-50.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: typed_en_reviewed minus typed_vi,typed_en_reviewed,video,mAP,6,-2.422411154809441,-5.416513886494609,0.3400516825462186,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,video,Recall@1,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,video,Recall@5,6,0.0,-50.0,50.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,video,Recall@10,6,-16.666666666666664,-50.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_whisper_vi minus typed_vi,spoken_whisper_vi,video,mAP,6,-2.65173748464443,-11.872011084330918,3.833801126958754,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,video,Recall@1,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,video,Recall@5,6,16.666666666666664,0.0,50.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,video,Recall@10,6,0.0,0.0,0.0,CI overlaps zero; paired comparison inconclusive
+OpenCLIP: spoken_phowhisper_vi minus typed_vi,spoken_phowhisper_vi,video,mAP,6,6.497627159138462,0.24802637817881093,14.614545356792139,variant higher under selected CI

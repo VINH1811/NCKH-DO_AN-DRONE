@@ -1,0 +1,15 @@
+{
+  "family": "M-CLIP",
+  "variant": "spoken_phowhisper_vi",
+  "dimension": 768,
+  "text_precision": "FP32",
+  "checkpoint_sha256": "0ad09a3a1ccf35d93c95c08686506fc59c966d77ac1f5833413366c4d327cb2d",
+  "split_sha256": "36741170d67087ac169cc5f2021edc7855aaceeb0a229ecb74d2a6493e373d2b",
+  "config_sha256": "337352b2e3b11dde75e5da734f34d8197453dd4e902033307c0c2e0b432e9db5",
+  "review_sha256": "da42a6f815a9c5865dc49a31f4e90651f9fc201c71e6c2582249f891fd885eee",
+  "query_embeddings_sha256": "cb50cf192df4fef77c0e6d3575e615803f8c36fb2b8e6da1445c8cd473775e2b",
+  "hardware": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "peak_allocated_mib": 2149.20361328125,
+  "asr_latency_included": false,
+  "implementation_sha256": "51be3344a5f6c72bc207e15e135a475fb7bfb835c4c9d6f90c8325a52e908ccf"
+}

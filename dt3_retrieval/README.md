@@ -1,4 +1,27 @@
-# ĐT3 — LG-02: baseline M-CLIP trên gói SecondPaper M1
+# ĐT3 — Tìm người theo mô tả trên SecondPaper M1
+
+## LG-03 — mô hình × ngôn ngữ × gõ/nói, 06/10/2026
+
+Giữ split dev LG-02, so M-CLIP với OpenCLIP đa ngôn ngữ trên 4 loại truy vấn:
+tiếng Việt gõ, tiếng Anh đã rà soát, bản chép Whisper và bản chép PhoWhisper.
+
+- `metrics/LG03_model_language_input.csv`: bảng so sánh rộng, tỷ lệ phần trăm, CI và latency.
+- `metrics/LG03_model_language_input.xlsx`: bản Excel dễ đọc, có sheet camera cố định, video, CI, so sánh cặp và rà soát bản dịch.
+- `metrics/LG03_metrics_17_columns.csv`: CSV theo mẫu nhóm.
+- `metrics/LG03_paired_model_comparison.csv`: CI chênh lệch cặp mô hình/ngôn ngữ/gõ-nói.
+- `reports/LG03_comparison_readable.txt`: bản xuống dòng dễ đọc.
+- `configs/LG03_translation_review.csv`: rà soát từng câu dịch dev; chưa có human sign-off.
+- [Protocol và lệnh chạy LG-03](reports/LG03_protocol.md).
+- [Bảng kết quả LG-03](reports/LG03_results.md).
+
+```powershell
+conda run --no-capture-output -n dt3_py310 python -X utf8 src/secondpaper_comparison.py evaluate
+```
+
+Lệnh trên đọc predictions đã lưu, không cần chạy lại GPU. Latency ASR không nằm trong latency retrieval.
+174 câu test vẫn giữ kín. Cả hai model dùng gallery ảnh tương ứng của riêng mình, không dùng chung embedding khác chiều.
+
+## LG-02 — baseline dev, 05/10/2026
 
 Đã chạy baseline **dev** ngày 05/10/2026. Đầu ra chính:
 

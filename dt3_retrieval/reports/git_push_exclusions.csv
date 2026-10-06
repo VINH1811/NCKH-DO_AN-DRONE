@@ -1,0 +1,46 @@
+﻿path,bytes,reason
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-B-32/.no_exist/85949a3ac1415027bdf7a5d0994bba8d992fe494/added_tokens.json,0,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-B-32/.no_exist/85949a3ac1415027bdf7a5d0994bba8d992fe494/model.safetensors,0,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-B-32/.no_exist/85949a3ac1415027bdf7a5d0994bba8d992fe494/model.safetensors.index.json,0,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-B-32/refs/main,40,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-B-32/snapshots/85949a3ac1415027bdf7a5d0994bba8d992fe494/config.json,231,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-B-32/snapshots/85949a3ac1415027bdf7a5d0994bba8d992fe494/pytorch_model.bin,2241822765,Exceeds GitHub 100 MiB limit
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-B-32/snapshots/85949a3ac1415027bdf7a5d0994bba8d992fe494/sentencepiece.bpe.model,5069051,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-B-32/snapshots/85949a3ac1415027bdf7a5d0994bba8d992fe494/special_tokens_map.json,239,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-B-32/snapshots/85949a3ac1415027bdf7a5d0994bba8d992fe494/tokenizer.json,9081351,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-B-32/snapshots/85949a3ac1415027bdf7a5d0994bba8d992fe494/tokenizer_config.json,399,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-L-14/refs/main,40,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-L-14/snapshots/40afa80a85e8efa990384a24bbe5a1f6f1cc81b5/config.json,197,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-L-14/snapshots/40afa80a85e8efa990384a24bbe5a1f6f1cc81b5/pytorch_model.bin,2242872365,Exceeds GitHub 100 MiB limit
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-L-14/snapshots/40afa80a85e8efa990384a24bbe5a1f6f1cc81b5/sentencepiece.bpe.model,5069051,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-L-14/snapshots/40afa80a85e8efa990384a24bbe5a1f6f1cc81b5/special_tokens_map.json,239,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-L-14/snapshots/40afa80a85e8efa990384a24bbe5a1f6f1cc81b5/tokenizer.json,9081351,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--M-CLIP--XLM-Roberta-Large-Vit-L-14/snapshots/40afa80a85e8efa990384a24bbe5a1f6f1cc81b5/tokenizer_config.json,399,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--laion--CLIP-ViT-B-32-xlm-roberta-base-laion5B-s13B-b90k/.no_exist/506d40eb551f4801a1c27fc20a31c7b8f590deda/open_clip_config.json,0,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--laion--CLIP-ViT-B-32-xlm-roberta-base-laion5B-s13B-b90k/.no_exist/506d40eb551f4801a1c27fc20a31c7b8f590deda/open_clip_model.safetensors,0,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--laion--CLIP-ViT-B-32-xlm-roberta-base-laion5B-s13B-b90k/refs/main,40,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--laion--CLIP-ViT-B-32-xlm-roberta-base-laion5B-s13B-b90k/snapshots/506d40eb551f4801a1c27fc20a31c7b8f590deda/open_clip_pytorch_model.bin,1464635263,Exceeds GitHub 100 MiB limit
+checkpoints/hf_cache/hub/models--xlm-roberta-base/.no_exist/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/added_tokens.json,0,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--xlm-roberta-base/.no_exist/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/special_tokens_map.json,0,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--xlm-roberta-base/refs/main,40,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--xlm-roberta-base/snapshots/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/config.json,640,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--xlm-roberta-base/snapshots/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/sentencepiece.bpe.model,5069051,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--xlm-roberta-base/snapshots/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/tokenizer.json,9096718,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--xlm-roberta-base/snapshots/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/tokenizer_config.json,25,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--xlm-roberta-large/refs/main,40,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--xlm-roberta-large/snapshots/c23d21b0620b635a76227c604d44e43a9f0ee389/config.json,641,Dataset/model cache or Python bytecode excluded by existing .gitignore
+checkpoints/hf_cache/hub/models--xlm-roberta-large/snapshots/c23d21b0620b635a76227c604d44e43a9f0ee389/model.safetensors,2244817354,Exceeds GitHub 100 MiB limit
+checkpoints/hf_cache/hub/version.txt,1,Dataset/model cache or Python bytecode excluded by existing .gitignore
+data/SecondPaper_M1/README.md,7558,Dataset/model cache or Python bytecode excluded by existing .gitignore
+data/SecondPaper_M1/SHA256SUMS.txt,52118,Dataset/model cache or Python bytecode excluded by existing .gitignore
+data/SecondPaper_M1/emb/emb_f32.npy,302751872,Exceeds GitHub 100 MiB limit
+data/SecondPaper_M1/emb/emb_kf_id.npy,788544,Dataset/model cache or Python bytecode excluded by existing .gitignore
+data/SecondPaper_M1/index.db,414814208,Exceeds GitHub 100 MiB limit
+data/SecondPaper_M1/manifest/annotations_250.csv,144002,Dataset/model cache or Python bytecode excluded by existing .gitignore
+data/SecondPaper_M1/manifest/keyframes.csv,10465587,Dataset/model cache or Python bytecode excluded by existing .gitignore
+data/SecondPaper_M1/manifest/speaker_asr.csv,15820,Dataset/model cache or Python bytecode excluded by existing .gitignore
+data/SecondPaper_M1/manifest/thong_ke.json,1493,Dataset/model cache or Python bytecode excluded by existing .gitignore
+data/SecondPaper_M1/manifest/tracks.csv,5430577,Dataset/model cache or Python bytecode excluded by existing .gitignore
+data/SecondPaper_M1/moi_truong/pip_freeze.txt,32941,Dataset/model cache or Python bytecode excluded by existing .gitignore
+src/__pycache__/secondpaper_baseline.cpython-310.pyc,17218,Dataset/model cache or Python bytecode excluded by existing .gitignore
+src/__pycache__/test_secondpaper_baseline.cpython-310.pyc,2096,Dataset/model cache or Python bytecode excluded by existing .gitignore

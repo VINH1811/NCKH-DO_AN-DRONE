@@ -1,0 +1,19 @@
+{
+  "run_id": "LG03-model-language-input-20261006",
+  "seed": 20261005,
+  "split": "dev",
+  "mclip_model": "M-CLIP/XLM-Roberta-Large-Vit-L-14",
+  "mclip_revision": "40afa80a85e8efa990384a24bbe5a1f6f1cc81b5",
+  "openclip_model": "xlm-roberta-base-ViT-B-32",
+  "openclip_pretrained": "laion5b_s13b_b90k",
+  "image_precision": "autocast FP16; normalized stored vectors FP32",
+  "text_precision": "FP32",
+  "image_batch_size": 64,
+  "image_workers": 2,
+  "variants": ["typed_vi", "typed_en_reviewed", "spoken_whisper_vi", "spoken_phowhisper_vi"],
+  "warmup": 5,
+  "latency_repeats": 3,
+  "bootstrap_samples": 1000,
+  "track_score": "maximum cosine over keyframes",
+  "sources": ["edata", "video"]
+}
