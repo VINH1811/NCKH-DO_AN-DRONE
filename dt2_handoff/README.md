@@ -11,7 +11,8 @@ dt2_handoff/
 ├── configs/                  # mỗi lần chạy một file config (do script tự sinh)
 ├── src/
 │   ├── eval_agreid.py        # VN-03: đánh giá OSNet trên AG-ReID.v2
-│   └── ghi_moi_truong.py     # VN-02: ghi môi trường + khoá hash checkpoint
+│   ├── ghi_moi_truong.py     # VN-02: ghi môi trường + khoá hash checkpoint
+│   └── vn04_phan_tich_loi.py # VN-04: phân tích lỗi theo góc nhìn (không cần GPU)
 ├── data/splits/              # protocol lấy thẳng từ tác giả, xem mục Dữ liệu
 ├── checkpoints/
 │   ├── SHA256SUMS            # hash trọng số; KHÔNG commit trọng số
@@ -30,6 +31,8 @@ dt2_handoff/
 | **VN-02** | Xong | `env/VN02-setup-20261004/`, `checkpoints/SHA256SUMS` |
 | **VN-03** | Xong | `metrics/ket_qua_chuan.csv` (mẫu chung), `reports/VN03_baseline.md` |
 | **C-03** | Xong | `common/bootstrap_ci.py` + mục 4 README gốc |
+| **VN-04** | Xong | `reports/VN04_phan_tich_loi.md`, `metrics/VN04-phan-tich-loi-20261007.csv` |
+| **M4** | PDF đã nộp, còn trống địa điểm và giờ | `docs/pilot/` |
 
 ## Môi trường
 
