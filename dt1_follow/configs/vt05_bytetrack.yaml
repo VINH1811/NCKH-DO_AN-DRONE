@@ -1,0 +1,31 @@
+task_id: VT-05
+date: 2026-10-07
+
+detector:
+  name: yolo11s
+  weights: weights/detectors/yolo11s.pt
+  class_id: 0
+  class_name: person
+
+inference:
+  imgsz: 640
+  conf: 0.10
+  iou: 0.7
+  device: 0
+
+tracker:
+  tracker_type: bytetrack
+  track_high_thresh: 0.25
+  track_low_thresh: 0.10
+  new_track_thresh: 0.25
+  track_buffer: 30
+  match_thresh: 0.80
+  fuse_score: true
+
+dataset:
+  name: VisDrone2019-MOT-val
+  root: data/visdrone/VisDrone2019-MOT-val
+
+output:
+  predictions_dir: predictions/VT05-bytetrack-20261007
+  metrics_csv: metrics/VT05-tracking-20261007.csv
