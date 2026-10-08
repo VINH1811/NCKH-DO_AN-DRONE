@@ -1,5 +1,19 @@
 # ĐT3 — Tìm người theo mô tả trên SecondPaper M1
 
+## LG-04 — pipeline pilot phiên 1, đầu việc 07/10/2026
+
+Đã dựng `src/pilot_pipeline.py`: dùng detector/crop M3, nhúng ảnh và câu bằng cùng
+OpenCLIP đa ngôn ngữ, chuẩn hóa L2 và tìm top-k crop theo cosine.
+**Chưa thu pilot phiên 1; chưa có weight M3 tại đường dẫn cấu hình, nên chưa xác nhận chạy thực tế trên phiên 1.**
+
+[Hướng dẫn thu, nhận detector, khai báo video và chạy từng bước](reports/LG04_pilot_session1.md).
+Cấu hình: `configs/LG04-pilot-session1.json`. Dependency bổ sung: `requirements-pilot.txt`.
+Video/crop/index để trong `data/pilot/session1/`, được Git bỏ qua.
+
+```powershell
+conda run --no-capture-output -n dt3_py310 python -X utf8 src/pilot_pipeline.py check
+```
+
 ## LG-03 — mô hình × ngôn ngữ × gõ/nói, 06/10/2026
 
 Giữ split dev LG-02, so M-CLIP với OpenCLIP đa ngôn ngữ trên 4 loại truy vấn:

@@ -1,0 +1,5 @@
+# Add to the existing dt3_py310 environment; preserve Torch/NumPy pins.
+-r requirements.txt
+ultralytics==8.4.172
+opencv-python==4.10.0.84
+PyYAML==6.0.2

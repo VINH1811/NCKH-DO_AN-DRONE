@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-08",
+  "scope": "real cached OpenCLIP encoders with synthetic red image and Vietnamese query; NOT pilot or YOLO inference",
+  "query": "người mặc áo đỏ",
+  "image_shape": [
+    1,
+    512
+  ],
+  "text_shape": [
+    1,
+    512
+  ],
+  "cosine": 0.19404646754264832,
+  "finite": true,
+  "torch": "2.6.0+cu124",
+  "cuda": true,
+  "unit_tests": {
+    "total": 12,
+    "passed": 12,
+    "new_pipeline_tests": 4
+  },
+  "preflight": {
+    "ready_for_index": false,
+    "failures": [
+      "No pilot inputs in E:\\Do_An\\NCKH-DO_AN-DRONE\\dt3_retrieval\\data\\pilot\\session1\\sources.csv",
+      "Missing M3 weights: E:\\Do_An\\NCKH-DO_AN-DRONE\\dt3_retrieval\\checkpoints\\yolo11s.pt"
+    ],
+    "input_sources": 0,
+    "model": "xlm-roberta-base-ViT-B-32",
+    "scope": "preflight only; model cache checked on model loading"
+  }
+}

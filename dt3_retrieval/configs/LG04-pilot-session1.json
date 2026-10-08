@@ -1,0 +1,22 @@
+{
+  "session_id": "session1",
+  "sources": "data/pilot/session1/sources.csv",
+  "output": "data/pilot/session1/LG04-index",
+  "m3_package": "../dt1_follow/packages/M3-detector-crop-20261006",
+  "weights": "checkpoints/yolo11s.pt",
+  "weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "device": "cuda",
+  "frame_stride": 15,
+  "max_frames_per_source": null,
+  "imgsz": 640,
+  "confidence": 0.25,
+  "iou": 0.7,
+  "padding_ratio": 0.10,
+  "min_width": 10,
+  "min_height": 20,
+  "openclip_model": "xlm-roberta-base-ViT-B-32",
+  "openclip_pretrained": "laion5b_s13b_b90k",
+  "embedding_dim": 512,
+  "precision": "FP32",
+  "top_k": 10
+}
