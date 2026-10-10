@@ -1,0 +1,852 @@
+[
+  {
+    "query_id": "Q_01",
+    "text_query": "Mô tả kiểm thử mục tiêu số 1 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_000",
+    "ranked_candidates": [
+      "person_000",
+      "person_013",
+      "person_039",
+      "person_030",
+      "person_045",
+      "person_017",
+      "person_048",
+      "person_026",
+      "person_025",
+      "person_032"
+    ]
+  },
+  {
+    "query_id": "Q_02",
+    "text_query": "Mô tả kiểm thử mục tiêu số 2 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_001",
+    "ranked_candidates": [
+      "person_001",
+      "person_030",
+      "person_036",
+      "person_002",
+      "person_047",
+      "person_042",
+      "person_040",
+      "person_023",
+      "person_045",
+      "person_010"
+    ]
+  },
+  {
+    "query_id": "Q_03",
+    "text_query": "Mô tả kiểm thử mục tiêu số 3 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_002",
+    "ranked_candidates": [
+      "person_002",
+      "person_005",
+      "person_001",
+      "person_016",
+      "person_015",
+      "person_035",
+      "person_019",
+      "person_043",
+      "person_017",
+      "person_047"
+    ]
+  },
+  {
+    "query_id": "Q_04",
+    "text_query": "Mô tả kiểm thử mục tiêu số 4 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_003",
+    "ranked_candidates": [
+      "person_003",
+      "person_049",
+      "person_030",
+      "person_039",
+      "person_015",
+      "person_020",
+      "person_033",
+      "person_023",
+      "person_040",
+      "person_017"
+    ]
+  },
+  {
+    "query_id": "Q_05",
+    "text_query": "Mô tả kiểm thử mục tiêu số 5 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_004",
+    "ranked_candidates": [
+      "person_004",
+      "person_041",
+      "person_035",
+      "person_049",
+      "person_022",
+      "person_011",
+      "person_044",
+      "person_013",
+      "person_012",
+      "person_009"
+    ]
+  },
+  {
+    "query_id": "Q_06",
+    "text_query": "Mô tả kiểm thử mục tiêu số 6 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_005",
+    "ranked_candidates": [
+      "person_005",
+      "person_026",
+      "person_038",
+      "person_024",
+      "person_006",
+      "person_009",
+      "person_029",
+      "person_030",
+      "person_025",
+      "person_044"
+    ]
+  },
+  {
+    "query_id": "Q_07",
+    "text_query": "Mô tả kiểm thử mục tiêu số 7 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_006",
+    "ranked_candidates": [
+      "person_025",
+      "person_006",
+      "person_048",
+      "person_035",
+      "person_012",
+      "person_019",
+      "person_010",
+      "person_043",
+      "person_014",
+      "person_028"
+    ]
+  },
+  {
+    "query_id": "Q_08",
+    "text_query": "Mô tả kiểm thử mục tiêu số 8 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_007",
+    "ranked_candidates": [
+      "person_002",
+      "person_032",
+      "person_043",
+      "person_020",
+      "person_007",
+      "person_049",
+      "person_033",
+      "person_003",
+      "person_046",
+      "person_044"
+    ]
+  },
+  {
+    "query_id": "Q_09",
+    "text_query": "Mô tả kiểm thử mục tiêu số 9 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_008",
+    "ranked_candidates": [
+      "person_005",
+      "person_034",
+      "person_001",
+      "person_023",
+      "person_038",
+      "person_047",
+      "person_030",
+      "person_026",
+      "person_032",
+      "person_010"
+    ]
+  },
+  {
+    "query_id": "Q_10",
+    "text_query": "Mô tả kiểm thử mục tiêu số 10 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_009",
+    "ranked_candidates": [
+      "person_009",
+      "person_017",
+      "person_021",
+      "person_043",
+      "person_008",
+      "person_005",
+      "person_020",
+      "person_014",
+      "person_038",
+      "person_022"
+    ]
+  },
+  {
+    "query_id": "Q_11",
+    "text_query": "Mô tả kiểm thử mục tiêu số 11 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_010",
+    "ranked_candidates": [
+      "person_010",
+      "person_047",
+      "person_041",
+      "person_000",
+      "person_007",
+      "person_005",
+      "person_030",
+      "person_001",
+      "person_014",
+      "person_018"
+    ]
+  },
+  {
+    "query_id": "Q_12",
+    "text_query": "Mô tả kiểm thử mục tiêu số 12 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_011",
+    "ranked_candidates": [
+      "person_021",
+      "person_014",
+      "person_047",
+      "person_011",
+      "person_019",
+      "person_045",
+      "person_036",
+      "person_020",
+      "person_043",
+      "person_026"
+    ]
+  },
+  {
+    "query_id": "Q_13",
+    "text_query": "Mô tả kiểm thử mục tiêu số 13 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_012",
+    "ranked_candidates": [
+      "person_012",
+      "person_034",
+      "person_033",
+      "person_028",
+      "person_006",
+      "person_049",
+      "person_022",
+      "person_039",
+      "person_029",
+      "person_047"
+    ]
+  },
+  {
+    "query_id": "Q_14",
+    "text_query": "Mô tả kiểm thử mục tiêu số 14 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_013",
+    "ranked_candidates": [
+      "person_013",
+      "person_003",
+      "person_020",
+      "person_038",
+      "person_048",
+      "person_034",
+      "person_022",
+      "person_029",
+      "person_042",
+      "person_010"
+    ]
+  },
+  {
+    "query_id": "Q_15",
+    "text_query": "Mô tả kiểm thử mục tiêu số 15 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_014",
+    "ranked_candidates": [
+      "person_014",
+      "person_017",
+      "person_039",
+      "person_028",
+      "person_010",
+      "person_038",
+      "person_035",
+      "person_011",
+      "person_021",
+      "person_042"
+    ]
+  },
+  {
+    "query_id": "Q_16",
+    "text_query": "Mô tả kiểm thử mục tiêu số 16 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_015",
+    "ranked_candidates": [
+      "person_030",
+      "person_019",
+      "person_000",
+      "person_031",
+      "person_015",
+      "person_046",
+      "person_007",
+      "person_006",
+      "person_008",
+      "person_002"
+    ]
+  },
+  {
+    "query_id": "Q_17",
+    "text_query": "Mô tả kiểm thử mục tiêu số 17 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_016",
+    "ranked_candidates": [
+      "person_044",
+      "person_019",
+      "person_037",
+      "person_016",
+      "person_030",
+      "person_045",
+      "person_022",
+      "person_031",
+      "person_038",
+      "person_001"
+    ]
+  },
+  {
+    "query_id": "Q_18",
+    "text_query": "Mô tả kiểm thử mục tiêu số 18 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_017",
+    "ranked_candidates": [
+      "person_017",
+      "person_026",
+      "person_006",
+      "person_013",
+      "person_000",
+      "person_010",
+      "person_015",
+      "person_042",
+      "person_032",
+      "person_020"
+    ]
+  },
+  {
+    "query_id": "Q_19",
+    "text_query": "Mô tả kiểm thử mục tiêu số 19 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_018",
+    "ranked_candidates": [
+      "person_031",
+      "person_020",
+      "person_018",
+      "person_015",
+      "person_024",
+      "person_006",
+      "person_017",
+      "person_040",
+      "person_000",
+      "person_025"
+    ]
+  },
+  {
+    "query_id": "Q_20",
+    "text_query": "Mô tả kiểm thử mục tiêu số 20 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_019",
+    "ranked_candidates": [
+      "person_019",
+      "person_021",
+      "person_039",
+      "person_006",
+      "person_020",
+      "person_029",
+      "person_048",
+      "person_003",
+      "person_024",
+      "person_028"
+    ]
+  },
+  {
+    "query_id": "Q_21",
+    "text_query": "Mô tả kiểm thử mục tiêu số 21 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_020",
+    "ranked_candidates": [
+      "person_027",
+      "person_015",
+      "person_020",
+      "person_008",
+      "person_029",
+      "person_026",
+      "person_011",
+      "person_048",
+      "person_004",
+      "person_010"
+    ]
+  },
+  {
+    "query_id": "Q_22",
+    "text_query": "Mô tả kiểm thử mục tiêu số 22 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_021",
+    "ranked_candidates": [
+      "person_021",
+      "person_040",
+      "person_008",
+      "person_015",
+      "person_017",
+      "person_002",
+      "person_031",
+      "person_043",
+      "person_000",
+      "person_045"
+    ]
+  },
+  {
+    "query_id": "Q_23",
+    "text_query": "Mô tả kiểm thử mục tiêu số 23 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_022",
+    "ranked_candidates": [
+      "person_011",
+      "person_044",
+      "person_022",
+      "person_043",
+      "person_047",
+      "person_004",
+      "person_003",
+      "person_029",
+      "person_015",
+      "person_017"
+    ]
+  },
+  {
+    "query_id": "Q_24",
+    "text_query": "Mô tả kiểm thử mục tiêu số 24 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_023",
+    "ranked_candidates": [
+      "person_030",
+      "person_004",
+      "person_034",
+      "person_043",
+      "person_008",
+      "person_009",
+      "person_042",
+      "person_011",
+      "person_041",
+      "person_010"
+    ]
+  },
+  {
+    "query_id": "Q_25",
+    "text_query": "Mô tả kiểm thử mục tiêu số 25 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_024",
+    "ranked_candidates": [
+      "person_024",
+      "person_005",
+      "person_040",
+      "person_008",
+      "person_011",
+      "person_047",
+      "person_030",
+      "person_014",
+      "person_042",
+      "person_025"
+    ]
+  },
+  {
+    "query_id": "Q_26",
+    "text_query": "Mô tả kiểm thử mục tiêu số 26 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_025",
+    "ranked_candidates": [
+      "person_002",
+      "person_015",
+      "person_025",
+      "person_040",
+      "person_047",
+      "person_026",
+      "person_048",
+      "person_041",
+      "person_000",
+      "person_030"
+    ]
+  },
+  {
+    "query_id": "Q_27",
+    "text_query": "Mô tả kiểm thử mục tiêu số 27 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_026",
+    "ranked_candidates": [
+      "person_012",
+      "person_045",
+      "person_041",
+      "person_026",
+      "person_023",
+      "person_018",
+      "person_024",
+      "person_008",
+      "person_043",
+      "person_046"
+    ]
+  },
+  {
+    "query_id": "Q_28",
+    "text_query": "Mô tả kiểm thử mục tiêu số 28 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_027",
+    "ranked_candidates": [
+      "person_027",
+      "person_003",
+      "person_025",
+      "person_044",
+      "person_010",
+      "person_031",
+      "person_042",
+      "person_001",
+      "person_032",
+      "person_026"
+    ]
+  },
+  {
+    "query_id": "Q_29",
+    "text_query": "Mô tả kiểm thử mục tiêu số 29 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_028",
+    "ranked_candidates": [
+      "person_028",
+      "person_005",
+      "person_004",
+      "person_008",
+      "person_020",
+      "person_024",
+      "person_032",
+      "person_018",
+      "person_007",
+      "person_010"
+    ]
+  },
+  {
+    "query_id": "Q_30",
+    "text_query": "Mô tả kiểm thử mục tiêu số 30 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_029",
+    "ranked_candidates": [
+      "person_029",
+      "person_041",
+      "person_021",
+      "person_033",
+      "person_030",
+      "person_045",
+      "person_037",
+      "person_012",
+      "person_022",
+      "person_032"
+    ]
+  },
+  {
+    "query_id": "Q_31",
+    "text_query": "Mô tả kiểm thử mục tiêu số 31 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_030",
+    "ranked_candidates": [
+      "person_030",
+      "person_007",
+      "person_038",
+      "person_047",
+      "person_028",
+      "person_049",
+      "person_020",
+      "person_000",
+      "person_006",
+      "person_015"
+    ]
+  },
+  {
+    "query_id": "Q_32",
+    "text_query": "Mô tả kiểm thử mục tiêu số 32 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_031",
+    "ranked_candidates": [
+      "person_031",
+      "person_045",
+      "person_024",
+      "person_038",
+      "person_019",
+      "person_013",
+      "person_043",
+      "person_046",
+      "person_001",
+      "person_014"
+    ]
+  },
+  {
+    "query_id": "Q_33",
+    "text_query": "Mô tả kiểm thử mục tiêu số 33 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_032",
+    "ranked_candidates": [
+      "person_032",
+      "person_048",
+      "person_002",
+      "person_010",
+      "person_022",
+      "person_025",
+      "person_042",
+      "person_041",
+      "person_020",
+      "person_046"
+    ]
+  },
+  {
+    "query_id": "Q_34",
+    "text_query": "Mô tả kiểm thử mục tiêu số 34 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_033",
+    "ranked_candidates": [
+      "person_033",
+      "person_048",
+      "person_009",
+      "person_007",
+      "person_037",
+      "person_024",
+      "person_026",
+      "person_000",
+      "person_017",
+      "person_018"
+    ]
+  },
+  {
+    "query_id": "Q_35",
+    "text_query": "Mô tả kiểm thử mục tiêu số 35 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_034",
+    "ranked_candidates": [
+      "person_029",
+      "person_022",
+      "person_021",
+      "person_034",
+      "person_045",
+      "person_000",
+      "person_009",
+      "person_036",
+      "person_001",
+      "person_010"
+    ]
+  },
+  {
+    "query_id": "Q_36",
+    "text_query": "Mô tả kiểm thử mục tiêu số 36 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_035",
+    "ranked_candidates": [
+      "person_039",
+      "person_004",
+      "person_035",
+      "person_002",
+      "person_045",
+      "person_043",
+      "person_025",
+      "person_028",
+      "person_033",
+      "person_036"
+    ]
+  },
+  {
+    "query_id": "Q_37",
+    "text_query": "Mô tả kiểm thử mục tiêu số 37 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_036",
+    "ranked_candidates": [
+      "person_036",
+      "person_032",
+      "person_014",
+      "person_000",
+      "person_016",
+      "person_023",
+      "person_028",
+      "person_029",
+      "person_034",
+      "person_001"
+    ]
+  },
+  {
+    "query_id": "Q_38",
+    "text_query": "Mô tả kiểm thử mục tiêu số 38 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_037",
+    "ranked_candidates": [
+      "person_037",
+      "person_017",
+      "person_010",
+      "person_015",
+      "person_047",
+      "person_045",
+      "person_024",
+      "person_021",
+      "person_022",
+      "person_013"
+    ]
+  },
+  {
+    "query_id": "Q_39",
+    "text_query": "Mô tả kiểm thử mục tiêu số 39 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_038",
+    "ranked_candidates": [
+      "person_038",
+      "person_035",
+      "person_036",
+      "person_026",
+      "person_017",
+      "person_006",
+      "person_046",
+      "person_039",
+      "person_048",
+      "person_025"
+    ]
+  },
+  {
+    "query_id": "Q_40",
+    "text_query": "Mô tả kiểm thử mục tiêu số 40 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_039",
+    "ranked_candidates": [
+      "person_039",
+      "person_030",
+      "person_015",
+      "person_002",
+      "person_031",
+      "person_032",
+      "person_024",
+      "person_007",
+      "person_035",
+      "person_026"
+    ]
+  },
+  {
+    "query_id": "Q_41",
+    "text_query": "Mô tả kiểm thử mục tiêu số 41 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_040",
+    "ranked_candidates": [
+      "person_041",
+      "person_034",
+      "person_002",
+      "person_040",
+      "person_036",
+      "person_043",
+      "person_006",
+      "person_035",
+      "person_027",
+      "person_022"
+    ]
+  },
+  {
+    "query_id": "Q_42",
+    "text_query": "Mô tả kiểm thử mục tiêu số 42 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_041",
+    "ranked_candidates": [
+      "person_034",
+      "person_040",
+      "person_041",
+      "person_035",
+      "person_030",
+      "person_038",
+      "person_012",
+      "person_026",
+      "person_003",
+      "person_017"
+    ]
+  },
+  {
+    "query_id": "Q_43",
+    "text_query": "Mô tả kiểm thử mục tiêu số 43 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_042",
+    "ranked_candidates": [
+      "person_041",
+      "person_042",
+      "person_023",
+      "person_045",
+      "person_005",
+      "person_004",
+      "person_033",
+      "person_000",
+      "person_026",
+      "person_027"
+    ]
+  },
+  {
+    "query_id": "Q_44",
+    "text_query": "Mô tả kiểm thử mục tiêu số 44 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_043",
+    "ranked_candidates": [
+      "person_043",
+      "person_040",
+      "person_047",
+      "person_010",
+      "person_036",
+      "person_044",
+      "person_016",
+      "person_045",
+      "person_005",
+      "person_013"
+    ]
+  },
+  {
+    "query_id": "Q_45",
+    "text_query": "Mô tả kiểm thử mục tiêu số 45 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_044",
+    "ranked_candidates": [
+      "person_014",
+      "person_039",
+      "person_027",
+      "person_036",
+      "person_044",
+      "person_037",
+      "person_022",
+      "person_013",
+      "person_048",
+      "person_043"
+    ]
+  },
+  {
+    "query_id": "Q_46",
+    "text_query": "Mô tả kiểm thử mục tiêu số 46 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_045",
+    "ranked_candidates": [
+      "person_045",
+      "person_008",
+      "person_032",
+      "person_037",
+      "person_048",
+      "person_013",
+      "person_009",
+      "person_031",
+      "person_014",
+      "person_010"
+    ]
+  },
+  {
+    "query_id": "Q_47",
+    "text_query": "Mô tả kiểm thử mục tiêu số 47 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_046",
+    "ranked_candidates": [
+      "person_046",
+      "person_007",
+      "person_044",
+      "person_035",
+      "person_016",
+      "person_037",
+      "person_048",
+      "person_028",
+      "person_004",
+      "person_047"
+    ]
+  },
+  {
+    "query_id": "Q_48",
+    "text_query": "Mô tả kiểm thử mục tiêu số 48 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_047",
+    "ranked_candidates": [
+      "person_047",
+      "person_026",
+      "person_032",
+      "person_015",
+      "person_035",
+      "person_046",
+      "person_036",
+      "person_000",
+      "person_048",
+      "person_006"
+    ]
+  },
+  {
+    "query_id": "Q_49",
+    "text_query": "Mô tả kiểm thử mục tiêu số 49 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_048",
+    "ranked_candidates": [
+      "person_048",
+      "person_030",
+      "person_018",
+      "person_007",
+      "person_025",
+      "person_002",
+      "person_042",
+      "person_045",
+      "person_008",
+      "person_010"
+    ]
+  },
+  {
+    "query_id": "Q_50",
+    "text_query": "Mô tả kiểm thử mục tiêu số 50 áo sơ mi / áo khoác quần dài",
+    "gt_target_id": "person_049",
+    "ranked_candidates": [
+      "person_049",
+      "person_048",
+      "person_023",
+      "person_005",
+      "person_029",
+      "person_036",
+      "person_015",
+      "person_013",
+      "person_030",
+      "person_031"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+# Cấu hình chuẩn bàn giao ĐT1 (Mốc M11 - Run ID: VT09-report-crosscheck-20261011)
+task_id: "VT-09"
+project: "dt1_follow"
+
+detector:
+  model_name: "YOLO11s"
+  weights_path: "weights/detectors/yolo11s.pt"
+  checkpoint_sha256: "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5"
+  imgsz: 640
+  conf_threshold: 0.25
+  iou_threshold: 0.45
+  target_classes: [1] # pedestrian-only (class 1 theo VisDrone)
+
+tracker:
+  name: "ByteTrack"
+  track_high_thresh: 0.25
+  track_low_thresh: 0.10
+  new_track_thresh: 0.25
+  track_buffer: 30
+  match_thresh: 0.80
+  fuse_score: true
+
+offboard_control:
+  heartbeat_hz: 20.0
+  heartbeat_period_s: 0.05
+  obs_timeout_s: 1.0
+  failsafe_mode: "FAILSAFE_HOLD"
+  k_yaw: 0.0015
+  v_forward_fast: 0.8
+  v_forward_slow: 0.2
+  image_resolution: [1920, 1080]
+
+evaluation:
+  dataset: "VisDrone2019-MOT-val"
+  num_sequences: 7
+  primary_metrics: ["IDF1", "MOTA"]

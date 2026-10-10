@@ -1,50 +1,27 @@
-# dt1_follow
+# ĐT1: Drone Tự Động Bám Theo Người Trên PX4
 
-## Cấu trúc và vai trò
+- **Thành viên phụ trách:** Nguyễn Quốc Việt (TV1)
+- **Mã bàn giao:** M11 (Hoàn thành đợt test chính 04/10 - 11/10/2026)
+- **Môi trường:** Ubuntu 24.04 LTS (WSL2), Python 3.10.22, PyTorch 2.6.0+cu124, Ultralytics 8.4.174, GPU NVIDIA RTX 3050 Laptop.
 
-```text
-dt1_follow/
-├── README.md                 # Lệnh chạy cụ thể của đề tài
-├── requirements.txt          # Các thư viện cần cài đặt
-├── configs/                  # Mỗi thí nghiệm một file config
-├── src/                      # Mã nguồn của đề tài
-├── data/splits/              # Chỉ commit split manifest, không commit dữ liệu
-├── checkpoints/SHA256SUMS    # Chỉ commit hash, không commit trọng số
-├── env/<run_id>/             # Thông tin môi trường từng lần chạy
-├── predictions/<run_id>/     # Dự đoán thô của từng lần chạy
-├── metrics/                  # CSV theo mẫu chung
-└── reports/                  # Báo cáo ngắn, hình và phân tích lỗi
-```
+## 1. Cấu trúc thư mục bàn giao
+- `configs/vt09_config.yaml`: Cấu hình cố định Detector, Tracker và Offboard SITL.
+- `metrics/VT09-summary-m11-20261011.csv`: Bảng tổng hợp số liệu chuẩn 17 cột (AP, IDF1, MOTA, Heartbeat).
+- `crosscheck/dt3_luong/`: Kết quả và biên bản kiểm tra chéo rút gọn của ĐT3 (Lương).
+- `reports/VT09-report-m11-20261011.md`: Báo cáo nghiệm thu kỹ thuật M11.
+- `predictions/VT08-eval-freeze-20261010/`: Dự đoán thô lưu trữ cho người kiểm tra chéo (Vinh ĐT2).
 
-`<run_id>` là mã định danh của từng lần chạy, không phải tên thư mục cố định.
-Dùng cùng một `run_id` cho thông tin môi trường và dự đoán của cùng lần chạy.
-
-## Lệnh chạy
-
-Sẽ bổ sung lệnh cài đặt và chạy cụ thể khi có mã nguồn và cấu hình thí nghiệm.
-
-## Công việc ngày 04/10/2026
-
-- VT-01: thiết lập Ultralytics (YOLO11/YOLO-World), tải VisDrone DET/MOT và chốt class mapping.
-- VT-02: thiết lập PX4 SITL + Gazebo, chạy ví dụ Offboard và lưu log.
-
-Tiến độ và nguồn tài liệu: [báo cáo thiết lập](reports/20261004-setup.md).
-Mapping đề xuất: [class_mapping.json](configs/class_mapping.json).
-
-Đã cài distro WSL `Ubuntu-24.04`. Mở từ PowerShell:
-
-```powershell
-wsl -d Ubuntu-24.04
-```
-
-Sau khi thiết lập tài khoản, mở thư mục repo trong môi trường Ubuntu 24.04:
-
-```bash
-cd /mnt/f/DoAnTotNghiep/source/NCKH-DO_AN-DRONE
-```
-
-## Quy ước lưu trữ
-
-- `data/splits/`: chỉ commit manifest mô tả các split; không commit dữ liệu gốc.
-- `checkpoints/SHA256SUMS`: lưu hash SHA-256 của các tệp trọng số; không commit trọng số.
-- `metrics/`: lưu kết quả CSV theo mẫu chung, sẽ bổ sung khi mẫu được xác định.
+## 2. Hướng dẫn chạy lại đánh giá (Reproducibility)
+1. Kích hoạt môi trường:
+   ```bash
+   conda activate dt1
+   ```
+2. Kiểm tra trọng số chuẩn:
+   ```bash
+   sha256sum -c weights/SHA256SUMS
+   # Hash yolo11s.pt: 85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5
+   ```
+3. Chạy kiểm tra chéo kết quả ĐT3:
+   ```bash
+   python3 src/vt09_crosscheck_dt3.py
+   ```
