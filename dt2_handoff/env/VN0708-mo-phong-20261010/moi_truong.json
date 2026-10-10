@@ -1,0 +1,26 @@
+{
+  "ghi_luc": "10/10/2026 22:24:09",
+  "ghi_chu": "VN-06/07/08 mo phong; ma chay tai commit e5c3682",
+  "precision": "fp32",
+  "lenh_chay": "dt2_handoff/src/ghi_moi_truong.py --ra dt2_handoff/env/VN0708-mo-phong-20261010 --ckpt E:/RTCN/models/osnet_ain_x1_0_dangguon_msdc.pth --precision fp32 --ghi-chu VN-06/07/08 mo phong; ma chay tai commit e5c3682",
+  "interpreter": "C:/Users/Mr Vinh/.conda/envs/nckh/python.exe",
+  "python": "3.12.12",
+  "he_dieu_hanh": "Windows 11 (AMD64)",
+  "git": {
+    "commit": "7ac414700b550b0c8cae57e13e54053fd280a605",
+    "nhanh": "main",
+    "ban_lam_viec_sach": true,
+    "mo_ta": "fix(ghi_moi_truong): khong tinh file chua theo doi khi xet ban lam viec sach"
+  },
+  "phan_cung": {
+    "nvidia_smi": "NVIDIA GeForce RTX 3060 Laptop GPU, 6144 MiB, 546.30",
+    "torch": "2.7.1+cu118",
+    "cuda_cua_torch": "11.8",
+    "co_gpu": true,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "vram_gb": 6.4,
+    "compute_capability": "8.6",
+    "torchvision": "0.22.1+cu118"
+  },
+  "so_checkpoint": 1
+}

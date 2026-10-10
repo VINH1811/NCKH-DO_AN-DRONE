@@ -1,0 +1,18 @@
+[
+  {
+    "duong_dan": "E:/RTCN/models/osnet_ain_x1_0_dangguon_msdc.pth",
+    "ten": "osnet_ain_x1_0_dangguon_msdc.pth",
+    "byte": 55926164,
+    "sha256": "2f38acc25e28cb29407635db2be315edc08d5457a904b72a9a11e427f41f3242",
+    "khoa_cap_cao": [
+      "epoch",
+      "optimizer",
+      "rank1",
+      "scheduler"
+    ],
+    "so_tensor": 552,
+    "so_danh_tinh_huan_luyen": 2510,
+    "epoch": 50,
+    "rank1": 0.7333729267120361
+  }
+]
