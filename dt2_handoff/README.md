@@ -12,7 +12,11 @@ dt2_handoff/
 ├── src/
 │   ├── eval_agreid.py        # VN-03: đánh giá OSNet trên AG-ReID.v2
 │   ├── ghi_moi_truong.py     # VN-02: ghi môi trường + khoá hash checkpoint
-│   └── vn04_phan_tich_loi.py # VN-04: phân tích lỗi theo góc nhìn (không cần GPU)
+│   ├── vn04_phan_tich_loi.py # VN-04: phân tích lỗi theo góc nhìn (không cần GPU)
+│   ├── vn06_mo_phong_dinh_vi.py   # VN-06: mô phỏng sai số định vị (CPU)
+│   ├── vn07_vn08_ban_giao.py      # VN-07/08: mô phỏng pilot bàn giao trên AG-ReID.v2 (GPU)
+│   └── tao_bao_cao_tong_ket.py    # hình và file thống kê cho báo cáo tổng kết
+├── handoff_M9/               # M9: mục tiêu xác minh giao cho Việt
 ├── data/splits/              # protocol lấy thẳng từ tác giả, xem mục Dữ liệu
 ├── checkpoints/
 │   ├── SHA256SUMS            # hash trọng số; KHÔNG commit trọng số
@@ -32,7 +36,37 @@ dt2_handoff/
 | **VN-03** | Xong | `metrics/ket_qua_chuan.csv` (mẫu chung), `reports/VN03_baseline.md` |
 | **C-03** | Xong | `common/bootstrap_ci.py` + mục 4 README gốc |
 | **VN-04** | Xong | `reports/VN04_phan_tich_loi.md`, `metrics/VN04-phan-tich-loi-20261007.csv` |
-| **M4** | PDF đã nộp, còn trống địa điểm và giờ | `docs/pilot/` |
+| **M4** | Cô Trang đã duyệt (C-04); còn trống địa điểm và giờ | `docs/pilot/` |
+| **VN-05, M5** | **Chưa quay** pilot phiên 1 | — |
+| **VN-06** | **Mô phỏng** (chưa có điểm mốc thật) | `reports/VN06-08_mo_phong_pilot.md`, `metrics/VN06-mo-phong-dinh-vi-20261010.csv` |
+| **VN-07** | **Mô phỏng** trên AG-ReID.v2, ngưỡng đã chốt trên phiên 1 | như trên, `metrics/VN0708-mo-phong-agreid-20261010.csv` |
+| **VN-08, M9, M10** | **Mô phỏng** trên AG-ReID.v2 phiên 2 | `handoff_M9/`, `predictions/VN0708-mo-phong-agreid-20261010/` |
+
+> VN-06 → VN-08 là **mô phỏng** theo phương án dự phòng của mốc M6. Khi có pilot thật,
+> chạy lại đúng các script trên dữ liệu mới và báo cáo riêng.
+
+## Checklist tái lập (hạn 11/10) — đối chiếu
+
+| Mục | Bằng chứng trong ĐT2 |
+|---|---|
+| Repo và commit hash lần chạy cuối | `env/VN0708-mo-phong-20261010/moi_truong.json` |
+| Lệnh chạy đầy đủ từ README | mục "Lệnh chạy" bên dưới và cuối từng báo cáo |
+| Config từng thí nghiệm | `configs/VN03-*.json`, `configs/VN0708-*.json` |
+| Checkpoint và SHA256 | `checkpoints/SHA256SUMS`, `checkpoint.lock.json` |
+| Precision | fp32, ghi trong mọi CSV metrics |
+| Prompt / ngôn ngữ truy vấn | Không áp dụng (ĐT2 không dùng truy vấn chữ) |
+| Phiên bản thư viện | `env/*/pip_freeze.txt` |
+| GPU, driver, CUDA | `env/*/moi_truong.json` |
+| Split chia theo phiên quay | `predictions/VN0708-*/split_manifest_*.csv` — chia theo **ngày quay** |
+| Benchmark gốc giữ protocol; tự thu báo cáo riêng | VN-03, VN-04 dùng nguyên 4 protocol của tác giả; mô phỏng VN-07/08 báo cáo riêng |
+| Ngưỡng chọn trên validation | τ chốt trên phiên 1, không chỉnh sau khi xem phiên 2 |
+| Dự đoán thô đã lưu | `predictions/` |
+| Metrics CSV theo mẫu chung | mọi file `metrics/*` có 17 cột, trừ `ket_qua.csv`, `toc_do.csv` cũ |
+| n, mức ngẫu nhiên, CI 95% | có trong mọi CSV metrics chính |
+| Latency p50/p95, ≥3 lần, sau warm-up | `metrics/toc_do.csv` (VN-03). **Chưa đo trong khung giờ GPU riêng — chưa có lịch C-02** |
+| Tách tốc độ model với pipeline | `metrics/toc_do.csv`: 1,16 ms so với 1,90 ms/ảnh |
+| Báo cáo ngắn | `reports/` |
+| Kiểm tra chéo rút gọn | VN-09, ngày 11/10 |
 
 ## Môi trường
 

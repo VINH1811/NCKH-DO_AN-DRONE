@@ -1,0 +1,4261 @@
+[
+ {
+  "ma_ban_giao": "BG-0001",
+  "anh_truy_van_mat_dat": "query/P0049T04060A2/P0049T04060A2C3F00511.jpg",
+  "ma_muc_tieu": 49040602,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0049T04060A2/P0049T04060A2C0F00991.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F01231.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F00901.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F01321.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F01441.jpg"
+  ],
+  "do_tin": 0.7417,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0002",
+  "anh_truy_van_mat_dat": "query/P0895T04060A1/P0895T04060A1C3F04321.jpg",
+  "ma_muc_tieu": 1040040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1040T04060A0/P1040T04060A0C0F12721.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12871.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F13201.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12781.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12841.jpg"
+  ],
+  "do_tin": 0.7565,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0003",
+  "anh_truy_van_mat_dat": "query/P1048T04071A1/P1048T04071A1C3F07231.jpg",
+  "ma_muc_tieu": 847040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0847T04071A0/P0847T04071A0C0F09541.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09061.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09301.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09331.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09571.jpg"
+  ],
+  "do_tin": 0.7365,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0004",
+  "anh_truy_van_mat_dat": "query/P0416T04070A1/P0416T04070A1C3F01801.jpg",
+  "ma_muc_tieu": 416040701,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0416T04070A1/P0416T04070A1C0F04621.jpg",
+   "gallery/P0416T04070A1/P0416T04070A1C0F05011.jpg",
+   "gallery/P0416T04070A1/P0416T04070A1C0F03991.jpg",
+   "gallery/P0416T04070A1/P0416T04070A1C0F04711.jpg",
+   "gallery/P0416T04070A1/P0416T04070A1C0F03751.jpg"
+  ],
+  "do_tin": 0.7668,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0005",
+  "anh_truy_van_mat_dat": "query/P1566T04071A1/P1566T04071A1C3F11131.jpg",
+  "ma_muc_tieu": 1566040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1566T04071A1/P1566T04071A1C0F18481.jpg",
+   "gallery/P1566T04071A1/P1566T04071A1C0F18001.jpg",
+   "gallery/P1566T04071A1/P1566T04071A1C0F18751.jpg",
+   "gallery/P1566T04071A1/P1566T04071A1C0F18421.jpg",
+   "gallery/P1566T04071A1/P1566T04071A1C0F18121.jpg"
+  ],
+  "do_tin": 0.7511,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0006",
+  "anh_truy_van_mat_dat": "query/P0847T04071A0/P0847T04071A0C3F05941.jpg",
+  "ma_muc_tieu": 586040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0586T04071A2/P0586T04071A2C0F08881.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08281.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08521.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08371.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08611.jpg"
+  ],
+  "do_tin": 0.7333,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0007",
+  "anh_truy_van_mat_dat": "query/P0837T04071A0/P0837T04071A0C3F04501.jpg",
+  "ma_muc_tieu": 837040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0837T04071A0/P0837T04071A0C0F09721.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09331.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09301.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09691.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09061.jpg"
+  ],
+  "do_tin": 0.7629,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0008",
+  "anh_truy_van_mat_dat": "query/P1825T04060A1/P1825T04060A1C3F10051.jpg",
+  "ma_muc_tieu": 1825040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1825T04060A1/P1825T04060A1C0F23521.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F22171.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F21151.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F24001.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F21271.jpg"
+  ],
+  "do_tin": 0.7351,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0009",
+  "anh_truy_van_mat_dat": "query/P0916T04060A1/P0916T04060A1C3F04861.jpg",
+  "ma_muc_tieu": 916040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0916T04060A1/P0916T04060A1C0F10711.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F10501.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F10591.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F11311.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F11131.jpg"
+  ],
+  "do_tin": 0.7486,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0010",
+  "anh_truy_van_mat_dat": "query/P0703T04070A0/P0703T04070A0C3F05971.jpg",
+  "ma_muc_tieu": 703040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0703T04070A0/P0703T04070A0C0F13621.jpg",
+   "gallery/P0703T04070A0/P0703T04070A0C0F13951.jpg",
+   "gallery/P0703T04070A0/P0703T04070A0C0F13081.jpg",
+   "gallery/P0703T04070A0/P0703T04070A0C0F13201.jpg",
+   "gallery/P0703T04070A0/P0703T04070A0C0F13381.jpg"
+  ],
+  "do_tin": 0.7465,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0011",
+  "anh_truy_van_mat_dat": "query/P0782T04060A1/P0782T04060A1C3F03991.jpg",
+  "ma_muc_tieu": 782040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0782T04060A1/P0782T04060A1C0F07681.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F07981.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08011.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08281.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08221.jpg"
+  ],
+  "do_tin": 0.7984,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0012",
+  "anh_truy_van_mat_dat": "query/P0150T04071A1/P0150T04071A1C3F00361.jpg",
+  "ma_muc_tieu": 150040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0150T04071A1/P0150T04071A1C0F01891.jpg",
+   "gallery/P0150T04071A1/P0150T04071A1C0F04861.jpg",
+   "gallery/P0150T04071A1/P0150T04071A1C0F04531.jpg",
+   "gallery/P0150T04071A1/P0150T04071A1C0F02311.jpg",
+   "gallery/P0150T04071A1/P0150T04071A1C0F03241.jpg"
+  ],
+  "do_tin": 0.7547,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0013",
+  "anh_truy_van_mat_dat": "query/P0150T04071A1/P0150T04071A1C3F00301.jpg",
+  "ma_muc_tieu": 150040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0150T04071A1/P0150T04071A1C0F01891.jpg",
+   "gallery/P0150T04071A1/P0150T04071A1C0F04861.jpg",
+   "gallery/P0150T04071A1/P0150T04071A1C0F04531.jpg",
+   "gallery/P0150T04071A1/P0150T04071A1C0F02311.jpg",
+   "gallery/P0150T04071A1/P0150T04071A1C0F03241.jpg"
+  ],
+  "do_tin": 0.7542,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0014",
+  "anh_truy_van_mat_dat": "query/P0439T04051A2/P0439T04051A2C3F11401.jpg",
+  "ma_muc_tieu": 439040512,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0439T04051A2/P0439T04051A2C0F16981.jpg",
+   "gallery/P0439T04051A2/P0439T04051A2C0F17011.jpg",
+   "gallery/P0439T04051A2/P0439T04051A2C0F17401.jpg",
+   "gallery/P0439T04051A2/P0439T04051A2C0F17431.jpg",
+   "gallery/P0439T04051A2/P0439T04051A2C0F17371.jpg"
+  ],
+  "do_tin": 0.8294,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0015",
+  "anh_truy_van_mat_dat": "query/P0348T04060A0/P0348T04060A0C3F03151.jpg",
+  "ma_muc_tieu": 348040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0348T04060A0/P0348T04060A0C0F07471.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07441.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F06601.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07171.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07561.jpg"
+  ],
+  "do_tin": 0.7691,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0016",
+  "anh_truy_van_mat_dat": "query/P1785T04071A2/P1785T04071A2C3F11971.jpg",
+  "ma_muc_tieu": 1785040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1785T04071A2/P1785T04071A2C0F23971.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24211.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24391.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F23941.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24271.jpg"
+  ],
+  "do_tin": 0.8066,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0017",
+  "anh_truy_van_mat_dat": "query/P0664T04060A1/P0664T04060A1C3F02731.jpg",
+  "ma_muc_tieu": 685040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0685T04060A1/P0685T04060A1C0F06511.jpg",
+   "gallery/P0685T04060A1/P0685T04060A1C0F07081.jpg",
+   "gallery/P0685T04060A1/P0685T04060A1C0F06751.jpg",
+   "gallery/P0685T04060A1/P0685T04060A1C0F07051.jpg",
+   "gallery/P0685T04060A1/P0685T04060A1C0F06691.jpg"
+  ],
+  "do_tin": 0.7406,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0018",
+  "anh_truy_van_mat_dat": "query/P1048T04071A1/P1048T04071A1C3F07051.jpg",
+  "ma_muc_tieu": 847040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0847T04071A0/P0847T04071A0C0F09541.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09061.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09301.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09331.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09571.jpg"
+  ],
+  "do_tin": 0.7338,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0019",
+  "anh_truy_van_mat_dat": "query/P0769T04071A1/P0769T04071A1C3F06271.jpg",
+  "ma_muc_tieu": 769040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0769T04071A1/P0769T04071A1C0F09301.jpg",
+   "gallery/P0769T04071A1/P0769T04071A1C0F08521.jpg",
+   "gallery/P0769T04071A1/P0769T04071A1C0F08761.jpg",
+   "gallery/P0769T04071A1/P0769T04071A1C0F08791.jpg",
+   "gallery/P0769T04071A1/P0769T04071A1C0F08641.jpg"
+  ],
+  "do_tin": 0.7337,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0020",
+  "anh_truy_van_mat_dat": "query/P1048T04071A1/P1048T04071A1C3F07021.jpg",
+  "ma_muc_tieu": 1706040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1706T04071A2/P1706T04071A2C0F22891.jpg",
+   "gallery/P1706T04071A2/P1706T04071A2C0F22921.jpg",
+   "gallery/P1706T04071A2/P1706T04071A2C0F23131.jpg",
+   "gallery/P1706T04071A2/P1706T04071A2C0F23011.jpg",
+   "gallery/P1706T04071A2/P1706T04071A2C0F23071.jpg"
+  ],
+  "do_tin": 0.7328,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0021",
+  "anh_truy_van_mat_dat": "query/P1703T04071A2/P1703T04071A2C3F11071.jpg",
+  "ma_muc_tieu": 1703040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1703T04071A2/P1703T04071A2C0F23071.jpg",
+   "gallery/P1703T04071A2/P1703T04071A2C0F23671.jpg",
+   "gallery/P1703T04071A2/P1703T04071A2C0F23221.jpg",
+   "gallery/P1703T04071A2/P1703T04071A2C0F23641.jpg",
+   "gallery/P1703T04071A2/P1703T04071A2C0F22981.jpg"
+  ],
+  "do_tin": 0.758,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0022",
+  "anh_truy_van_mat_dat": "query/P0389T04051A2/P0389T04051A2C3F8941.jpg",
+  "ma_muc_tieu": 389040512,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0389T04051A2/P0389T04051A2C0F12901.jpg",
+   "gallery/P0389T04051A2/P0389T04051A2C0F13021.jpg",
+   "gallery/P0389T04051A2/P0389T04051A2C0F11401.jpg",
+   "gallery/P0389T04051A2/P0389T04051A2C0F14911.jpg",
+   "gallery/P0389T04051A2/P0389T04051A2C0F14821.jpg"
+  ],
+  "do_tin": 0.7816,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0023",
+  "anh_truy_van_mat_dat": "query/P1550T04060A0/P1550T04060A0C3F10441.jpg",
+  "ma_muc_tieu": 1550040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1550T04060A0/P1550T04060A0C0F22501.jpg",
+   "gallery/P1550T04060A0/P1550T04060A0C0F22321.jpg",
+   "gallery/P1550T04060A0/P1550T04060A0C0F21211.jpg",
+   "gallery/P1550T04060A0/P1550T04060A0C0F21931.jpg",
+   "gallery/P1550T04060A0/P1550T04060A0C0F21811.jpg"
+  ],
+  "do_tin": 0.774,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0024",
+  "anh_truy_van_mat_dat": "query/P0586T04071A2/P0586T04071A2C3F05521.jpg",
+  "ma_muc_tieu": 586040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0586T04071A2/P0586T04071A2C0F08881.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08281.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08521.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08371.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08611.jpg"
+  ],
+  "do_tin": 0.7398,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0025",
+  "anh_truy_van_mat_dat": "query/P1182T04060A1/P1182T04060A1C3F06541.jpg",
+  "ma_muc_tieu": 1182040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1182T04060A1/P1182T04060A1C0F13711.jpg",
+   "gallery/P1182T04060A1/P1182T04060A1C0F13681.jpg",
+   "gallery/P1182T04060A1/P1182T04060A1C0F13831.jpg",
+   "gallery/P1182T04060A1/P1182T04060A1C0F13801.jpg",
+   "gallery/P1182T04060A1/P1182T04060A1C0F13771.jpg"
+  ],
+  "do_tin": 0.7848,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0026",
+  "anh_truy_van_mat_dat": "query/P1031T04070A0/P1031T04070A0C3F11311.jpg",
+  "ma_muc_tieu": 1031040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1031T04070A0/P1031T04070A0C0F16891.jpg",
+   "gallery/P1031T04070A0/P1031T04070A0C0F17641.jpg",
+   "gallery/P1031T04070A0/P1031T04070A0C0F17971.jpg",
+   "gallery/P1031T04070A0/P1031T04070A0C0F17551.jpg",
+   "gallery/P1031T04070A0/P1031T04070A0C0F17851.jpg"
+  ],
+  "do_tin": 0.7724,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0027",
+  "anh_truy_van_mat_dat": "query/P2584T04071A0/P2584T04071A0C3F11551.jpg",
+  "ma_muc_tieu": 2584040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2584T04071A0/P2584T04071A0C0F22561.jpg",
+   "gallery/P2584T04071A0/P2584T04071A0C0F22471.jpg",
+   "gallery/P2584T04071A0/P2584T04071A0C0F22501.jpg"
+  ],
+  "do_tin": 0.7481,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0028",
+  "anh_truy_van_mat_dat": "query/P1436T04070A1/P1436T04070A1C3F09541.jpg",
+  "ma_muc_tieu": 1436040701,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1436T04070A1/P1436T04070A1C0F15631.jpg",
+   "gallery/P1436T04070A1/P1436T04070A1C0F15661.jpg",
+   "gallery/P1436T04070A1/P1436T04070A1C0F15601.jpg",
+   "gallery/P1436T04070A1/P1436T04070A1C0F15751.jpg",
+   "gallery/P1436T04070A1/P1436T04070A1C0F15841.jpg"
+  ],
+  "do_tin": 0.7802,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0029",
+  "anh_truy_van_mat_dat": "query/P0345T04070A0/P0345T04070A0C3F04471.jpg",
+  "ma_muc_tieu": 345040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0345T04070A0/P0345T04070A0C0F05521.jpg",
+   "gallery/P0345T04070A0/P0345T04070A0C0F05791.jpg",
+   "gallery/P0345T04070A0/P0345T04070A0C0F05491.jpg",
+   "gallery/P0345T04070A0/P0345T04070A0C0F06091.jpg",
+   "gallery/P0345T04070A0/P0345T04070A0C0F05851.jpg"
+  ],
+  "do_tin": 0.7639,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0030",
+  "anh_truy_van_mat_dat": "query/P1370T04060A0/P1370T04060A0C3F10111.jpg",
+  "ma_muc_tieu": 1370040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1370T04060A0/P1370T04060A0C0F19531.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19711.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19651.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F20191.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19111.jpg"
+  ],
+  "do_tin": 0.836,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0031",
+  "anh_truy_van_mat_dat": "query/P0691T04071A2/P0691T04071A2C3F06541.jpg",
+  "ma_muc_tieu": 691040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0691T04071A2/P0691T04071A2C0F09451.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10261.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10021.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F09601.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10231.jpg"
+  ],
+  "do_tin": 0.8374,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0032",
+  "anh_truy_van_mat_dat": "query/P1040T04060A0/P1040T04060A0C3F06511.jpg",
+  "ma_muc_tieu": 1370040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1370T04060A0/P1370T04060A0C0F19531.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19711.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19651.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F20191.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19111.jpg"
+  ],
+  "do_tin": 0.7293,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0033",
+  "anh_truy_van_mat_dat": "query/P1826T04060A1/P1826T04060A1C3F11701.jpg",
+  "ma_muc_tieu": 1826040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1826T04060A1/P1826T04060A1C0F21001.jpg",
+   "gallery/P1826T04060A1/P1826T04060A1C0F20731.jpg",
+   "gallery/P1826T04060A1/P1826T04060A1C0F20971.jpg",
+   "gallery/P1826T04060A1/P1826T04060A1C0F20851.jpg",
+   "gallery/P1826T04060A1/P1826T04060A1C0F20821.jpg"
+  ],
+  "do_tin": 0.7777,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0034",
+  "anh_truy_van_mat_dat": "query/P1285T04060A1/P1285T04060A1C3F00091.jpg",
+  "ma_muc_tieu": 1285040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1285T04060A1/P1285T04060A1C0F14761.jpg",
+   "gallery/P1285T04060A1/P1285T04060A1C0F14791.jpg",
+   "gallery/P1285T04060A1/P1285T04060A1C0F14851.jpg",
+   "gallery/P1285T04060A1/P1285T04060A1C0F14701.jpg",
+   "gallery/P1285T04060A1/P1285T04060A1C0F14821.jpg"
+  ],
+  "do_tin": 0.7336,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0035",
+  "anh_truy_van_mat_dat": "query/P1939T04071A2/P1939T04071A2C3F13801.jpg",
+  "ma_muc_tieu": 871040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0871T04071A0/P0871T04071A0C0F09451.jpg",
+   "gallery/P0871T04071A0/P0871T04071A0C0F09301.jpg",
+   "gallery/P0871T04071A0/P0871T04071A0C0F10021.jpg",
+   "gallery/P0871T04071A0/P0871T04071A0C0F10051.jpg",
+   "gallery/P0871T04071A0/P0871T04071A0C0F09841.jpg"
+  ],
+  "do_tin": 0.7345,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0036",
+  "anh_truy_van_mat_dat": "query/P1040T04060A0/P1040T04060A0C3F06751.jpg",
+  "ma_muc_tieu": 1040040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1040T04060A0/P1040T04060A0C0F12721.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12871.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F13201.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12781.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12841.jpg"
+  ],
+  "do_tin": 0.7401,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0037",
+  "anh_truy_van_mat_dat": "query/P1147T04060A1/P1147T04060A1C3F06661.jpg",
+  "ma_muc_tieu": 1147040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1147T04060A1/P1147T04060A1C0F13051.jpg",
+   "gallery/P1147T04060A1/P1147T04060A1C0F13471.jpg",
+   "gallery/P1147T04060A1/P1147T04060A1C0F13651.jpg",
+   "gallery/P1147T04060A1/P1147T04060A1C0F13141.jpg",
+   "gallery/P1147T04060A1/P1147T04060A1C0F13681.jpg"
+  ],
+  "do_tin": 0.7521,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0038",
+  "anh_truy_van_mat_dat": "query/P1076T04070A0/P1076T04070A0C3F08371.jpg",
+  "ma_muc_tieu": 1076040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1076T04070A0/P1076T04070A0C0F17161.jpg",
+   "gallery/P1076T04070A0/P1076T04070A0C0F17041.jpg",
+   "gallery/P1076T04070A0/P1076T04070A0C0F17191.jpg",
+   "gallery/P1076T04070A0/P1076T04070A0C0F16951.jpg",
+   "gallery/P1076T04070A0/P1076T04070A0C0F17281.jpg"
+  ],
+  "do_tin": 0.808,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0039",
+  "anh_truy_van_mat_dat": "query/P1180T04060A0/P1180T04060A0C3F07951.jpg",
+  "ma_muc_tieu": 1180040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1180T04060A0/P1180T04060A0C0F16141.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F15721.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F16111.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F15871.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F15601.jpg"
+  ],
+  "do_tin": 0.7435,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0040",
+  "anh_truy_van_mat_dat": "query/P1768T04060A0/P1768T04060A0C3F12001.jpg",
+  "ma_muc_tieu": 1768040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1768T04060A0/P1768T04060A0C0F23251.jpg",
+   "gallery/P1768T04060A0/P1768T04060A0C0F23491.jpg",
+   "gallery/P1768T04060A0/P1768T04060A0C0F23311.jpg",
+   "gallery/P1768T04060A0/P1768T04060A0C0F23131.jpg",
+   "gallery/P1768T04060A0/P1768T04060A0C0F23881.jpg"
+  ],
+  "do_tin": 0.7539,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0041",
+  "anh_truy_van_mat_dat": "query/P0362T04051A2/P0362T04051A2C3F6481.jpg",
+  "ma_muc_tieu": 132040510,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0132T04051A0/P0132T04051A0C0F23311.jpg",
+   "gallery/P0132T04051A0/P0132T04051A0C0F22951.jpg",
+   "gallery/P0132T04051A0/P0132T04051A0C0F22531.jpg",
+   "gallery/P0132T04051A0/P0132T04051A0C0F22741.jpg",
+   "gallery/P0132T04051A0/P0132T04051A0C0F23971.jpg"
+  ],
+  "do_tin": 0.7394,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0042",
+  "anh_truy_van_mat_dat": "query/P1530T04060A0/P1530T04060A0C3F10591.jpg",
+  "ma_muc_tieu": 1530040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1530T04060A0/P1530T04060A0C0F22801.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F21211.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F22321.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F22081.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F21901.jpg"
+  ],
+  "do_tin": 0.8036,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0043",
+  "anh_truy_van_mat_dat": "query/P0895T04060A1/P0895T04060A1C3F04891.jpg",
+  "ma_muc_tieu": 895040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0895T04060A1/P0895T04060A1C0F09511.jpg",
+   "gallery/P0895T04060A1/P0895T04060A1C0F09571.jpg"
+  ],
+  "do_tin": 0.7462,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0044",
+  "anh_truy_van_mat_dat": "query/P2414T04071A0/P2414T04071A0C3F12121.jpg",
+  "ma_muc_tieu": 2414040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2414T04071A0/P2414T04071A0C0F21691.jpg",
+   "gallery/P2414T04071A0/P2414T04071A0C0F21661.jpg",
+   "gallery/P2414T04071A0/P2414T04071A0C0F21271.jpg",
+   "gallery/P2414T04071A0/P2414T04071A0C0F21181.jpg",
+   "gallery/P2414T04071A0/P2414T04071A0C0F21511.jpg"
+  ],
+  "do_tin": 0.7448,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0045",
+  "anh_truy_van_mat_dat": "query/P0441T04070A0/P0441T04070A0C3F04081.jpg",
+  "ma_muc_tieu": 441040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0441T04070A0/P0441T04070A0C0F08611.jpg",
+   "gallery/P0441T04070A0/P0441T04070A0C0F07711.jpg",
+   "gallery/P0441T04070A0/P0441T04070A0C0F07861.jpg",
+   "gallery/P0441T04070A0/P0441T04070A0C0F08011.jpg",
+   "gallery/P0441T04070A0/P0441T04070A0C0F07891.jpg"
+  ],
+  "do_tin": 0.789,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0046",
+  "anh_truy_van_mat_dat": "query/P2051T04071A0/P2051T04071A0C3F11011.jpg",
+  "ma_muc_tieu": 2051040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2051T04071A0/P2051T04071A0C0F18931.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F19051.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18871.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18811.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18991.jpg"
+  ],
+  "do_tin": 0.7372,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0047",
+  "anh_truy_van_mat_dat": "query/P1895T04060A0/P1895T04060A0C3F12181.jpg",
+  "ma_muc_tieu": 1895040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1895T04060A0/P1895T04060A0C0F24301.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F24691.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F25321.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F24751.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F25021.jpg"
+  ],
+  "do_tin": 0.7325,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0048",
+  "anh_truy_van_mat_dat": "query/P0303T04070A1/P0303T04070A1C3F01291.jpg",
+  "ma_muc_tieu": 303040701,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0303T04070A1/P0303T04070A1C0F03781.jpg",
+   "gallery/P0303T04070A1/P0303T04070A1C0F03151.jpg",
+   "gallery/P0303T04070A1/P0303T04070A1C0F02941.jpg",
+   "gallery/P0303T04070A1/P0303T04070A1C0F02731.jpg",
+   "gallery/P0303T04070A1/P0303T04070A1C0F03511.jpg"
+  ],
+  "do_tin": 0.7717,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0049",
+  "anh_truy_van_mat_dat": "query/P1358T04060A0/P1358T04060A0C3F08881.jpg",
+  "ma_muc_tieu": 1358040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1358T04060A0/P1358T04060A0C0F18901.jpg",
+   "gallery/P1358T04060A0/P1358T04060A0C0F19441.jpg",
+   "gallery/P1358T04060A0/P1358T04060A0C0F18751.jpg",
+   "gallery/P1358T04060A0/P1358T04060A0C0F19261.jpg",
+   "gallery/P1358T04060A0/P1358T04060A0C0F18661.jpg"
+  ],
+  "do_tin": 0.7661,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0050",
+  "anh_truy_van_mat_dat": "query/P0721T04070A1/P0721T04070A1C3F03661.jpg",
+  "ma_muc_tieu": 721040701,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0721T04070A1/P0721T04070A1C0F07531.jpg",
+   "gallery/P0721T04070A1/P0721T04070A1C0F07501.jpg",
+   "gallery/P0721T04070A1/P0721T04070A1C0F06811.jpg",
+   "gallery/P0721T04070A1/P0721T04070A1C0F07201.jpg",
+   "gallery/P0721T04070A1/P0721T04070A1C0F07231.jpg"
+  ],
+  "do_tin": 0.7309,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0051",
+  "anh_truy_van_mat_dat": "query/P0346T04070A0/P0346T04070A0C3F02581.jpg",
+  "ma_muc_tieu": 346040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0346T04070A0/P0346T04070A0C0F05851.jpg",
+   "gallery/P0346T04070A0/P0346T04070A0C0F05551.jpg",
+   "gallery/P0346T04070A0/P0346T04070A0C0F06481.jpg",
+   "gallery/P0346T04070A0/P0346T04070A0C0F05701.jpg",
+   "gallery/P0346T04070A0/P0346T04070A0C0F05611.jpg"
+  ],
+  "do_tin": 0.7325,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0052",
+  "anh_truy_van_mat_dat": "query/P0594T04060A1/P0594T04060A1C3F03361.jpg",
+  "ma_muc_tieu": 1500040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1500T04060A0/P1500T04060A0C0F21001.jpg",
+   "gallery/P1500T04060A0/P1500T04060A0C0F20881.jpg",
+   "gallery/P1500T04060A0/P1500T04060A0C0F22111.jpg",
+   "gallery/P1500T04060A0/P1500T04060A0C0F21721.jpg",
+   "gallery/P1500T04060A0/P1500T04060A0C0F21781.jpg"
+  ],
+  "do_tin": 0.7295,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0053",
+  "anh_truy_van_mat_dat": "query/P1944T04060A2/P1944T04060A2C3F10171.jpg",
+  "ma_muc_tieu": 1944040602,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1944T04060A2/P1944T04060A2C0F12091.jpg",
+   "gallery/P1944T04060A2/P1944T04060A2C0F12331.jpg",
+   "gallery/P1944T04060A2/P1944T04060A2C0F12391.jpg",
+   "gallery/P1944T04060A2/P1944T04060A2C0F12271.jpg",
+   "gallery/P1944T04060A2/P1944T04060A2C0F12301.jpg"
+  ],
+  "do_tin": 0.7375,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0054",
+  "anh_truy_van_mat_dat": "query/P1825T04060A1/P1825T04060A1C3F09691.jpg",
+  "ma_muc_tieu": 1825040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1825T04060A1/P1825T04060A1C0F23521.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F22171.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F21151.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F24001.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F21271.jpg"
+  ],
+  "do_tin": 0.7626,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0055",
+  "anh_truy_van_mat_dat": "query/P0710T04060A1/P0710T04060A1C3F03391.jpg",
+  "ma_muc_tieu": 710040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0710T04060A1/P0710T04060A1C0F08191.jpg",
+   "gallery/P0710T04060A1/P0710T04060A1C0F08551.jpg",
+   "gallery/P0710T04060A1/P0710T04060A1C0F07651.jpg",
+   "gallery/P0710T04060A1/P0710T04060A1C0F07441.jpg",
+   "gallery/P0710T04060A1/P0710T04060A1C0F07081.jpg"
+  ],
+  "do_tin": 0.7393,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0056",
+  "anh_truy_van_mat_dat": "query/P0002T04071A2/P0002T04071A2C3F02071.jpg",
+  "ma_muc_tieu": 837040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0837T04071A0/P0837T04071A0C0F09721.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09331.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09301.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09691.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09061.jpg"
+  ],
+  "do_tin": 0.7277,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0057",
+  "anh_truy_van_mat_dat": "query/P0691T04071A2/P0691T04071A2C3F06661.jpg",
+  "ma_muc_tieu": 691040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0691T04071A2/P0691T04071A2C0F09451.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10261.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10021.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F09601.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10231.jpg"
+  ],
+  "do_tin": 0.833,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0058",
+  "anh_truy_van_mat_dat": "query/P0041T04051A0/P0041T04051A0C3F10291.jpg",
+  "ma_muc_tieu": 41040510,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0041T04051A0/P0041T04051A0C0F7621.jpg",
+   "gallery/P0041T04051A0/P0041T04051A0C0F6631.jpg",
+   "gallery/P0041T04051A0/P0041T04051A0C0F6661.jpg",
+   "gallery/P0041T04051A0/P0041T04051A0C0F7951.jpg",
+   "gallery/P0041T04051A0/P0041T04051A0C0F6781.jpg"
+  ],
+  "do_tin": 0.741,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0059",
+  "anh_truy_van_mat_dat": "query/P0819T04071A1/P0819T04071A1C3F05401.jpg",
+  "ma_muc_tieu": 819040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0819T04071A1/P0819T04071A1C0F08971.jpg",
+   "gallery/P0819T04071A1/P0819T04071A1C0F09091.jpg",
+   "gallery/P0819T04071A1/P0819T04071A1C0F08821.jpg",
+   "gallery/P0819T04071A1/P0819T04071A1C0F08941.jpg",
+   "gallery/P0819T04071A1/P0819T04071A1C0F09061.jpg"
+  ],
+  "do_tin": 0.7733,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0060",
+  "anh_truy_van_mat_dat": "query/P0175T04071A0/P0175T04071A0C3F02911.jpg",
+  "ma_muc_tieu": 175040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0175T04071A0/P0175T04071A0C0F02101.jpg",
+   "gallery/P0175T04071A0/P0175T04071A0C0F02251.jpg",
+   "gallery/P0175T04071A0/P0175T04071A0C0F02281.jpg",
+   "gallery/P0175T04071A0/P0175T04071A0C0F02341.jpg",
+   "gallery/P0175T04071A0/P0175T04071A0C0F02131.jpg"
+  ],
+  "do_tin": 0.8197,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0061",
+  "anh_truy_van_mat_dat": "query/P1615T04060A2/P1615T04060A2C3F05311.jpg",
+  "ma_muc_tieu": 588040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0588T04060A0/P0588T04060A0C0F10441.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09931.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09331.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09301.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09061.jpg"
+  ],
+  "do_tin": 0.7438,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0062",
+  "anh_truy_van_mat_dat": "query/P0850T04071A2/P0850T04071A2C3F05401.jpg",
+  "ma_muc_tieu": 850040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0850T04071A2/P0850T04071A2C0F12031.jpg",
+   "gallery/P0850T04071A2/P0850T04071A2C0F12331.jpg",
+   "gallery/P0850T04071A2/P0850T04071A2C0F11551.jpg",
+   "gallery/P0850T04071A2/P0850T04071A2C0F11701.jpg",
+   "gallery/P0850T04071A2/P0850T04071A2C0F12061.jpg"
+  ],
+  "do_tin": 0.7675,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0063",
+  "anh_truy_van_mat_dat": "query/P1785T04071A2/P1785T04071A2C3F11701.jpg",
+  "ma_muc_tieu": 1785040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1785T04071A2/P1785T04071A2C0F23971.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24211.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24391.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F23941.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24271.jpg"
+  ],
+  "do_tin": 0.7674,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0064",
+  "anh_truy_van_mat_dat": "query/P0691T04071A2/P0691T04071A2C3F06211.jpg",
+  "ma_muc_tieu": 691040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0691T04071A2/P0691T04071A2C0F09451.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10261.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10021.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F09601.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10231.jpg"
+  ],
+  "do_tin": 0.8203,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0065",
+  "anh_truy_van_mat_dat": "query/P1333T04060A0/P1333T04060A0C3F08461.jpg",
+  "ma_muc_tieu": 1333040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1333T04060A0/P1333T04060A0C0F18931.jpg",
+   "gallery/P1333T04060A0/P1333T04060A0C0F18091.jpg",
+   "gallery/P1333T04060A0/P1333T04060A0C0F18661.jpg",
+   "gallery/P1333T04060A0/P1333T04060A0C0F18271.jpg",
+   "gallery/P1333T04060A0/P1333T04060A0C0F18061.jpg"
+  ],
+  "do_tin": 0.7868,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0066",
+  "anh_truy_van_mat_dat": "query/P0175T04071A0/P0175T04071A0C3F02941.jpg",
+  "ma_muc_tieu": 175040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0175T04071A0/P0175T04071A0C0F02101.jpg",
+   "gallery/P0175T04071A0/P0175T04071A0C0F02251.jpg",
+   "gallery/P0175T04071A0/P0175T04071A0C0F02281.jpg",
+   "gallery/P0175T04071A0/P0175T04071A0C0F02341.jpg",
+   "gallery/P0175T04071A0/P0175T04071A0C0F02131.jpg"
+  ],
+  "do_tin": 0.7893,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0067",
+  "anh_truy_van_mat_dat": "query/P0867T04070A0/P0867T04070A0C3F08221.jpg",
+  "ma_muc_tieu": 867040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0867T04070A0/P0867T04070A0C0F13981.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F13831.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F14011.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F14191.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F13771.jpg"
+  ],
+  "do_tin": 0.7472,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0068",
+  "anh_truy_van_mat_dat": "query/P2527T04070A2/P2527T04070A2C3F07801.jpg",
+  "ma_muc_tieu": 2527040702,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2527T04070A2/P2527T04070A2C0F15901.jpg",
+   "gallery/P2527T04070A2/P2527T04070A2C0F15721.jpg",
+   "gallery/P2527T04070A2/P2527T04070A2C0F15841.jpg",
+   "gallery/P2527T04070A2/P2527T04070A2C0F15871.jpg",
+   "gallery/P2527T04070A2/P2527T04070A2C0F16261.jpg"
+  ],
+  "do_tin": 0.7379,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0069",
+  "anh_truy_van_mat_dat": "query/P2276T04070A1/P2276T04070A1C3F13141.jpg",
+  "ma_muc_tieu": 2276040701,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2276T04070A1/P2276T04070A1C0F26881.jpg",
+   "gallery/P2276T04070A1/P2276T04070A1C0F26701.jpg",
+   "gallery/P2276T04070A1/P2276T04070A1C0F26491.jpg",
+   "gallery/P2276T04070A1/P2276T04070A1C0F26761.jpg",
+   "gallery/P2276T04070A1/P2276T04070A1C0F26521.jpg"
+  ],
+  "do_tin": 0.7774,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0070",
+  "anh_truy_van_mat_dat": "query/P1180T04060A0/P1180T04060A0C3F07891.jpg",
+  "ma_muc_tieu": 1180040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1180T04060A0/P1180T04060A0C0F16141.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F15721.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F16111.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F15871.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F15601.jpg"
+  ],
+  "do_tin": 0.7378,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0071",
+  "anh_truy_van_mat_dat": "query/P1182T04060A0/P1182T04060A0C3F07561.jpg",
+  "ma_muc_tieu": 1182040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1182T04060A0/P1182T04060A0C0F15601.jpg",
+   "gallery/P1182T04060A0/P1182T04060A0C0F15781.jpg",
+   "gallery/P1182T04060A0/P1182T04060A0C0F15961.jpg",
+   "gallery/P1182T04060A0/P1182T04060A0C0F15841.jpg",
+   "gallery/P1182T04060A0/P1182T04060A0C0F15661.jpg"
+  ],
+  "do_tin": 0.7877,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0072",
+  "anh_truy_van_mat_dat": "query/P0499T04060A0/P0499T04060A0C3F04951.jpg",
+  "ma_muc_tieu": 499040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0499T04060A0/P0499T04060A0C0F07921.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08371.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08191.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08551.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08071.jpg"
+  ],
+  "do_tin": 0.763,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0073",
+  "anh_truy_van_mat_dat": "query/P2328T04060A1/P2328T04060A1C3F14431.jpg",
+  "ma_muc_tieu": 2328040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2328T04060A1/P2328T04060A1C0F25951.jpg",
+   "gallery/P2328T04060A1/P2328T04060A1C0F26011.jpg",
+   "gallery/P2328T04060A1/P2328T04060A1C0F25921.jpg",
+   "gallery/P2328T04060A1/P2328T04060A1C0F25861.jpg",
+   "gallery/P2328T04060A1/P2328T04060A1C0F25711.jpg"
+  ],
+  "do_tin": 0.7699,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0074",
+  "anh_truy_van_mat_dat": "query/P0499T04060A0/P0499T04060A0C3F04921.jpg",
+  "ma_muc_tieu": 499040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0499T04060A0/P0499T04060A0C0F07921.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08371.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08191.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08551.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08071.jpg"
+  ],
+  "do_tin": 0.7505,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0075",
+  "anh_truy_van_mat_dat": "query/P0701T04060A0/P0701T04060A0C3F04471.jpg",
+  "ma_muc_tieu": 701040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0701T04060A0/P0701T04060A0C0F10351.jpg",
+   "gallery/P0701T04060A0/P0701T04060A0C0F10381.jpg",
+   "gallery/P0701T04060A0/P0701T04060A0C0F10681.jpg",
+   "gallery/P0701T04060A0/P0701T04060A0C0F10441.jpg",
+   "gallery/P0701T04060A0/P0701T04060A0C0F10741.jpg"
+  ],
+  "do_tin": 0.8218,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0076",
+  "anh_truy_van_mat_dat": "query/P0368T04071A2/P0368T04071A2C3F02341.jpg",
+  "ma_muc_tieu": 368040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0368T04071A2/P0368T04071A2C0F04891.jpg",
+   "gallery/P0368T04071A2/P0368T04071A2C0F04921.jpg",
+   "gallery/P0368T04071A2/P0368T04071A2C0F05551.jpg",
+   "gallery/P0368T04071A2/P0368T04071A2C0F05101.jpg",
+   "gallery/P0368T04071A2/P0368T04071A2C0F05581.jpg"
+  ],
+  "do_tin": 0.728,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0077",
+  "anh_truy_van_mat_dat": "query/P0586T04071A2/P0586T04071A2C3F06061.jpg",
+  "ma_muc_tieu": 1566040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1566T04071A1/P1566T04071A1C0F18481.jpg",
+   "gallery/P1566T04071A1/P1566T04071A1C0F18001.jpg",
+   "gallery/P1566T04071A1/P1566T04071A1C0F18751.jpg",
+   "gallery/P1566T04071A1/P1566T04071A1C0F18421.jpg",
+   "gallery/P1566T04071A1/P1566T04071A1C0F18121.jpg"
+  ],
+  "do_tin": 0.7294,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0078",
+  "anh_truy_van_mat_dat": "query/P0782T04060A1/P0782T04060A1C3F03841.jpg",
+  "ma_muc_tieu": 782040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0782T04060A1/P0782T04060A1C0F07681.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F07981.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08011.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08281.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08221.jpg"
+  ],
+  "do_tin": 0.8446,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0079",
+  "anh_truy_van_mat_dat": "query/P1358T04060A0/P1358T04060A0C3F08851.jpg",
+  "ma_muc_tieu": 1358040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1358T04060A0/P1358T04060A0C0F18901.jpg",
+   "gallery/P1358T04060A0/P1358T04060A0C0F19441.jpg",
+   "gallery/P1358T04060A0/P1358T04060A0C0F18751.jpg",
+   "gallery/P1358T04060A0/P1358T04060A0C0F19261.jpg",
+   "gallery/P1358T04060A0/P1358T04060A0C0F18661.jpg"
+  ],
+  "do_tin": 0.7776,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0080",
+  "anh_truy_van_mat_dat": "query/P0173T04060A0/P0173T04060A0C3F03811.jpg",
+  "ma_muc_tieu": 173040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0173T04060A0/P0173T04060A0C0F04261.jpg",
+   "gallery/P0173T04060A0/P0173T04060A0C0F03001.jpg",
+   "gallery/P0173T04060A0/P0173T04060A0C0F02911.jpg",
+   "gallery/P0173T04060A0/P0173T04060A0C0F02851.jpg",
+   "gallery/P0173T04060A0/P0173T04060A0C0F03181.jpg"
+  ],
+  "do_tin": 0.7424,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0081",
+  "anh_truy_van_mat_dat": "query/P1358T04060A0/P1358T04060A0C3F08941.jpg",
+  "ma_muc_tieu": 1358040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1358T04060A0/P1358T04060A0C0F18901.jpg",
+   "gallery/P1358T04060A0/P1358T04060A0C0F19441.jpg",
+   "gallery/P1358T04060A0/P1358T04060A0C0F18751.jpg",
+   "gallery/P1358T04060A0/P1358T04060A0C0F19261.jpg",
+   "gallery/P1358T04060A0/P1358T04060A0C0F18661.jpg"
+  ],
+  "do_tin": 0.7709,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0082",
+  "anh_truy_van_mat_dat": "query/P0867T04070A0/P0867T04070A0C3F07531.jpg",
+  "ma_muc_tieu": 867040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0867T04070A0/P0867T04070A0C0F13981.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F13831.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F14011.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F14191.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F13771.jpg"
+  ],
+  "do_tin": 0.7965,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0083",
+  "anh_truy_van_mat_dat": "query/P1826T04060A1/P1826T04060A1C3F11671.jpg",
+  "ma_muc_tieu": 1826040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1826T04060A1/P1826T04060A1C0F21001.jpg",
+   "gallery/P1826T04060A1/P1826T04060A1C0F20731.jpg",
+   "gallery/P1826T04060A1/P1826T04060A1C0F20971.jpg",
+   "gallery/P1826T04060A1/P1826T04060A1C0F20851.jpg",
+   "gallery/P1826T04060A1/P1826T04060A1C0F20821.jpg"
+  ],
+  "do_tin": 0.7498,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0084",
+  "anh_truy_van_mat_dat": "query/P0130T04060A0/P0130T04060A0C3F02191.jpg",
+  "ma_muc_tieu": 130040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0130T04060A0/P0130T04060A0C0F02041.jpg",
+   "gallery/P0130T04060A0/P0130T04060A0C0F02371.jpg",
+   "gallery/P0130T04060A0/P0130T04060A0C0F02161.jpg",
+   "gallery/P0130T04060A0/P0130T04060A0C0F02191.jpg",
+   "gallery/P0130T04060A0/P0130T04060A0C0F02281.jpg"
+  ],
+  "do_tin": 0.7498,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0085",
+  "anh_truy_van_mat_dat": "query/P1015T04060A0/P1015T04060A0C3F05851.jpg",
+  "ma_muc_tieu": 1015040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1015T04060A0/P1015T04060A0C0F12961.jpg",
+   "gallery/P1015T04060A0/P1015T04060A0C0F13441.jpg",
+   "gallery/P1015T04060A0/P1015T04060A0C0F13171.jpg",
+   "gallery/P1015T04060A0/P1015T04060A0C0F12571.jpg",
+   "gallery/P1015T04060A0/P1015T04060A0C0F12751.jpg"
+  ],
+  "do_tin": 0.7376,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0086",
+  "anh_truy_van_mat_dat": "query/P1040T04060A0/P1040T04060A0C3F06631.jpg",
+  "ma_muc_tieu": 1040040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1040T04060A0/P1040T04060A0C0F12721.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12871.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F13201.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12781.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12841.jpg"
+  ],
+  "do_tin": 0.7625,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0087",
+  "anh_truy_van_mat_dat": "query/P0959T04060A1/P0959T04060A1C3F05251.jpg",
+  "ma_muc_tieu": 959040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0959T04060A1/P0959T04060A1C0F12091.jpg",
+   "gallery/P0959T04060A1/P0959T04060A1C0F11491.jpg",
+   "gallery/P0959T04060A1/P0959T04060A1C0F12121.jpg",
+   "gallery/P0959T04060A1/P0959T04060A1C0F11881.jpg",
+   "gallery/P0959T04060A1/P0959T04060A1C0F11611.jpg"
+  ],
+  "do_tin": 0.7334,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0088",
+  "anh_truy_van_mat_dat": "query/P0867T04070A0/P0867T04070A0C3F08191.jpg",
+  "ma_muc_tieu": 867040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0867T04070A0/P0867T04070A0C0F13981.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F13831.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F14011.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F14191.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F13771.jpg"
+  ],
+  "do_tin": 0.7634,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0089",
+  "anh_truy_van_mat_dat": "query/P1530T04060A0/P1530T04060A0C3F10231.jpg",
+  "ma_muc_tieu": 1530040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1530T04060A0/P1530T04060A0C0F22801.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F21211.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F22321.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F22081.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F21901.jpg"
+  ],
+  "do_tin": 0.7745,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0090",
+  "anh_truy_van_mat_dat": "query/P0782T04060A1/P0782T04060A1C3F04021.jpg",
+  "ma_muc_tieu": 782040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0782T04060A1/P0782T04060A1C0F07681.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F07981.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08011.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08281.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08221.jpg"
+  ],
+  "do_tin": 0.8301,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0091",
+  "anh_truy_van_mat_dat": "query/P1615T04060A2/P1615T04060A2C3F05131.jpg",
+  "ma_muc_tieu": 588040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0588T04060A0/P0588T04060A0C0F10441.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09931.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09331.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09301.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09061.jpg"
+  ],
+  "do_tin": 0.7991,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0092",
+  "anh_truy_van_mat_dat": "query/P1180T04060A0/P1180T04060A0C3F07531.jpg",
+  "ma_muc_tieu": 1180040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1180T04060A0/P1180T04060A0C0F16141.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F15721.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F16111.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F15871.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F15601.jpg"
+  ],
+  "do_tin": 0.7794,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0093",
+  "anh_truy_van_mat_dat": "query/P0348T04060A0/P0348T04060A0C3F03421.jpg",
+  "ma_muc_tieu": 348040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0348T04060A0/P0348T04060A0C0F07471.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07441.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F06601.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07171.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07561.jpg"
+  ],
+  "do_tin": 0.7842,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0094",
+  "anh_truy_van_mat_dat": "query/P0837T04071A0/P0837T04071A0C3F04681.jpg",
+  "ma_muc_tieu": 837040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0837T04071A0/P0837T04071A0C0F09721.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09331.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09301.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09691.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09061.jpg"
+  ],
+  "do_tin": 0.7378,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0095",
+  "anh_truy_van_mat_dat": "query/P0211T04051A1/P0211T04051A1C3F7051.jpg",
+  "ma_muc_tieu": 211040511,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0211T04051A1/P0211T04051A1C0F13111.jpg",
+   "gallery/P0211T04051A1/P0211T04051A1C0F12991.jpg",
+   "gallery/P0211T04051A1/P0211T04051A1C0F13021.jpg",
+   "gallery/P0211T04051A1/P0211T04051A1C0F13141.jpg",
+   "gallery/P0211T04051A1/P0211T04051A1C0F13171.jpg"
+  ],
+  "do_tin": 0.7297,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0096",
+  "anh_truy_van_mat_dat": "query/P1774T04070A0/P1774T04070A0C3F13111.jpg",
+  "ma_muc_tieu": 1774040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1774T04070A0/P1774T04070A0C0F26371.jpg",
+   "gallery/P1774T04070A0/P1774T04070A0C0F27001.jpg",
+   "gallery/P1774T04070A0/P1774T04070A0C0F26431.jpg",
+   "gallery/P1774T04070A0/P1774T04070A0C0F26791.jpg",
+   "gallery/P1774T04070A0/P1774T04070A0C0F26971.jpg"
+  ],
+  "do_tin": 0.7361,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0097",
+  "anh_truy_van_mat_dat": "query/P2051T04071A0/P2051T04071A0C3F10501.jpg",
+  "ma_muc_tieu": 2051040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2051T04071A0/P2051T04071A0C0F18931.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F19051.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18871.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18811.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18991.jpg"
+  ],
+  "do_tin": 0.7918,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0098",
+  "anh_truy_van_mat_dat": "query/P2414T04071A0/P2414T04071A0C3F12361.jpg",
+  "ma_muc_tieu": 822040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0822T04071A0/P0822T04071A0C0F09151.jpg",
+   "gallery/P0822T04071A0/P0822T04071A0C0F09361.jpg",
+   "gallery/P0822T04071A0/P0822T04071A0C0F09451.jpg",
+   "gallery/P0822T04071A0/P0822T04071A0C0F09301.jpg",
+   "gallery/P0822T04071A0/P0822T04071A0C0F08821.jpg"
+  ],
+  "do_tin": 0.7871,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0099",
+  "anh_truy_van_mat_dat": "query/P1046T04070A2/P1046T04070A2C3F03031.jpg",
+  "ma_muc_tieu": 1046040702,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1046T04070A2/P1046T04070A2C0F06391.jpg",
+   "gallery/P1046T04070A2/P1046T04070A2C0F06751.jpg",
+   "gallery/P1046T04070A2/P1046T04070A2C0F06991.jpg",
+   "gallery/P1046T04070A2/P1046T04070A2C0F07231.jpg",
+   "gallery/P1046T04070A2/P1046T04070A2C0F07171.jpg"
+  ],
+  "do_tin": 0.7571,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0100",
+  "anh_truy_van_mat_dat": "query/P1706T04071A2/P1706T04071A2C3F11071.jpg",
+  "ma_muc_tieu": 1706040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1706T04071A2/P1706T04071A2C0F22891.jpg",
+   "gallery/P1706T04071A2/P1706T04071A2C0F22921.jpg",
+   "gallery/P1706T04071A2/P1706T04071A2C0F23131.jpg",
+   "gallery/P1706T04071A2/P1706T04071A2C0F23011.jpg",
+   "gallery/P1706T04071A2/P1706T04071A2C0F23071.jpg"
+  ],
+  "do_tin": 0.7519,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0101",
+  "anh_truy_van_mat_dat": "query/P1436T04070A1/P1436T04070A1C3F09451.jpg",
+  "ma_muc_tieu": 1436040701,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1436T04070A1/P1436T04070A1C0F15631.jpg",
+   "gallery/P1436T04070A1/P1436T04070A1C0F15661.jpg",
+   "gallery/P1436T04070A1/P1436T04070A1C0F15601.jpg",
+   "gallery/P1436T04070A1/P1436T04070A1C0F15751.jpg",
+   "gallery/P1436T04070A1/P1436T04070A1C0F15841.jpg"
+  ],
+  "do_tin": 0.7763,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0102",
+  "anh_truy_van_mat_dat": "query/P0867T04070A0/P0867T04070A0C3F07651.jpg",
+  "ma_muc_tieu": 867040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0867T04070A0/P0867T04070A0C0F13981.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F13831.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F14011.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F14191.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F13771.jpg"
+  ],
+  "do_tin": 0.7375,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0103",
+  "anh_truy_van_mat_dat": "query/P1615T04060A2/P1615T04060A2C3F05551.jpg",
+  "ma_muc_tieu": 1615040602,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1615T04060A2/P1615T04060A2C0F11761.jpg",
+   "gallery/P1615T04060A2/P1615T04060A2C0F11911.jpg",
+   "gallery/P1615T04060A2/P1615T04060A2C0F11281.jpg",
+   "gallery/P1615T04060A2/P1615T04060A2C0F11881.jpg",
+   "gallery/P1615T04060A2/P1615T04060A2C0F11611.jpg"
+  ],
+  "do_tin": 0.75,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0104",
+  "anh_truy_van_mat_dat": "query/P2051T04071A0/P2051T04071A0C3F11131.jpg",
+  "ma_muc_tieu": 2051040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2051T04071A0/P2051T04071A0C0F18931.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F19051.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18871.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18811.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18991.jpg"
+  ],
+  "do_tin": 0.7543,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0105",
+  "anh_truy_van_mat_dat": "query/P1255T04071A0/P1255T04071A0C3F05761.jpg",
+  "ma_muc_tieu": 2719040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2719T04071A0/P2719T04071A0C0F23791.jpg",
+   "gallery/P2719T04071A0/P2719T04071A0C0F23611.jpg",
+   "gallery/P2719T04071A0/P2719T04071A0C0F23311.jpg",
+   "gallery/P2719T04071A0/P2719T04071A0C0F23761.jpg",
+   "gallery/P2719T04071A0/P2719T04071A0C0F23491.jpg"
+  ],
+  "do_tin": 0.7406,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0106",
+  "anh_truy_van_mat_dat": "query/P1825T04060A1/P1825T04060A1C3F09871.jpg",
+  "ma_muc_tieu": 1825040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1825T04060A1/P1825T04060A1C0F23521.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F22171.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F21151.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F24001.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F21271.jpg"
+  ],
+  "do_tin": 0.756,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0107",
+  "anh_truy_van_mat_dat": "query/P1530T04060A0/P1530T04060A0C3F10381.jpg",
+  "ma_muc_tieu": 1530040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1530T04060A0/P1530T04060A0C0F22801.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F21211.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F22321.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F22081.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F21901.jpg"
+  ],
+  "do_tin": 0.8637,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0108",
+  "anh_truy_van_mat_dat": "query/P1012T04070A0/P1012T04070A0C3F09661.jpg",
+  "ma_muc_tieu": 1012040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1012T04070A0/P1012T04070A0C0F16291.jpg",
+   "gallery/P1012T04070A0/P1012T04070A0C0F16591.jpg",
+   "gallery/P1012T04070A0/P1012T04070A0C0F16411.jpg",
+   "gallery/P1012T04070A0/P1012T04070A0C0F16681.jpg",
+   "gallery/P1012T04070A0/P1012T04070A0C0F16741.jpg"
+  ],
+  "do_tin": 0.7281,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0109",
+  "anh_truy_van_mat_dat": "query/P1550T04060A0/P1550T04060A0C3F10411.jpg",
+  "ma_muc_tieu": 1550040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1550T04060A0/P1550T04060A0C0F22501.jpg",
+   "gallery/P1550T04060A0/P1550T04060A0C0F22321.jpg",
+   "gallery/P1550T04060A0/P1550T04060A0C0F21211.jpg",
+   "gallery/P1550T04060A0/P1550T04060A0C0F21931.jpg",
+   "gallery/P1550T04060A0/P1550T04060A0C0F21811.jpg"
+  ],
+  "do_tin": 0.7449,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0110",
+  "anh_truy_van_mat_dat": "query/P1257T04071A0/P1257T04071A0C3F05941.jpg",
+  "ma_muc_tieu": 1257040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1257T04071A0/P1257T04071A0C0F11881.jpg",
+   "gallery/P1257T04071A0/P1257T04071A0C0F11671.jpg",
+   "gallery/P1257T04071A0/P1257T04071A0C0F11851.jpg",
+   "gallery/P1257T04071A0/P1257T04071A0C0F11641.jpg",
+   "gallery/P1257T04071A0/P1257T04071A0C0F11821.jpg"
+  ],
+  "do_tin": 0.7396,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0111",
+  "anh_truy_van_mat_dat": "query/P2414T04071A0/P2414T04071A0C3F12211.jpg",
+  "ma_muc_tieu": 1700040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1700T04071A1/P1700T04071A1C0F20281.jpg",
+   "gallery/P1700T04071A1/P1700T04071A1C0F20041.jpg",
+   "gallery/P1700T04071A1/P1700T04071A1C0F20101.jpg",
+   "gallery/P1700T04071A1/P1700T04071A1C0F19261.jpg",
+   "gallery/P1700T04071A1/P1700T04071A1C0F19471.jpg"
+  ],
+  "do_tin": 0.7399,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0112",
+  "anh_truy_van_mat_dat": "query/P0634T04060A1/P0634T04060A1C3F02551.jpg",
+  "ma_muc_tieu": 634040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0634T04060A1/P0634T04060A1C0F06511.jpg",
+   "gallery/P0634T04060A1/P0634T04060A1C0F06301.jpg",
+   "gallery/P0634T04060A1/P0634T04060A1C0F05851.jpg",
+   "gallery/P0634T04060A1/P0634T04060A1C0F06631.jpg",
+   "gallery/P0634T04060A1/P0634T04060A1C0F05941.jpg"
+  ],
+  "do_tin": 0.7695,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0113",
+  "anh_truy_van_mat_dat": "query/P0895T04060A1/P0895T04060A1C3F04351.jpg",
+  "ma_muc_tieu": 1040040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1040T04060A0/P1040T04060A0C0F12721.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12871.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F13201.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12781.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12841.jpg"
+  ],
+  "do_tin": 0.7819,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0114",
+  "anh_truy_van_mat_dat": "query/P2601T04071A0/P2601T04071A0C3F12601.jpg",
+  "ma_muc_tieu": 2601040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2601T04071A0/P2601T04071A0C0F22801.jpg",
+   "gallery/P2601T04071A0/P2601T04071A0C0F22591.jpg",
+   "gallery/P2601T04071A0/P2601T04071A0C0F22831.jpg",
+   "gallery/P2601T04071A0/P2601T04071A0C0F22621.jpg",
+   "gallery/P2601T04071A0/P2601T04071A0C0F22711.jpg"
+  ],
+  "do_tin": 0.728,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0115",
+  "anh_truy_van_mat_dat": "query/P0462T04060A0/P0462T04060A0C3F03421.jpg",
+  "ma_muc_tieu": 462040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0462T04060A0/P0462T04060A0C0F08191.jpg",
+   "gallery/P0462T04060A0/P0462T04060A0C0F08401.jpg",
+   "gallery/P0462T04060A0/P0462T04060A0C0F07741.jpg",
+   "gallery/P0462T04060A0/P0462T04060A0C0F07771.jpg",
+   "gallery/P0462T04060A0/P0462T04060A0C0F08251.jpg"
+  ],
+  "do_tin": 0.7311,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0116",
+  "anh_truy_van_mat_dat": "query/P1066T04071A2/P1066T04071A2C3F07141.jpg",
+  "ma_muc_tieu": 1066040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1066T04071A2/P1066T04071A2C0F13801.jpg",
+   "gallery/P1066T04071A2/P1066T04071A2C0F13891.jpg",
+   "gallery/P1066T04071A2/P1066T04071A2C0F13921.jpg",
+   "gallery/P1066T04071A2/P1066T04071A2C0F13831.jpg",
+   "gallery/P1066T04071A2/P1066T04071A2C0F13621.jpg"
+  ],
+  "do_tin": 0.8086,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0117",
+  "anh_truy_van_mat_dat": "query/P0847T04071A0/P0847T04071A0C3F06001.jpg",
+  "ma_muc_tieu": 847040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0847T04071A0/P0847T04071A0C0F09541.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09061.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09301.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09331.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09571.jpg"
+  ],
+  "do_tin": 0.7901,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0118",
+  "anh_truy_van_mat_dat": "query/P1596T04060A1/P1596T04060A1C3F09091.jpg",
+  "ma_muc_tieu": 1596040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1596T04060A1/P1596T04060A1C0F19651.jpg",
+   "gallery/P1596T04060A1/P1596T04060A1C0F20041.jpg",
+   "gallery/P1596T04060A1/P1596T04060A1C0F19201.jpg",
+   "gallery/P1596T04060A1/P1596T04060A1C0F19981.jpg",
+   "gallery/P1596T04060A1/P1596T04060A1C0F19741.jpg"
+  ],
+  "do_tin": 0.7656,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0119",
+  "anh_truy_van_mat_dat": "query/P0130T04060A0/P0130T04060A0C3F02131.jpg",
+  "ma_muc_tieu": 130040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0130T04060A0/P0130T04060A0C0F02041.jpg",
+   "gallery/P0130T04060A0/P0130T04060A0C0F02371.jpg",
+   "gallery/P0130T04060A0/P0130T04060A0C0F02161.jpg",
+   "gallery/P0130T04060A0/P0130T04060A0C0F02191.jpg",
+   "gallery/P0130T04060A0/P0130T04060A0C0F02281.jpg"
+  ],
+  "do_tin": 0.7973,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0120",
+  "anh_truy_van_mat_dat": "query/P0782T04060A1/P0782T04060A1C3F03751.jpg",
+  "ma_muc_tieu": 782040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0782T04060A1/P0782T04060A1C0F07681.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F07981.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08011.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08281.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08221.jpg"
+  ],
+  "do_tin": 0.858,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0121",
+  "anh_truy_van_mat_dat": "query/P1488T04060A0/P1488T04060A0C3F10291.jpg",
+  "ma_muc_tieu": 348040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0348T04060A0/P0348T04060A0C0F07471.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07441.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F06601.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07171.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07561.jpg"
+  ],
+  "do_tin": 0.7625,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0122",
+  "anh_truy_van_mat_dat": "query/P0130T04060A0/P0130T04060A0C3F03211.jpg",
+  "ma_muc_tieu": 597040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0597T04060A1/P0597T04060A1C0F06421.jpg",
+   "gallery/P0597T04060A1/P0597T04060A1C0F05761.jpg",
+   "gallery/P0597T04060A1/P0597T04060A1C0F05581.jpg",
+   "gallery/P0597T04060A1/P0597T04060A1C0F06121.jpg",
+   "gallery/P0597T04060A1/P0597T04060A1C0F06301.jpg"
+  ],
+  "do_tin": 0.7627,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0123",
+  "anh_truy_van_mat_dat": "query/P1370T04060A0/P1370T04060A0C3F10051.jpg",
+  "ma_muc_tieu": 1370040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1370T04060A0/P1370T04060A0C0F19531.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19711.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19651.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F20191.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19111.jpg"
+  ],
+  "do_tin": 0.7837,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0124",
+  "anh_truy_van_mat_dat": "query/P0632T04070A0/P0632T04070A0C3F05611.jpg",
+  "ma_muc_tieu": 632040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0632T04070A0/P0632T04070A0C0F11461.jpg",
+   "gallery/P0632T04070A0/P0632T04070A0C0F11401.jpg",
+   "gallery/P0632T04070A0/P0632T04070A0C0F11281.jpg",
+   "gallery/P0632T04070A0/P0632T04070A0C0F11701.jpg",
+   "gallery/P0632T04070A0/P0632T04070A0C0F11371.jpg"
+  ],
+  "do_tin": 0.7304,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0125",
+  "anh_truy_van_mat_dat": "query/P0130T04060A0/P0130T04060A0C3F02281.jpg",
+  "ma_muc_tieu": 130040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0130T04060A0/P0130T04060A0C0F02041.jpg",
+   "gallery/P0130T04060A0/P0130T04060A0C0F02371.jpg",
+   "gallery/P0130T04060A0/P0130T04060A0C0F02161.jpg",
+   "gallery/P0130T04060A0/P0130T04060A0C0F02191.jpg",
+   "gallery/P0130T04060A0/P0130T04060A0C0F02281.jpg"
+  ],
+  "do_tin": 0.732,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0126",
+  "anh_truy_van_mat_dat": "query/P2051T04071A0/P2051T04071A0C3F11101.jpg",
+  "ma_muc_tieu": 1106040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1106T04071A1/P1106T04071A1C0F12091.jpg",
+   "gallery/P1106T04071A1/P1106T04071A1C0F12301.jpg",
+   "gallery/P1106T04071A1/P1106T04071A1C0F12541.jpg",
+   "gallery/P1106T04071A1/P1106T04071A1C0F12421.jpg",
+   "gallery/P1106T04071A1/P1106T04071A1C0F12151.jpg"
+  ],
+  "do_tin": 0.7441,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0127",
+  "anh_truy_van_mat_dat": "query/P2049T04071A0/P2049T04071A0C3F10531.jpg",
+  "ma_muc_tieu": 2049040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2049T04071A0/P2049T04071A0C0F17641.jpg",
+   "gallery/P2049T04071A0/P2049T04071A0C0F17731.jpg",
+   "gallery/P2049T04071A0/P2049T04071A0C0F17701.jpg",
+   "gallery/P2049T04071A0/P2049T04071A0C0F17971.jpg",
+   "gallery/P2049T04071A0/P2049T04071A0C0F17941.jpg"
+  ],
+  "do_tin": 0.7964,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0128",
+  "anh_truy_van_mat_dat": "query/P0837T04071A0/P0837T04071A0C3F04531.jpg",
+  "ma_muc_tieu": 837040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0837T04071A0/P0837T04071A0C0F09721.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09331.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09301.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09691.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09061.jpg"
+  ],
+  "do_tin": 0.7579,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0129",
+  "anh_truy_van_mat_dat": "query/P0685T04060A1/P0685T04060A1C3F05011.jpg",
+  "ma_muc_tieu": 685040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0685T04060A1/P0685T04060A1C0F06511.jpg",
+   "gallery/P0685T04060A1/P0685T04060A1C0F07081.jpg",
+   "gallery/P0685T04060A1/P0685T04060A1C0F06751.jpg",
+   "gallery/P0685T04060A1/P0685T04060A1C0F07051.jpg",
+   "gallery/P0685T04060A1/P0685T04060A1C0F06691.jpg"
+  ],
+  "do_tin": 0.7429,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0130",
+  "anh_truy_van_mat_dat": "query/P0049T04060A2/P0049T04060A2C3F00541.jpg",
+  "ma_muc_tieu": 49040602,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0049T04060A2/P0049T04060A2C0F00991.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F01231.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F00901.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F01321.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F01441.jpg"
+  ],
+  "do_tin": 0.749,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0131",
+  "anh_truy_van_mat_dat": "query/P1785T04071A2/P1785T04071A2C3F11911.jpg",
+  "ma_muc_tieu": 1785040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1785T04071A2/P1785T04071A2C0F23971.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24211.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24391.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F23941.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24271.jpg"
+  ],
+  "do_tin": 0.7671,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0132",
+  "anh_truy_van_mat_dat": "query/P1566T04060A1/P1566T04060A1C3F09961.jpg",
+  "ma_muc_tieu": 1566040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1566T04060A1/P1566T04060A1C0F19501.jpg",
+   "gallery/P1566T04060A1/P1566T04060A1C0F18571.jpg",
+   "gallery/P1566T04060A1/P1566T04060A1C0F18961.jpg",
+   "gallery/P1566T04060A1/P1566T04060A1C0F19651.jpg",
+   "gallery/P1566T04060A1/P1566T04060A1C0F18811.jpg"
+  ],
+  "do_tin": 0.733,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0133",
+  "anh_truy_van_mat_dat": "query/P1703T04071A2/P1703T04071A2C3F11101.jpg",
+  "ma_muc_tieu": 1703040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1703T04071A2/P1703T04071A2C0F23071.jpg",
+   "gallery/P1703T04071A2/P1703T04071A2C0F23671.jpg",
+   "gallery/P1703T04071A2/P1703T04071A2C0F23221.jpg",
+   "gallery/P1703T04071A2/P1703T04071A2C0F23641.jpg",
+   "gallery/P1703T04071A2/P1703T04071A2C0F22981.jpg"
+  ],
+  "do_tin": 0.7904,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0134",
+  "anh_truy_van_mat_dat": "query/P0916T04060A1/P0916T04060A1C3F05101.jpg",
+  "ma_muc_tieu": 916040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0916T04060A1/P0916T04060A1C0F10711.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F10501.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F10591.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F11311.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F11131.jpg"
+  ],
+  "do_tin": 0.7733,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0135",
+  "anh_truy_van_mat_dat": "query/P1180T04060A0/P1180T04060A0C3F07771.jpg",
+  "ma_muc_tieu": 1370040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1370T04060A0/P1370T04060A0C0F19531.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19711.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19651.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F20191.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19111.jpg"
+  ],
+  "do_tin": 0.738,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0136",
+  "anh_truy_van_mat_dat": "query/P1162T04071A1/P1162T04071A1C3F12271.jpg",
+  "ma_muc_tieu": 1053040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1053T04071A0/P1053T04071A0C0F10351.jpg",
+   "gallery/P1053T04071A0/P1053T04071A0C0F10411.jpg",
+   "gallery/P1053T04071A0/P1053T04071A0C0F10741.jpg",
+   "gallery/P1053T04071A0/P1053T04071A0C0F10291.jpg",
+   "gallery/P1053T04071A0/P1053T04071A0C0F10681.jpg"
+  ],
+  "do_tin": 0.7357,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0137",
+  "anh_truy_van_mat_dat": "query/P2414T04071A0/P2414T04071A0C3F12691.jpg",
+  "ma_muc_tieu": 2414040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2414T04071A0/P2414T04071A0C0F21691.jpg",
+   "gallery/P2414T04071A0/P2414T04071A0C0F21661.jpg",
+   "gallery/P2414T04071A0/P2414T04071A0C0F21271.jpg",
+   "gallery/P2414T04071A0/P2414T04071A0C0F21181.jpg",
+   "gallery/P2414T04071A0/P2414T04071A0C0F21511.jpg"
+  ],
+  "do_tin": 0.7461,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0138",
+  "anh_truy_van_mat_dat": "query/P1148T04060A2/P1148T04060A2C3F06631.jpg",
+  "ma_muc_tieu": 1148040602,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1148T04060A2/P1148T04060A2C0F13201.jpg",
+   "gallery/P1148T04060A2/P1148T04060A2C0F12601.jpg",
+   "gallery/P1148T04060A2/P1148T04060A2C0F08581.jpg",
+   "gallery/P1148T04060A2/P1148T04060A2C0F08491.jpg",
+   "gallery/P1148T04060A2/P1148T04060A2C0F08221.jpg"
+  ],
+  "do_tin": 0.7547,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0139",
+  "anh_truy_van_mat_dat": "query/P0499T04060A0/P0499T04060A0C3F04831.jpg",
+  "ma_muc_tieu": 499040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0499T04060A0/P0499T04060A0C0F07921.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08371.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08191.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08551.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08071.jpg"
+  ],
+  "do_tin": 0.7413,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0140",
+  "anh_truy_van_mat_dat": "query/P0699T04071A0/P0699T04071A0C3F06181.jpg",
+  "ma_muc_tieu": 732040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0732T04071A0/P0732T04071A0C0F08461.jpg",
+   "gallery/P0732T04071A0/P0732T04071A0C0F08251.jpg",
+   "gallery/P0732T04071A0/P0732T04071A0C0F08821.jpg",
+   "gallery/P0732T04071A0/P0732T04071A0C0F08161.jpg",
+   "gallery/P0732T04071A0/P0732T04071A0C0F08941.jpg"
+  ],
+  "do_tin": 0.7952,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0141",
+  "anh_truy_van_mat_dat": "query/P1768T04060A0/P1768T04060A0C3F11701.jpg",
+  "ma_muc_tieu": 1768040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1768T04060A0/P1768T04060A0C0F23251.jpg",
+   "gallery/P1768T04060A0/P1768T04060A0C0F23491.jpg",
+   "gallery/P1768T04060A0/P1768T04060A0C0F23311.jpg",
+   "gallery/P1768T04060A0/P1768T04060A0C0F23131.jpg",
+   "gallery/P1768T04060A0/P1768T04060A0C0F23881.jpg"
+  ],
+  "do_tin": 0.7457,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0142",
+  "anh_truy_van_mat_dat": "query/P1479T04071A2/P1479T04071A2C3F09781.jpg",
+  "ma_muc_tieu": 1479040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1479T04071A2/P1479T04071A2C0F20371.jpg",
+   "gallery/P1479T04071A2/P1479T04071A2C0F20311.jpg",
+   "gallery/P1479T04071A2/P1479T04071A2C0F19921.jpg",
+   "gallery/P1479T04071A2/P1479T04071A2C0F19951.jpg",
+   "gallery/P1479T04071A2/P1479T04071A2C0F20041.jpg"
+  ],
+  "do_tin": 0.7315,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0143",
+  "anh_truy_van_mat_dat": "query/P0732T04071A0/P0732T04071A0C3F06181.jpg",
+  "ma_muc_tieu": 732040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0732T04071A0/P0732T04071A0C0F08461.jpg",
+   "gallery/P0732T04071A0/P0732T04071A0C0F08251.jpg",
+   "gallery/P0732T04071A0/P0732T04071A0C0F08821.jpg",
+   "gallery/P0732T04071A0/P0732T04071A0C0F08161.jpg",
+   "gallery/P0732T04071A0/P0732T04071A0C0F08941.jpg"
+  ],
+  "do_tin": 0.791,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0144",
+  "anh_truy_van_mat_dat": "query/P2271T04071A0/P2271T04071A0C3F09601.jpg",
+  "ma_muc_tieu": 2271040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2271T04071A0/P2271T04071A0C0F20701.jpg",
+   "gallery/P2271T04071A0/P2271T04071A0C0F20191.jpg",
+   "gallery/P2271T04071A0/P2271T04071A0C0F19921.jpg",
+   "gallery/P2271T04071A0/P2271T04071A0C0F20671.jpg",
+   "gallery/P2271T04071A0/P2271T04071A0C0F20161.jpg"
+  ],
+  "do_tin": 0.8406,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0145",
+  "anh_truy_van_mat_dat": "query/P0586T04071A2/P0586T04071A2C3F05851.jpg",
+  "ma_muc_tieu": 586040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0586T04071A2/P0586T04071A2C0F08881.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08281.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08521.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08371.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08611.jpg"
+  ],
+  "do_tin": 0.7621,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0146",
+  "anh_truy_van_mat_dat": "query/P1826T04060A1/P1826T04060A1C3F11521.jpg",
+  "ma_muc_tieu": 2467040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2467T04060A1/P2467T04060A1C0F26371.jpg",
+   "gallery/P2467T04060A1/P2467T04060A1C0F26611.jpg",
+   "gallery/P2467T04060A1/P2467T04060A1C0F26581.jpg",
+   "gallery/P2467T04060A1/P2467T04060A1C0F26431.jpg",
+   "gallery/P2467T04060A1/P2467T04060A1C0F26911.jpg"
+  ],
+  "do_tin": 0.7393,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0147",
+  "anh_truy_van_mat_dat": "query/P0916T04060A1/P0916T04060A1C3F05041.jpg",
+  "ma_muc_tieu": 916040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0916T04060A1/P0916T04060A1C0F10711.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F10501.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F10591.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F11311.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F11131.jpg"
+  ],
+  "do_tin": 0.7514,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0148",
+  "anh_truy_van_mat_dat": "query/P1488T04060A0/P1488T04060A0C3F10411.jpg",
+  "ma_muc_tieu": 348040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0348T04060A0/P0348T04060A0C0F07471.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07441.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F06601.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07171.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07561.jpg"
+  ],
+  "do_tin": 0.7931,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0149",
+  "anh_truy_van_mat_dat": "query/P0049T04060A2/P0049T04060A2C3F00331.jpg",
+  "ma_muc_tieu": 49040602,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0049T04060A2/P0049T04060A2C0F00991.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F01231.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F00901.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F01321.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F01441.jpg"
+  ],
+  "do_tin": 0.7857,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0150",
+  "anh_truy_van_mat_dat": "query/P1488T04060A0/P1488T04060A0C3F10261.jpg",
+  "ma_muc_tieu": 348040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0348T04060A0/P0348T04060A0C0F07471.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07441.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F06601.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07171.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07561.jpg"
+  ],
+  "do_tin": 0.7508,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0151",
+  "anh_truy_van_mat_dat": "query/P0691T04071A2/P0691T04071A2C3F06451.jpg",
+  "ma_muc_tieu": 691040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0691T04071A2/P0691T04071A2C0F09451.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10261.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10021.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F09601.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10231.jpg"
+  ],
+  "do_tin": 0.8141,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0152",
+  "anh_truy_van_mat_dat": "query/P0395T04060A0/P0395T04060A0C3F00391.jpg",
+  "ma_muc_tieu": 1530040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1530T04060A0/P1530T04060A0C0F22801.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F21211.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F22321.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F22081.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F21901.jpg"
+  ],
+  "do_tin": 0.7697,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0153",
+  "anh_truy_van_mat_dat": "query/P0634T04060A1/P0634T04060A1C3F02521.jpg",
+  "ma_muc_tieu": 634040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0634T04060A1/P0634T04060A1C0F06511.jpg",
+   "gallery/P0634T04060A1/P0634T04060A1C0F06301.jpg",
+   "gallery/P0634T04060A1/P0634T04060A1C0F05851.jpg",
+   "gallery/P0634T04060A1/P0634T04060A1C0F06631.jpg",
+   "gallery/P0634T04060A1/P0634T04060A1C0F05941.jpg"
+  ],
+  "do_tin": 0.8204,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0154",
+  "anh_truy_van_mat_dat": "query/P0368T04071A2/P0368T04071A2C3F02311.jpg",
+  "ma_muc_tieu": 368040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0368T04071A2/P0368T04071A2C0F04891.jpg",
+   "gallery/P0368T04071A2/P0368T04071A2C0F04921.jpg",
+   "gallery/P0368T04071A2/P0368T04071A2C0F05551.jpg",
+   "gallery/P0368T04071A2/P0368T04071A2C0F05101.jpg",
+   "gallery/P0368T04071A2/P0368T04071A2C0F05581.jpg"
+  ],
+  "do_tin": 0.7554,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0155",
+  "anh_truy_van_mat_dat": "query/P1180T04060A0/P1180T04060A0C3F07711.jpg",
+  "ma_muc_tieu": 1180040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1180T04060A0/P1180T04060A0C0F16141.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F15721.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F16111.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F15871.jpg",
+   "gallery/P1180T04060A0/P1180T04060A0C0F15601.jpg"
+  ],
+  "do_tin": 0.7557,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0156",
+  "anh_truy_van_mat_dat": "query/P1785T04071A2/P1785T04071A2C3F11671.jpg",
+  "ma_muc_tieu": 1785040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1785T04071A2/P1785T04071A2C0F23971.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24211.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24391.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F23941.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24271.jpg"
+  ],
+  "do_tin": 0.741,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0157",
+  "anh_truy_van_mat_dat": "query/P0586T04071A2/P0586T04071A2C3F05881.jpg",
+  "ma_muc_tieu": 586040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0586T04071A2/P0586T04071A2C0F08881.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08281.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08521.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08371.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08611.jpg"
+  ],
+  "do_tin": 0.7749,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0158",
+  "anh_truy_van_mat_dat": "query/P0847T04071A0/P0847T04071A0C3F06301.jpg",
+  "ma_muc_tieu": 847040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0847T04071A0/P0847T04071A0C0F09541.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09061.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09301.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09331.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09571.jpg"
+  ],
+  "do_tin": 0.7344,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0159",
+  "anh_truy_van_mat_dat": "query/P1370T04060A0/P1370T04060A0C3F09931.jpg",
+  "ma_muc_tieu": 1370040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1370T04060A0/P1370T04060A0C0F19531.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19711.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19651.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F20191.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19111.jpg"
+  ],
+  "do_tin": 0.7987,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0160",
+  "anh_truy_van_mat_dat": "query/P2271T04071A0/P2271T04071A0C3F09511.jpg",
+  "ma_muc_tieu": 2271040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2271T04071A0/P2271T04071A0C0F20701.jpg",
+   "gallery/P2271T04071A0/P2271T04071A0C0F20191.jpg",
+   "gallery/P2271T04071A0/P2271T04071A0C0F19921.jpg",
+   "gallery/P2271T04071A0/P2271T04071A0C0F20671.jpg",
+   "gallery/P2271T04071A0/P2271T04071A0C0F20161.jpg"
+  ],
+  "do_tin": 0.8158,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0161",
+  "anh_truy_van_mat_dat": "query/P2051T04071A0/P2051T04071A0C3F10681.jpg",
+  "ma_muc_tieu": 2051040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2051T04071A0/P2051T04071A0C0F18931.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F19051.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18871.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18811.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18991.jpg"
+  ],
+  "do_tin": 0.8049,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0162",
+  "anh_truy_van_mat_dat": "query/P1012T04070A0/P1012T04070A0C3F09571.jpg",
+  "ma_muc_tieu": 1012040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1012T04070A0/P1012T04070A0C0F16291.jpg",
+   "gallery/P1012T04070A0/P1012T04070A0C0F16591.jpg",
+   "gallery/P1012T04070A0/P1012T04070A0C0F16411.jpg",
+   "gallery/P1012T04070A0/P1012T04070A0C0F16681.jpg",
+   "gallery/P1012T04070A0/P1012T04070A0C0F16741.jpg"
+  ],
+  "do_tin": 0.7742,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0163",
+  "anh_truy_van_mat_dat": "query/P0133T04051A0/P0133T04051A0C3F11641.jpg",
+  "ma_muc_tieu": 133040510,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0133T04051A0/P0133T04051A0C0F23761.jpg",
+   "gallery/P0133T04051A0/P0133T04051A0C0F23521.jpg",
+   "gallery/P0133T04051A0/P0133T04051A0C0F23461.jpg",
+   "gallery/P0133T04051A0/P0133T04051A0C0F23821.jpg",
+   "gallery/P0133T04051A0/P0133T04051A0C0F23371.jpg"
+  ],
+  "do_tin": 0.7958,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0164",
+  "anh_truy_van_mat_dat": "query/P1761T04071A1/P1761T04071A1C3F11701.jpg",
+  "ma_muc_tieu": 1761040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1761T04071A1/P1761T04071A1C0F20341.jpg",
+   "gallery/P1761T04071A1/P1761T04071A1C0F20371.jpg",
+   "gallery/P1761T04071A1/P1761T04071A1C0F20521.jpg",
+   "gallery/P1761T04071A1/P1761T04071A1C0F20401.jpg",
+   "gallery/P1761T04071A1/P1761T04071A1C0F20581.jpg"
+  ],
+  "do_tin": 0.7815,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0165",
+  "anh_truy_van_mat_dat": "query/P0959T04060A1/P0959T04060A1C3F05071.jpg",
+  "ma_muc_tieu": 959040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0959T04060A1/P0959T04060A1C0F12091.jpg",
+   "gallery/P0959T04060A1/P0959T04060A1C0F11491.jpg",
+   "gallery/P0959T04060A1/P0959T04060A1C0F12121.jpg",
+   "gallery/P0959T04060A1/P0959T04060A1C0F11881.jpg",
+   "gallery/P0959T04060A1/P0959T04060A1C0F11611.jpg"
+  ],
+  "do_tin": 0.7567,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0166",
+  "anh_truy_van_mat_dat": "query/P1084T04070A0/P1084T04070A0C3F11551.jpg",
+  "ma_muc_tieu": 1084040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1084T04070A0/P1084T04070A0C0F17671.jpg",
+   "gallery/P1084T04070A0/P1084T04070A0C0F16741.jpg",
+   "gallery/P1084T04070A0/P1084T04070A0C0F16861.jpg",
+   "gallery/P1084T04070A0/P1084T04070A0C0F17611.jpg",
+   "gallery/P1084T04070A0/P1084T04070A0C0F17221.jpg"
+  ],
+  "do_tin": 0.7401,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0167",
+  "anh_truy_van_mat_dat": "query/P1488T04060A0/P1488T04060A0C3F10171.jpg",
+  "ma_muc_tieu": 1488040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1488T04060A0/P1488T04060A0C0F20731.jpg",
+   "gallery/P1488T04060A0/P1488T04060A0C0F20911.jpg",
+   "gallery/P1488T04060A0/P1488T04060A0C0F21001.jpg",
+   "gallery/P1488T04060A0/P1488T04060A0C0F20641.jpg",
+   "gallery/P1488T04060A0/P1488T04060A0C0F20971.jpg"
+  ],
+  "do_tin": 0.7749,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0168",
+  "anh_truy_van_mat_dat": "query/P0867T04070A0/P0867T04070A0C3F08701.jpg",
+  "ma_muc_tieu": 867040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0867T04070A0/P0867T04070A0C0F13981.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F13831.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F14011.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F14191.jpg",
+   "gallery/P0867T04070A0/P0867T04070A0C0F13771.jpg"
+  ],
+  "do_tin": 0.7372,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0169",
+  "anh_truy_van_mat_dat": "query/P1608T04060A2/P1608T04060A2C3F05191.jpg",
+  "ma_muc_tieu": 1608040602,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1608T04060A2/P1608T04060A2C0F12871.jpg",
+   "gallery/P1608T04060A2/P1608T04060A2C0F10681.jpg",
+   "gallery/P1608T04060A2/P1608T04060A2C0F10771.jpg",
+   "gallery/P1608T04060A2/P1608T04060A2C0F10711.jpg",
+   "gallery/P1608T04060A2/P1608T04060A2C0F12751.jpg"
+  ],
+  "do_tin": 0.7565,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0170",
+  "anh_truy_van_mat_dat": "query/P2271T04071A0/P2271T04071A0C3F09481.jpg",
+  "ma_muc_tieu": 2271040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2271T04071A0/P2271T04071A0C0F20701.jpg",
+   "gallery/P2271T04071A0/P2271T04071A0C0F20191.jpg",
+   "gallery/P2271T04071A0/P2271T04071A0C0F19921.jpg",
+   "gallery/P2271T04071A0/P2271T04071A0C0F20671.jpg",
+   "gallery/P2271T04071A0/P2271T04071A0C0F20161.jpg"
+  ],
+  "do_tin": 0.7632,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0171",
+  "anh_truy_van_mat_dat": "query/P0701T04060A0/P0701T04060A0C3F04441.jpg",
+  "ma_muc_tieu": 701040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0701T04060A0/P0701T04060A0C0F10351.jpg",
+   "gallery/P0701T04060A0/P0701T04060A0C0F10381.jpg",
+   "gallery/P0701T04060A0/P0701T04060A0C0F10681.jpg",
+   "gallery/P0701T04060A0/P0701T04060A0C0F10441.jpg",
+   "gallery/P0701T04060A0/P0701T04060A0C0F10741.jpg"
+  ],
+  "do_tin": 0.7895,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0172",
+  "anh_truy_van_mat_dat": "query/P0053T04070A0/P0053T04070A0C3F00631.jpg",
+  "ma_muc_tieu": 53040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0053T04070A0/P0053T04070A0C0F01051.jpg",
+   "gallery/P0053T04070A0/P0053T04070A0C0F01411.jpg",
+   "gallery/P0053T04070A0/P0053T04070A0C0F01231.jpg",
+   "gallery/P0053T04070A0/P0053T04070A0C0F01381.jpg",
+   "gallery/P0053T04070A0/P0053T04070A0C0F01351.jpg"
+  ],
+  "do_tin": 0.7553,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0173",
+  "anh_truy_van_mat_dat": "query/P0634T04060A1/P0634T04060A1C3F02461.jpg",
+  "ma_muc_tieu": 634040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0634T04060A1/P0634T04060A1C0F06511.jpg",
+   "gallery/P0634T04060A1/P0634T04060A1C0F06301.jpg",
+   "gallery/P0634T04060A1/P0634T04060A1C0F05851.jpg",
+   "gallery/P0634T04060A1/P0634T04060A1C0F06631.jpg",
+   "gallery/P0634T04060A1/P0634T04060A1C0F05941.jpg"
+  ],
+  "do_tin": 0.8352,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0174",
+  "anh_truy_van_mat_dat": "query/P1933T04070A1/P1933T04070A1C3F09991.jpg",
+  "ma_muc_tieu": 1933040701,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1933T04070A1/P1933T04070A1C0F22261.jpg",
+   "gallery/P1933T04070A1/P1933T04070A1C0F22021.jpg",
+   "gallery/P1933T04070A1/P1933T04070A1C0F22531.jpg",
+   "gallery/P1933T04070A1/P1933T04070A1C0F22321.jpg",
+   "gallery/P1933T04070A1/P1933T04070A1C0F22831.jpg"
+  ],
+  "do_tin": 0.7504,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0175",
+  "anh_truy_van_mat_dat": "query/P2414T04071A0/P2414T04071A0C3F12391.jpg",
+  "ma_muc_tieu": 2414040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2414T04071A0/P2414T04071A0C0F21691.jpg",
+   "gallery/P2414T04071A0/P2414T04071A0C0F21661.jpg",
+   "gallery/P2414T04071A0/P2414T04071A0C0F21271.jpg",
+   "gallery/P2414T04071A0/P2414T04071A0C0F21181.jpg",
+   "gallery/P2414T04071A0/P2414T04071A0C0F21511.jpg"
+  ],
+  "do_tin": 0.7776,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0176",
+  "anh_truy_van_mat_dat": "query/P0361T04070A0/P0361T04070A0C3F04471.jpg",
+  "ma_muc_tieu": 361040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0361T04070A0/P0361T04070A0C0F06091.jpg",
+   "gallery/P0361T04070A0/P0361T04070A0C0F06121.jpg",
+   "gallery/P0361T04070A0/P0361T04070A0C0F06061.jpg",
+   "gallery/P0361T04070A0/P0361T04070A0C0F05851.jpg",
+   "gallery/P0361T04070A0/P0361T04070A0C0F06031.jpg"
+  ],
+  "do_tin": 0.7346,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0177",
+  "anh_truy_van_mat_dat": "query/P1257T04071A0/P1257T04071A0C3F06151.jpg",
+  "ma_muc_tieu": 1257040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1257T04071A0/P1257T04071A0C0F11881.jpg",
+   "gallery/P1257T04071A0/P1257T04071A0C0F11671.jpg",
+   "gallery/P1257T04071A0/P1257T04071A0C0F11851.jpg",
+   "gallery/P1257T04071A0/P1257T04071A0C0F11641.jpg",
+   "gallery/P1257T04071A0/P1257T04071A0C0F11821.jpg"
+  ],
+  "do_tin": 0.7348,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0178",
+  "anh_truy_van_mat_dat": "query/P1706T04071A2/P1706T04071A2C3F11221.jpg",
+  "ma_muc_tieu": 1254040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1254T04071A0/P1254T04071A0C0F12031.jpg",
+   "gallery/P1254T04071A0/P1254T04071A0C0F12121.jpg",
+   "gallery/P1254T04071A0/P1254T04071A0C0F11791.jpg",
+   "gallery/P1254T04071A0/P1254T04071A0C0F11851.jpg",
+   "gallery/P1254T04071A0/P1254T04071A0C0F11611.jpg"
+  ],
+  "do_tin": 0.7361,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0179",
+  "anh_truy_van_mat_dat": "query/P1730T04060A0/P1730T04060A0C3F11101.jpg",
+  "ma_muc_tieu": 1730040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1730T04060A0/P1730T04060A0C0F22861.jpg",
+   "gallery/P1730T04060A0/P1730T04060A0C0F22681.jpg",
+   "gallery/P1730T04060A0/P1730T04060A0C0F22831.jpg",
+   "gallery/P1730T04060A0/P1730T04060A0C0F22561.jpg",
+   "gallery/P1730T04060A0/P1730T04060A0C0F23041.jpg"
+  ],
+  "do_tin": 0.8103,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0180",
+  "anh_truy_van_mat_dat": "query/P1791T04071A0/P1791T04071A0C3F09541.jpg",
+  "ma_muc_tieu": 1566040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1566T04071A1/P1566T04071A1C0F18481.jpg",
+   "gallery/P1566T04071A1/P1566T04071A1C0F18001.jpg",
+   "gallery/P1566T04071A1/P1566T04071A1C0F18751.jpg",
+   "gallery/P1566T04071A1/P1566T04071A1C0F18421.jpg",
+   "gallery/P1566T04071A1/P1566T04071A1C0F18121.jpg"
+  ],
+  "do_tin": 0.7393,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0181",
+  "anh_truy_van_mat_dat": "query/P1826T04060A1/P1826T04060A1C3F11731.jpg",
+  "ma_muc_tieu": 1826040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1826T04060A1/P1826T04060A1C0F21001.jpg",
+   "gallery/P1826T04060A1/P1826T04060A1C0F20731.jpg",
+   "gallery/P1826T04060A1/P1826T04060A1C0F20971.jpg",
+   "gallery/P1826T04060A1/P1826T04060A1C0F20851.jpg",
+   "gallery/P1826T04060A1/P1826T04060A1C0F20821.jpg"
+  ],
+  "do_tin": 0.762,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0182",
+  "anh_truy_van_mat_dat": "query/P1730T04060A0/P1730T04060A0C3F11431.jpg",
+  "ma_muc_tieu": 1895040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1895T04060A0/P1895T04060A0C0F24301.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F24691.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F25321.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F24751.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F25021.jpg"
+  ],
+  "do_tin": 0.7526,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0183",
+  "anh_truy_van_mat_dat": "query/P1608T04060A2/P1608T04060A2C3F06031.jpg",
+  "ma_muc_tieu": 1040040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1040T04060A0/P1040T04060A0C0F12721.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12871.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F13201.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12781.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12841.jpg"
+  ],
+  "do_tin": 0.752,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0184",
+  "anh_truy_van_mat_dat": "query/P0130T04060A0/P0130T04060A0C3F02341.jpg",
+  "ma_muc_tieu": 597040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0597T04060A1/P0597T04060A1C0F06421.jpg",
+   "gallery/P0597T04060A1/P0597T04060A1C0F05761.jpg",
+   "gallery/P0597T04060A1/P0597T04060A1C0F05581.jpg",
+   "gallery/P0597T04060A1/P0597T04060A1C0F06121.jpg",
+   "gallery/P0597T04060A1/P0597T04060A1C0F06301.jpg"
+  ],
+  "do_tin": 0.7496,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0185",
+  "anh_truy_van_mat_dat": "query/P1700T04071A1/P1700T04071A1C3F12001.jpg",
+  "ma_muc_tieu": 1700040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1700T04071A1/P1700T04071A1C0F20281.jpg",
+   "gallery/P1700T04071A1/P1700T04071A1C0F20041.jpg",
+   "gallery/P1700T04071A1/P1700T04071A1C0F20101.jpg",
+   "gallery/P1700T04071A1/P1700T04071A1C0F19261.jpg",
+   "gallery/P1700T04071A1/P1700T04071A1C0F19471.jpg"
+  ],
+  "do_tin": 0.8186,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0186",
+  "anh_truy_van_mat_dat": "query/P0586T04071A2/P0586T04071A2C3F06091.jpg",
+  "ma_muc_tieu": 586040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0586T04071A2/P0586T04071A2C0F08881.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08281.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08521.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08371.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08611.jpg"
+  ],
+  "do_tin": 0.7494,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0187",
+  "anh_truy_van_mat_dat": "query/P0692T04060A1/P0692T04060A1C3F02671.jpg",
+  "ma_muc_tieu": 692040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0692T04060A1/P0692T04060A1C0F06451.jpg",
+   "gallery/P0692T04060A1/P0692T04060A1C0F07231.jpg",
+   "gallery/P0692T04060A1/P0692T04060A1C0F07441.jpg",
+   "gallery/P0692T04060A1/P0692T04060A1C0F07021.jpg",
+   "gallery/P0692T04060A1/P0692T04060A1C0F06871.jpg"
+  ],
+  "do_tin": 0.7298,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0188",
+  "anh_truy_van_mat_dat": "query/P1895T04060A0/P1895T04060A0C3F12451.jpg",
+  "ma_muc_tieu": 1895040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1895T04060A0/P1895T04060A0C0F24301.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F24691.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F25321.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F24751.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F25021.jpg"
+  ],
+  "do_tin": 0.7731,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0189",
+  "anh_truy_van_mat_dat": "query/P0191T04051A1/P0191T04051A1C3F4441.jpg",
+  "ma_muc_tieu": 191040511,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0191T04051A1/P0191T04051A1C0F9901.jpg",
+   "gallery/P0191T04051A1/P0191T04051A1C0F9601.jpg",
+   "gallery/P0191T04051A1/P0191T04051A1C0F9421.jpg",
+   "gallery/P0191T04051A1/P0191T04051A1C0F9871.jpg",
+   "gallery/P0191T04051A1/P0191T04051A1C0F9181.jpg"
+  ],
+  "do_tin": 0.7878,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0190",
+  "anh_truy_van_mat_dat": "query/P1370T04060A0/P1370T04060A0C3F10141.jpg",
+  "ma_muc_tieu": 1370040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1370T04060A0/P1370T04060A0C0F19531.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19711.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19651.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F20191.jpg",
+   "gallery/P1370T04060A0/P1370T04060A0C0F19111.jpg"
+  ],
+  "do_tin": 0.846,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0191",
+  "anh_truy_van_mat_dat": "query/P1530T04060A0/P1530T04060A0C3F10471.jpg",
+  "ma_muc_tieu": 1530040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1530T04060A0/P1530T04060A0C0F22801.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F21211.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F22321.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F22081.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F21901.jpg"
+  ],
+  "do_tin": 0.81,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0192",
+  "anh_truy_van_mat_dat": "query/P1730T04060A0/P1730T04060A0C3F11611.jpg",
+  "ma_muc_tieu": 1730040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1730T04060A0/P1730T04060A0C0F22861.jpg",
+   "gallery/P1730T04060A0/P1730T04060A0C0F22681.jpg",
+   "gallery/P1730T04060A0/P1730T04060A0C0F22831.jpg",
+   "gallery/P1730T04060A0/P1730T04060A0C0F22561.jpg",
+   "gallery/P1730T04060A0/P1730T04060A0C0F23041.jpg"
+  ],
+  "do_tin": 0.7811,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0193",
+  "anh_truy_van_mat_dat": "query/P0345T04070A0/P0345T04070A0C3F04351.jpg",
+  "ma_muc_tieu": 345040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0345T04070A0/P0345T04070A0C0F05521.jpg",
+   "gallery/P0345T04070A0/P0345T04070A0C0F05791.jpg",
+   "gallery/P0345T04070A0/P0345T04070A0C0F05491.jpg",
+   "gallery/P0345T04070A0/P0345T04070A0C0F06091.jpg",
+   "gallery/P0345T04070A0/P0345T04070A0C0F05851.jpg"
+  ],
+  "do_tin": 0.8206,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0194",
+  "anh_truy_van_mat_dat": "query/P2051T04071A0/P2051T04071A0C3F11161.jpg",
+  "ma_muc_tieu": 2051040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2051T04071A0/P2051T04071A0C0F18931.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F19051.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18871.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18811.jpg",
+   "gallery/P2051T04071A0/P2051T04071A0C0F18991.jpg"
+  ],
+  "do_tin": 0.7962,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0195",
+  "anh_truy_van_mat_dat": "query/P0348T04060A0/P0348T04060A0C3F03061.jpg",
+  "ma_muc_tieu": 348040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0348T04060A0/P0348T04060A0C0F07471.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07441.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F06601.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07171.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07561.jpg"
+  ],
+  "do_tin": 0.8391,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0196",
+  "anh_truy_van_mat_dat": "query/P1768T04060A0/P1768T04060A0C3F11881.jpg",
+  "ma_muc_tieu": 1768040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1768T04060A0/P1768T04060A0C0F23251.jpg",
+   "gallery/P1768T04060A0/P1768T04060A0C0F23491.jpg",
+   "gallery/P1768T04060A0/P1768T04060A0C0F23311.jpg",
+   "gallery/P1768T04060A0/P1768T04060A0C0F23131.jpg",
+   "gallery/P1768T04060A0/P1768T04060A0C0F23881.jpg"
+  ],
+  "do_tin": 0.744,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0197",
+  "anh_truy_van_mat_dat": "query/P0175T04071A0/P0175T04071A0C3F02881.jpg",
+  "ma_muc_tieu": 175040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0175T04071A0/P0175T04071A0C0F02101.jpg",
+   "gallery/P0175T04071A0/P0175T04071A0C0F02251.jpg",
+   "gallery/P0175T04071A0/P0175T04071A0C0F02281.jpg",
+   "gallery/P0175T04071A0/P0175T04071A0C0F02341.jpg",
+   "gallery/P0175T04071A0/P0175T04071A0C0F02131.jpg"
+  ],
+  "do_tin": 0.7991,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0198",
+  "anh_truy_van_mat_dat": "query/P0383T04071A2/P0383T04071A2C3F04411.jpg",
+  "ma_muc_tieu": 383040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0383T04071A2/P0383T04071A2C0F05071.jpg",
+   "gallery/P0383T04071A2/P0383T04071A2C0F05221.jpg",
+   "gallery/P0383T04071A2/P0383T04071A2C0F05041.jpg",
+   "gallery/P0383T04071A2/P0383T04071A2C0F05191.jpg"
+  ],
+  "do_tin": 0.7307,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0199",
+  "anh_truy_van_mat_dat": "query/P0691T04071A2/P0691T04071A2C3F06241.jpg",
+  "ma_muc_tieu": 691040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0691T04071A2/P0691T04071A2C0F09451.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10261.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10021.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F09601.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10231.jpg"
+  ],
+  "do_tin": 0.8396,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0200",
+  "anh_truy_van_mat_dat": "query/P0348T04060A0/P0348T04060A0C3F03241.jpg",
+  "ma_muc_tieu": 348040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0348T04060A0/P0348T04060A0C0F07471.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07441.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F06601.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07171.jpg",
+   "gallery/P0348T04060A0/P0348T04060A0C0F07561.jpg"
+  ],
+  "do_tin": 0.7345,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0201",
+  "anh_truy_van_mat_dat": "query/P0692T04060A1/P0692T04060A1C3F02701.jpg",
+  "ma_muc_tieu": 692040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0692T04060A1/P0692T04060A1C0F06451.jpg",
+   "gallery/P0692T04060A1/P0692T04060A1C0F07231.jpg",
+   "gallery/P0692T04060A1/P0692T04060A1C0F07441.jpg",
+   "gallery/P0692T04060A1/P0692T04060A1C0F07021.jpg",
+   "gallery/P0692T04060A1/P0692T04060A1C0F06871.jpg"
+  ],
+  "do_tin": 0.7301,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0202",
+  "anh_truy_van_mat_dat": "query/P0837T04071A0/P0837T04071A0C3F04651.jpg",
+  "ma_muc_tieu": 837040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0837T04071A0/P0837T04071A0C0F09721.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09331.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09301.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09691.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09061.jpg"
+  ],
+  "do_tin": 0.7868,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0203",
+  "anh_truy_van_mat_dat": "query/P0782T04060A1/P0782T04060A1C3F03961.jpg",
+  "ma_muc_tieu": 782040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0782T04060A1/P0782T04060A1C0F07681.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F07981.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08011.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08281.jpg",
+   "gallery/P0782T04060A1/P0782T04060A1C0F08221.jpg"
+  ],
+  "do_tin": 0.8517,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0204",
+  "anh_truy_van_mat_dat": "query/P0053T04070A0/P0053T04070A0C3F00331.jpg",
+  "ma_muc_tieu": 53040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0053T04070A0/P0053T04070A0C0F01051.jpg",
+   "gallery/P0053T04070A0/P0053T04070A0C0F01411.jpg",
+   "gallery/P0053T04070A0/P0053T04070A0C0F01231.jpg",
+   "gallery/P0053T04070A0/P0053T04070A0C0F01381.jpg",
+   "gallery/P0053T04070A0/P0053T04070A0C0F01351.jpg"
+  ],
+  "do_tin": 0.7771,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0205",
+  "anh_truy_van_mat_dat": "query/P1785T04071A2/P1785T04071A2C3F11611.jpg",
+  "ma_muc_tieu": 1785040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1785T04071A2/P1785T04071A2C0F23971.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24211.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24391.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F23941.jpg",
+   "gallery/P1785T04071A2/P1785T04071A2C0F24271.jpg"
+  ],
+  "do_tin": 0.749,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0206",
+  "anh_truy_van_mat_dat": "query/P0303T04070A1/P0303T04070A1C3F01321.jpg",
+  "ma_muc_tieu": 303040701,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0303T04070A1/P0303T04070A1C0F03781.jpg",
+   "gallery/P0303T04070A1/P0303T04070A1C0F03151.jpg",
+   "gallery/P0303T04070A1/P0303T04070A1C0F02941.jpg",
+   "gallery/P0303T04070A1/P0303T04070A1C0F02731.jpg",
+   "gallery/P0303T04070A1/P0303T04070A1C0F03511.jpg"
+  ],
+  "do_tin": 0.752,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0207",
+  "anh_truy_van_mat_dat": "query/P0664T04060A1/P0664T04060A1C3F02311.jpg",
+  "ma_muc_tieu": 664040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0664T04060A1/P0664T04060A1C0F06241.jpg",
+   "gallery/P0664T04060A1/P0664T04060A1C0F06991.jpg",
+   "gallery/P0664T04060A1/P0664T04060A1C0F07171.jpg",
+   "gallery/P0664T04060A1/P0664T04060A1C0F06181.jpg",
+   "gallery/P0664T04060A1/P0664T04060A1C0F06751.jpg"
+  ],
+  "do_tin": 0.7318,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0208",
+  "anh_truy_van_mat_dat": "query/P1046T04070A2/P1046T04070A2C3F02971.jpg",
+  "ma_muc_tieu": 1046040702,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1046T04070A2/P1046T04070A2C0F06391.jpg",
+   "gallery/P1046T04070A2/P1046T04070A2C0F06751.jpg",
+   "gallery/P1046T04070A2/P1046T04070A2C0F06991.jpg",
+   "gallery/P1046T04070A2/P1046T04070A2C0F07231.jpg",
+   "gallery/P1046T04070A2/P1046T04070A2C0F07171.jpg"
+  ],
+  "do_tin": 0.7389,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0209",
+  "anh_truy_van_mat_dat": "query/P1182T04060A0/P1182T04060A0C3F07621.jpg",
+  "ma_muc_tieu": 1182040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1182T04060A0/P1182T04060A0C0F15601.jpg",
+   "gallery/P1182T04060A0/P1182T04060A0C0F15781.jpg",
+   "gallery/P1182T04060A0/P1182T04060A0C0F15961.jpg",
+   "gallery/P1182T04060A0/P1182T04060A0C0F15841.jpg",
+   "gallery/P1182T04060A0/P1182T04060A0C0F15661.jpg"
+  ],
+  "do_tin": 0.8245,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0210",
+  "anh_truy_van_mat_dat": "query/P0847T04071A0/P0847T04071A0C3F05911.jpg",
+  "ma_muc_tieu": 847040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0847T04071A0/P0847T04071A0C0F09541.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09061.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09301.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09331.jpg",
+   "gallery/P0847T04071A0/P0847T04071A0C0F09571.jpg"
+  ],
+  "do_tin": 0.7495,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0211",
+  "anh_truy_van_mat_dat": "query/P1826T04060A1/P1826T04060A1C3F11371.jpg",
+  "ma_muc_tieu": 1040040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1040T04060A0/P1040T04060A0C0F12721.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12871.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F13201.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12781.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12841.jpg"
+  ],
+  "do_tin": 0.7477,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0212",
+  "anh_truy_van_mat_dat": "query/P1829T04060A1/P1829T04060A1C3F09991.jpg",
+  "ma_muc_tieu": 1829040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1829T04060A1/P1829T04060A1C0F21421.jpg",
+   "gallery/P1829T04060A1/P1829T04060A1C0F21511.jpg",
+   "gallery/P1829T04060A1/P1829T04060A1C0F21631.jpg",
+   "gallery/P1829T04060A1/P1829T04060A1C0F21061.jpg",
+   "gallery/P1829T04060A1/P1829T04060A1C0F21331.jpg"
+  ],
+  "do_tin": 0.7571,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0213",
+  "anh_truy_van_mat_dat": "query/P1562T04071A2/P1562T04071A2C3F11941.jpg",
+  "ma_muc_tieu": 994040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0994T04071A1/P0994T04071A1C0F11161.jpg",
+   "gallery/P0994T04071A1/P0994T04071A1C0F11011.jpg",
+   "gallery/P0994T04071A1/P0994T04071A1C0F10861.jpg",
+   "gallery/P0994T04071A1/P0994T04071A1C0F11071.jpg",
+   "gallery/P0994T04071A1/P0994T04071A1C0F10921.jpg"
+  ],
+  "do_tin": 0.7412,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0214",
+  "anh_truy_van_mat_dat": "query/P0395T04060A0/P0395T04060A0C3F00481.jpg",
+  "ma_muc_tieu": 1530040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1530T04060A0/P1530T04060A0C0F22801.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F21211.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F22321.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F22081.jpg",
+   "gallery/P1530T04060A0/P1530T04060A0C0F21901.jpg"
+  ],
+  "do_tin": 0.7335,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0215",
+  "anh_truy_van_mat_dat": "query/P0597T04060A1/P0597T04060A1C3F03361.jpg",
+  "ma_muc_tieu": 588040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0588T04060A0/P0588T04060A0C0F10441.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09931.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09331.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09301.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09061.jpg"
+  ],
+  "do_tin": 0.7425,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0216",
+  "anh_truy_van_mat_dat": "query/P2414T04071A0/P2414T04071A0C3F12301.jpg",
+  "ma_muc_tieu": 822040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0822T04071A0/P0822T04071A0C0F09151.jpg",
+   "gallery/P0822T04071A0/P0822T04071A0C0F09361.jpg",
+   "gallery/P0822T04071A0/P0822T04071A0C0F09451.jpg",
+   "gallery/P0822T04071A0/P0822T04071A0C0F09301.jpg",
+   "gallery/P0822T04071A0/P0822T04071A0C0F08821.jpg"
+  ],
+  "do_tin": 0.7582,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0217",
+  "anh_truy_van_mat_dat": "query/P1851T04060A1/P1851T04060A1C3F05881.jpg",
+  "ma_muc_tieu": 1851040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1851T04060A1/P1851T04060A1C0F22441.jpg",
+   "gallery/P1851T04060A1/P1851T04060A1C0F22621.jpg",
+   "gallery/P1851T04060A1/P1851T04060A1C0F23221.jpg",
+   "gallery/P1851T04060A1/P1851T04060A1C0F22861.jpg",
+   "gallery/P1851T04060A1/P1851T04060A1C0F21601.jpg"
+  ],
+  "do_tin": 0.7796,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0218",
+  "anh_truy_van_mat_dat": "query/P1066T04071A2/P1066T04071A2C3F07291.jpg",
+  "ma_muc_tieu": 786040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0786T04071A1/P0786T04071A1C0F08881.jpg",
+   "gallery/P0786T04071A1/P0786T04071A1C0F09001.jpg",
+   "gallery/P0786T04071A1/P0786T04071A1C0F08971.jpg",
+   "gallery/P0786T04071A1/P0786T04071A1C0F08731.jpg",
+   "gallery/P0786T04071A1/P0786T04071A1C0F08941.jpg"
+  ],
+  "do_tin": 0.7366,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0219",
+  "anh_truy_van_mat_dat": "query/P0049T04060A2/P0049T04060A2C3F00361.jpg",
+  "ma_muc_tieu": 49040602,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0049T04060A2/P0049T04060A2C0F00991.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F01231.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F00901.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F01321.jpg",
+   "gallery/P0049T04060A2/P0049T04060A2C0F01441.jpg"
+  ],
+  "do_tin": 0.7825,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0220",
+  "anh_truy_van_mat_dat": "query/P1040T04060A0/P1040T04060A0C3F06241.jpg",
+  "ma_muc_tieu": 1040040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1040T04060A0/P1040T04060A0C0F12721.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12871.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F13201.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12781.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12841.jpg"
+  ],
+  "do_tin": 0.7406,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0221",
+  "anh_truy_van_mat_dat": "query/P0368T04071A2/P0368T04071A2C3F02431.jpg",
+  "ma_muc_tieu": 368040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0368T04071A2/P0368T04071A2C0F04891.jpg",
+   "gallery/P0368T04071A2/P0368T04071A2C0F04921.jpg",
+   "gallery/P0368T04071A2/P0368T04071A2C0F05551.jpg",
+   "gallery/P0368T04071A2/P0368T04071A2C0F05101.jpg",
+   "gallery/P0368T04071A2/P0368T04071A2C0F05581.jpg"
+  ],
+  "do_tin": 0.7578,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0222",
+  "anh_truy_van_mat_dat": "query/P2375T04071A0/P2375T04071A0C3F11281.jpg",
+  "ma_muc_tieu": 586040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0586T04071A2/P0586T04071A2C0F08881.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08281.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08521.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08371.jpg",
+   "gallery/P0586T04071A2/P0586T04071A2C0F08611.jpg"
+  ],
+  "do_tin": 0.7652,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0223",
+  "anh_truy_van_mat_dat": "query/P1084T04070A0/P1084T04070A0C3F11131.jpg",
+  "ma_muc_tieu": 1084040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1084T04070A0/P1084T04070A0C0F17671.jpg",
+   "gallery/P1084T04070A0/P1084T04070A0C0F16741.jpg",
+   "gallery/P1084T04070A0/P1084T04070A0C0F16861.jpg",
+   "gallery/P1084T04070A0/P1084T04070A0C0F17611.jpg",
+   "gallery/P1084T04070A0/P1084T04070A0C0F17221.jpg"
+  ],
+  "do_tin": 0.7446,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0224",
+  "anh_truy_van_mat_dat": "query/P0189T04051A1/P0189T04051A1C3F4081.jpg",
+  "ma_muc_tieu": 189040511,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0189T04051A1/P0189T04051A1C0F9331.jpg",
+   "gallery/P0189T04051A1/P0189T04051A1C0F9061.jpg",
+   "gallery/P0189T04051A1/P0189T04051A1C0F8941.jpg",
+   "gallery/P0189T04051A1/P0189T04051A1C0F9511.jpg",
+   "gallery/P0189T04051A1/P0189T04051A1C0F8701.jpg"
+  ],
+  "do_tin": 0.7364,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0225",
+  "anh_truy_van_mat_dat": "query/P0710T04060A1/P0710T04060A1C3F03271.jpg",
+  "ma_muc_tieu": 710040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0710T04060A1/P0710T04060A1C0F08191.jpg",
+   "gallery/P0710T04060A1/P0710T04060A1C0F08551.jpg",
+   "gallery/P0710T04060A1/P0710T04060A1C0F07651.jpg",
+   "gallery/P0710T04060A1/P0710T04060A1C0F07441.jpg",
+   "gallery/P0710T04060A1/P0710T04060A1C0F07081.jpg"
+  ],
+  "do_tin": 0.7543,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0226",
+  "anh_truy_van_mat_dat": "query/P0916T04060A1/P0916T04060A1C3F04801.jpg",
+  "ma_muc_tieu": 916040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0916T04060A1/P0916T04060A1C0F10711.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F10501.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F10591.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F11311.jpg",
+   "gallery/P0916T04060A1/P0916T04060A1C0F11131.jpg"
+  ],
+  "do_tin": 0.7906,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0227",
+  "anh_truy_van_mat_dat": "query/P1257T04071A0/P1257T04071A0C3F06001.jpg",
+  "ma_muc_tieu": 1257040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1257T04071A0/P1257T04071A0C0F11881.jpg",
+   "gallery/P1257T04071A0/P1257T04071A0C0F11671.jpg",
+   "gallery/P1257T04071A0/P1257T04071A0C0F11851.jpg",
+   "gallery/P1257T04071A0/P1257T04071A0C0F11641.jpg",
+   "gallery/P1257T04071A0/P1257T04071A0C0F11821.jpg"
+  ],
+  "do_tin": 0.7591,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0228",
+  "anh_truy_van_mat_dat": "query/P1825T04060A1/P1825T04060A1C3F09901.jpg",
+  "ma_muc_tieu": 1825040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1825T04060A1/P1825T04060A1C0F23521.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F22171.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F21151.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F24001.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F21271.jpg"
+  ],
+  "do_tin": 0.7752,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0229",
+  "anh_truy_van_mat_dat": "query/P1066T04071A2/P1066T04071A2C3F07111.jpg",
+  "ma_muc_tieu": 1066040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1066T04071A2/P1066T04071A2C0F13801.jpg",
+   "gallery/P1066T04071A2/P1066T04071A2C0F13891.jpg",
+   "gallery/P1066T04071A2/P1066T04071A2C0F13921.jpg",
+   "gallery/P1066T04071A2/P1066T04071A2C0F13831.jpg",
+   "gallery/P1066T04071A2/P1066T04071A2C0F13621.jpg"
+  ],
+  "do_tin": 0.7482,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0230",
+  "anh_truy_van_mat_dat": "query/P2512T04071A0/P2512T04071A0C3F12781.jpg",
+  "ma_muc_tieu": 2512040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2512T04071A0/P2512T04071A0C0F21961.jpg",
+   "gallery/P2512T04071A0/P2512T04071A0C0F21871.jpg",
+   "gallery/P2512T04071A0/P2512T04071A0C0F21841.jpg",
+   "gallery/P2512T04071A0/P2512T04071A0C0F21901.jpg",
+   "gallery/P2512T04071A0/P2512T04071A0C0F21811.jpg"
+  ],
+  "do_tin": 0.7542,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0231",
+  "anh_truy_van_mat_dat": "query/P1425T04070A0/P1425T04070A0C3F12751.jpg",
+  "ma_muc_tieu": 1425040700,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1425T04070A0/P1425T04070A0C0F22081.jpg",
+   "gallery/P1425T04070A0/P1425T04070A0C0F22351.jpg",
+   "gallery/P1425T04070A0/P1425T04070A0C0F22171.jpg",
+   "gallery/P1425T04070A0/P1425T04070A0C0F21301.jpg",
+   "gallery/P1425T04070A0/P1425T04070A0C0F21961.jpg"
+  ],
+  "do_tin": 0.7613,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0232",
+  "anh_truy_van_mat_dat": "query/P0588T04060A0/P0588T04060A0C3F03961.jpg",
+  "ma_muc_tieu": 588040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0588T04060A0/P0588T04060A0C0F10441.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09931.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09331.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09301.jpg",
+   "gallery/P0588T04060A0/P0588T04060A0C0F09061.jpg"
+  ],
+  "do_tin": 0.765,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0233",
+  "anh_truy_van_mat_dat": "query/P0895T04060A1/P0895T04060A1C3F04501.jpg",
+  "ma_muc_tieu": 1040040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1040T04060A0/P1040T04060A0C0F12721.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12871.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F13201.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12781.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12841.jpg"
+  ],
+  "do_tin": 0.7486,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0234",
+  "anh_truy_van_mat_dat": "query/P0157T04051A1/P0157T04051A1C3F421.jpg",
+  "ma_muc_tieu": 157040511,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0157T04051A1/P0157T04051A1C0F901.jpg",
+   "gallery/P0157T04051A1/P0157T04051A1C0F781.jpg",
+   "gallery/P0157T04051A1/P0157T04051A1C0F871.jpg",
+   "gallery/P0157T04051A1/P0157T04051A1C0F751.jpg",
+   "gallery/P0157T04051A1/P0157T04051A1C0F811.jpg"
+  ],
+  "do_tin": 0.8835,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0235",
+  "anh_truy_van_mat_dat": "query/P1333T04060A0/P1333T04060A0C3F08491.jpg",
+  "ma_muc_tieu": 1333040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1333T04060A0/P1333T04060A0C0F18931.jpg",
+   "gallery/P1333T04060A0/P1333T04060A0C0F18091.jpg",
+   "gallery/P1333T04060A0/P1333T04060A0C0F18661.jpg",
+   "gallery/P1333T04060A0/P1333T04060A0C0F18271.jpg",
+   "gallery/P1333T04060A0/P1333T04060A0C0F18061.jpg"
+  ],
+  "do_tin": 0.7956,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0236",
+  "anh_truy_van_mat_dat": "query/P0691T04071A2/P0691T04071A2C3F06571.jpg",
+  "ma_muc_tieu": 691040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0691T04071A2/P0691T04071A2C0F09451.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10261.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10021.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F09601.jpg",
+   "gallery/P0691T04071A2/P0691T04071A2C0F10231.jpg"
+  ],
+  "do_tin": 0.7721,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0237",
+  "anh_truy_van_mat_dat": "query/P0796T04071A2/P0796T04071A2C3F06811.jpg",
+  "ma_muc_tieu": 796040712,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0796T04071A2/P0796T04071A2C0F10741.jpg",
+   "gallery/P0796T04071A2/P0796T04071A2C0F10981.jpg",
+   "gallery/P0796T04071A2/P0796T04071A2C0F10651.jpg",
+   "gallery/P0796T04071A2/P0796T04071A2C0F10891.jpg",
+   "gallery/P0796T04071A2/P0796T04071A2C0F10621.jpg"
+  ],
+  "do_tin": 0.7705,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0238",
+  "anh_truy_van_mat_dat": "query/P0132T04051A0/P0132T04051A0C3F11641.jpg",
+  "ma_muc_tieu": 132040510,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0132T04051A0/P0132T04051A0C0F23311.jpg",
+   "gallery/P0132T04051A0/P0132T04051A0C0F22951.jpg",
+   "gallery/P0132T04051A0/P0132T04051A0C0F22531.jpg",
+   "gallery/P0132T04051A0/P0132T04051A0C0F22741.jpg",
+   "gallery/P0132T04051A0/P0132T04051A0C0F23971.jpg"
+  ],
+  "do_tin": 0.8149,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0239",
+  "anh_truy_van_mat_dat": "query/P1378T04071A1/P1378T04071A1C3F07681.jpg",
+  "ma_muc_tieu": 1378040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1378T04071A1/P1378T04071A1C0F16411.jpg",
+   "gallery/P1378T04071A1/P1378T04071A1C0F15571.jpg",
+   "gallery/P1378T04071A1/P1378T04071A1C0F16051.jpg",
+   "gallery/P1378T04071A1/P1378T04071A1C0F16111.jpg",
+   "gallery/P1378T04071A1/P1378T04071A1C0F15751.jpg"
+  ],
+  "do_tin": 0.74,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0240",
+  "anh_truy_van_mat_dat": "query/P0664T04060A1/P0664T04060A1C3F02671.jpg",
+  "ma_muc_tieu": 685040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0685T04060A1/P0685T04060A1C0F06511.jpg",
+   "gallery/P0685T04060A1/P0685T04060A1C0F07081.jpg",
+   "gallery/P0685T04060A1/P0685T04060A1C0F06751.jpg",
+   "gallery/P0685T04060A1/P0685T04060A1C0F07051.jpg",
+   "gallery/P0685T04060A1/P0685T04060A1C0F06691.jpg"
+  ],
+  "do_tin": 0.7367,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "sai"
+ },
+ {
+  "ma_ban_giao": "BG-0241",
+  "anh_truy_van_mat_dat": "query/P1825T04060A1/P1825T04060A1C3F09931.jpg",
+  "ma_muc_tieu": 1825040601,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1825T04060A1/P1825T04060A1C0F23521.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F22171.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F21151.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F24001.jpg",
+   "gallery/P1825T04060A1/P1825T04060A1C0F21271.jpg"
+  ],
+  "do_tin": 0.7347,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0242",
+  "anh_truy_van_mat_dat": "query/P0113T04051A0/P0113T04051A0C3F11011.jpg",
+  "ma_muc_tieu": 113040510,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0113T04051A0/P0113T04051A0C0F19321.jpg",
+   "gallery/P0113T04051A0/P0113T04051A0C0F18901.jpg",
+   "gallery/P0113T04051A0/P0113T04051A0C0F19711.jpg",
+   "gallery/P0113T04051A0/P0113T04051A0C0F19741.jpg",
+   "gallery/P0113T04051A0/P0113T04051A0C0F19891.jpg"
+  ],
+  "do_tin": 0.7294,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0243",
+  "anh_truy_van_mat_dat": "query/P0127T04051A0/P0127T04051A0C3F11971.jpg",
+  "ma_muc_tieu": 127040510,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0127T04051A0/P0127T04051A0C0F21331.jpg",
+   "gallery/P0127T04051A0/P0127T04051A0C0F21811.jpg",
+   "gallery/P0127T04051A0/P0127T04051A0C0F21901.jpg",
+   "gallery/P0127T04051A0/P0127T04051A0C0F21931.jpg",
+   "gallery/P0127T04051A0/P0127T04051A0C0F21271.jpg"
+  ],
+  "do_tin": 0.7944,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0244",
+  "anh_truy_van_mat_dat": "query/P0334T04051A2/P0334T04051A2C3F6091.jpg",
+  "ma_muc_tieu": 334040512,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0334T04051A2/P0334T04051A2C0F6901.jpg",
+   "gallery/P0334T04051A2/P0334T04051A2C0F7261.jpg",
+   "gallery/P0334T04051A2/P0334T04051A2C0F6541.jpg",
+   "gallery/P0334T04051A2/P0334T04051A2C0F6631.jpg",
+   "gallery/P0334T04051A2/P0334T04051A2C0F7321.jpg"
+  ],
+  "do_tin": 0.7819,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4051,
+  "do_cao_A": 2,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0245",
+  "anh_truy_van_mat_dat": "query/P0837T04071A0/P0837T04071A0C3F04561.jpg",
+  "ma_muc_tieu": 837040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0837T04071A0/P0837T04071A0C0F09721.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09331.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09301.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09691.jpg",
+   "gallery/P0837T04071A0/P0837T04071A0C0F09061.jpg"
+  ],
+  "do_tin": 0.7896,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0246",
+  "anh_truy_van_mat_dat": "query/P1040T04060A0/P1040T04060A0C3F06721.jpg",
+  "ma_muc_tieu": 1040040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1040T04060A0/P1040T04060A0C0F12721.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12871.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F13201.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12781.jpg",
+   "gallery/P1040T04060A0/P1040T04060A0C0F12841.jpg"
+  ],
+  "do_tin": 0.7481,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0247",
+  "anh_truy_van_mat_dat": "query/P0819T04071A1/P0819T04071A1C3F05461.jpg",
+  "ma_muc_tieu": 819040711,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0819T04071A1/P0819T04071A1C0F08971.jpg",
+   "gallery/P0819T04071A1/P0819T04071A1C0F09091.jpg",
+   "gallery/P0819T04071A1/P0819T04071A1C0F08821.jpg",
+   "gallery/P0819T04071A1/P0819T04071A1C0F08941.jpg",
+   "gallery/P0819T04071A1/P0819T04071A1C0F09061.jpg"
+  ],
+  "do_tin": 0.7468,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0248",
+  "anh_truy_van_mat_dat": "query/P0499T04060A0/P0499T04060A0C3F04981.jpg",
+  "ma_muc_tieu": 499040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0499T04060A0/P0499T04060A0C0F07921.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08371.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08191.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08551.jpg",
+   "gallery/P0499T04060A0/P0499T04060A0C0F08071.jpg"
+  ],
+  "do_tin": 0.7781,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0249",
+  "anh_truy_van_mat_dat": "query/P1895T04060A0/P1895T04060A0C3F12391.jpg",
+  "ma_muc_tieu": 1895040600,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P1895T04060A0/P1895T04060A0C0F24301.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F24691.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F25321.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F24751.jpg",
+   "gallery/P1895T04060A0/P1895T04060A0C0F25021.jpg"
+  ],
+  "do_tin": 0.7382,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4060,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0250",
+  "anh_truy_van_mat_dat": "query/P2375T04071A0/P2375T04071A0C3F11431.jpg",
+  "ma_muc_tieu": 2375040710,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P2375T04071A0/P2375T04071A0C0F20551.jpg",
+   "gallery/P2375T04071A0/P2375T04071A0C0F20521.jpg",
+   "gallery/P2375T04071A0/P2375T04071A0C0F20611.jpg"
+  ],
+  "do_tin": 0.7413,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4071,
+  "do_cao_A": 0,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ },
+ {
+  "ma_ban_giao": "BG-0251",
+  "anh_truy_van_mat_dat": "query/P0416T04070A1/P0416T04070A1C3F01771.jpg",
+  "ma_muc_tieu": 416040701,
+  "anh_mau_muc_tieu_uav": [
+   "gallery/P0416T04070A1/P0416T04070A1C0F04621.jpg",
+   "gallery/P0416T04070A1/P0416T04070A1C0F05011.jpg",
+   "gallery/P0416T04070A1/P0416T04070A1C0F03991.jpg",
+   "gallery/P0416T04070A1/P0416T04070A1C0F04711.jpg",
+   "gallery/P0416T04070A1/P0416T04070A1C0F03751.jpg"
+  ],
+  "do_tin": 0.7839,
+  "nguong": 0.7274,
+  "buoi_quay_T": 4070,
+  "do_cao_A": 1,
+  "ket_qua_that_chi_de_danh_gia": "dung"
+ }
+]

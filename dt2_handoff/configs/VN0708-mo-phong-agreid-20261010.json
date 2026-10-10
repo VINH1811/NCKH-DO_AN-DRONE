@@ -1,0 +1,16 @@
+{
+  "goc": "D:/Data/AG-ReID.v2",
+  "ckpt": "E:/RTCN/models/osnet_ain_x1_0_dangguon_msdc.pth",
+  "model": "osnet_ain_x1_0",
+  "lo": 64,
+  "lenh": "dt2_handoff/src/vn07_vn08_ban_giao.py --goc D:/Data/AG-ReID.v2",
+  "far_muc_tieu": 0.1,
+  "nhom_thuoc_tinh_giong_ao": [
+    "upper",
+    "lower",
+    "bag",
+    "haircolor"
+  ],
+  "quy_tac_chia_phien": "ngay som -> phien 1 toi khi du 50% truy van",
+  "checkpoint_sha256": "2f38acc25e28cb29407635db2be315edc08d5457a904b72a9a11e427f41f3242"
+}
