@@ -1,0 +1,4 @@
+run_id,date,commit,task_id,dataset,split,model,checkpoint_sha256,precision,metric,value,ci95_low,ci95_high,n,chance_level,hardware,notes
+VT08-eval-freeze-20261010,2026-10-10,auto,VT-08,VisDrone2019-MOT,val,YOLO11s+ByteTrack,85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5,FP32,IDF1,0.2699,0.241,0.2985,2746,,RTX 3050 Laptop,Chốt mốc M10; baseline freeze toàn bộ 7 sequence
+VT08-eval-freeze-20261010,2026-10-10,auto,VT-08,VisDrone2019-MOT,val,YOLO11s+ByteTrack,85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5,FP32,MOTA,0.1078,0.082,0.134,2746,,RTX 3050 Laptop,Chốt mốc M10; 213 ID switches
+VT08-eval-freeze-20261010,2026-10-10,auto,VT-08,PX4-SITL-X500,sim,VisualServoing_20Hz,none,FP32,Offboard_Heartbeat_Hz,20.0,,,100,,RTX 3050 Laptop,"Heartbeat tách luồng, timeout 1.0s chuyển Failsafe Hold OK"
