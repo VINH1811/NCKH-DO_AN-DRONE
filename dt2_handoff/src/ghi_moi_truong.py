@@ -80,7 +80,10 @@ def thong_tin_git() -> dict:
         "commit": chay(["git", "rev-parse", "HEAD"]),
         "nhanh": chay(["git", "rev-parse", "--abbrev-ref", "HEAD"]),
         # có thay đổi chưa commit thì kết quả KHÔNG tái lập được từ commit này
-        "ban_lam_viec_sach": chay(["git", "status", "--porcelain"]) == "",
+        # chỉ xét file ĐÃ theo dõi bị sửa; file chưa theo dõi (như chính thư mục
+        # env/ đang ghi) không làm kết quả khó tái lập
+        "ban_lam_viec_sach": chay(["git", "status", "--porcelain",
+                                   "--untracked-files=no"]) == "",
         "mo_ta": chay(["git", "log", "-1", "--pretty=%s"]),
     }
 
