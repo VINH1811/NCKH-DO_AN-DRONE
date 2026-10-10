@@ -26,7 +26,7 @@ from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
-from docx.shared import Cm, Pt
+from docx.shared import Cm, Pt, RGBColor
 
 FONT = "Times New Roman"
 CO_BODY, CO_MUC, CO_MUC_NHO, CO_BANG = 13, 14, 13, 12
@@ -65,6 +65,42 @@ def chinh_docx(duong_dan: str) -> None:
         sec.left_margin = sec.right_margin = LE_NGANG
         sec.top_margin = sec.bottom_margin = LE_DOC
 
+    # Font mặc định của cả tài liệu, của MỌI kiểu, và của số thứ tự danh sách.
+    # Chỉ đặt font cho chữ là chưa đủ: số "1." "2." của danh sách đánh số lấy font
+    # từ định nghĩa đánh số hoặc kiểu mặc định, nên vẫn ra Calibri.
+    def ep_font(rpr):
+        rf = rpr.find(qn("w:rFonts"))
+        if rf is None:
+            rf = OxmlElement("w:rFonts")
+            rpr.insert(0, rf)
+        for a_ in ("w:ascii", "w:hAnsi", "w:cs", "w:eastAsia"):
+            rf.set(qn(a_), FONT)
+        for a_ in ("w:asciiTheme", "w:hAnsiTheme", "w:cstheme", "w:eastAsiaTheme"):
+            if rf.get(qn(a_)) is not None:
+                del rf.attrib[qn(a_)]
+
+    goc_st = d.styles.element
+    dd = goc_st.find(qn("w:docDefaults"))
+    if dd is not None:
+        for rpr in dd.iter(qn("w:rPr")):
+            ep_font(rpr)
+    for st in goc_st.iter(qn("w:style")):
+        rpr = st.find(qn("w:rPr"))
+        if rpr is None:
+            rpr = OxmlElement("w:rPr")
+            st.append(rpr)
+        ep_font(rpr)
+    try:
+        so = d.part.numbering_part.element
+        for lvl in so.iter(qn("w:lvl")):
+            rpr = lvl.find(qn("w:rPr"))
+            if rpr is None:
+                rpr = OxmlElement("w:rPr")
+                lvl.append(rpr)
+            ep_font(rpr)
+    except Exception:
+        pass                                     # tài liệu không có danh sách
+
     for ten in ("Normal", "Body Text", "Compact", "Quote", "Block Text"):
         try:
             st = d.styles[ten]
@@ -84,23 +120,47 @@ def chinh_docx(duong_dan: str) -> None:
         pf.keep_with_next = False
         pf.page_break_before = False
 
+        if "blip" in p._p.xml:                     # đoạn chứa ảnh
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            pf.space_before, pf.space_after = Pt(6), Pt(2)
+            pf.keep_with_next = True     # không để chú thích rớt sang trang sau
+            continue
+        if ten_style == "Image Caption":
+            for r in p.runs:
+                dat_font(r, CO_BODY)
+                r.italic = True
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            pf.space_after = Pt(8)
+            continue
         if ten_style == "Title":
             for r in p.runs:
                 dat_font(r, CO_MUC + 2, dam=True)
+                r.font.color.rgb = RGBColor(0, 0, 0)
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
             pf.space_after = Pt(10)
         elif ten_style in ("Heading 1", "Heading 2"):
             for r in p.runs:
                 dat_font(r, CO_MUC, dam=True)
+                r.font.color.rgb = RGBColor(0, 0, 0)
             pf.space_before, pf.space_after = Pt(10), Pt(5)
+            pf.keep_with_next = True     # tiêu đề không đứng trơ cuối trang
         elif ten_style.startswith("Heading"):
             for r in p.runs:
                 dat_font(r, CO_MUC_NHO, dam=True)
+                r.font.color.rgb = RGBColor(0, 0, 0)
             pf.space_before, pf.space_after = Pt(8), Pt(4)
+            pf.keep_with_next = True     # tiêu đề không đứng trơ cuối trang
         else:
             for r in p.runs:
                 dat_font(r, CO_BODY)
             p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+
+    # co ảnh về đúng bề rộng vùng chữ, giữ tỉ lệ; ảnh nhỏ hơn thì để nguyên
+    rong = Cm(21.0) - LE_NGANG * 2
+    for sh in d.inline_shapes:
+        if sh.width and sh.width > rong:
+            ty = rong / sh.width
+            sh.width, sh.height = int(sh.width * ty), int(sh.height * ty)
 
     for t in d.tables:
         t.autofit = True
@@ -152,7 +212,8 @@ def mot_file(word, md: str, giu_docx: bool) -> bool:
     io.open(tam, "w", encoding="utf-8").write(s)
 
     r = subprocess.run(["pandoc", tam, "-o", docx_path,
-                        "--from=markdown", "--to=docx"],
+                        "--from=markdown", "--to=docx",
+                        f"--resource-path={os.path.dirname(os.path.abspath(md))}"],
                        capture_output=True, text=True)
     os.remove(tam)
     if r.returncode != 0:
@@ -170,8 +231,11 @@ def mot_file(word, md: str, giu_docx: bool) -> bool:
 
 
 def main() -> int:
+    global CO_BANG
     ap = argparse.ArgumentParser(description="Markdown -> PDF đúng quy cách")
     ap.add_argument("files", nargs="+", help="file .md (nhận cả mẫu *.md)")
+    ap.add_argument("--co-bang", type=int, default=CO_BANG,
+                    help="cỡ chữ trong bảng (mặc định 12)")
     ap.add_argument("--giu-docx", action="store_true",
                     help="giữ lại .docx trung gian để sửa tay")
     a = ap.parse_args()
@@ -184,6 +248,7 @@ def main() -> int:
         print("Không có file .md nào.")
         return 1
 
+    CO_BANG = a.co_bang
     word = mo_word()
     try:
         xong = sum(mot_file(word, f, a.giu_docx) for f in ds)
