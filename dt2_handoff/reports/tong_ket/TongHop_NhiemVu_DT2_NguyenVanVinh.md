@@ -14,354 +14,416 @@ theo dõi người thông qua mô tả bằng lời nói*
 
 # Phần A. Tổng quan
 
-## A.1. Các nhiệm vụ và trạng thái
+## A.1. ĐT2 giải quyết bài toán gì
 
-ĐT2 trả lời câu hỏi: **khi camera mặt đất đã thấy một người, làm sao chuyển người đó
-cho drone một cách đúng và an toàn?** Bài toán gồm ba câu hỏi nghiên cứu: định vị
-người trên bản đồ (CH1), nhận lại cùng một người từ góc nhìn trên cao (CH2), và quy
-trình bàn giao (CH3).
+Trong hệ thống của đề tài, camera giám sát mặt đất phát hiện người cần tìm, sau đó
+**giao người đó cho drone** để drone bay tới và bám theo. ĐT2 phụ trách đúng khâu
+giao nhận này. Muốn giao được thì phải trả lời ba câu hỏi:
 
-![Hình 0. Chuỗi nhiệm vụ của ĐT2 và các mốc giao nhận với Lương (ĐT3) và Việt (ĐT1).](hinh/h0_chuoi_nhiem_vu.png)
+| Câu hỏi | Nói đơn giản |
+|---|---|
+| **CH1 — Định vị** | Camera thấy người ở pixel nào thì người đó đang đứng ở **vị trí nào trên mặt đất**, sai bao nhiêu mét? |
+| **CH2 — Nhận lại** | Khi drone tới nơi, nhìn từ **trên cao**, nó có **nhận ra đúng người** camera mặt đất đã thấy không? |
+| **CH3 — Bàn giao** | Khi nào thì **được phép** giao, khi nào phải **từ chối** để không cho drone bám nhầm người? |
 
-| Mã | Nhiệm vụ | Hạn | Trạng thái | Kết quả một dòng |
+## A.2. Các nhiệm vụ và trạng thái
+
+![Hình 0. Chuỗi nhiệm vụ của ĐT2. Xanh dương: đã xong. Xanh lá: làm bằng mô phỏng. Xám: chưa làm được.](hinh/h0_chuoi_nhiem_vu.png)
+
+| Mã | Nhiệm vụ | Phục vụ | Trạng thái | Kết quả một dòng |
 |---|---|---|---|---|
-| VN-01 · M1 | Giao gói dữ liệu cho Lương | 04/10 | Xong | 98.552 ảnh, 250 mô tả, 500 ghi âm; toàn vẹn 510/510 |
-| VN-02 | Môi trường, dữ liệu, khoá checkpoint | 04/10 | Xong | 2 checkpoint đã xác minh; AG-ReID.v2 100.502 ảnh |
-| VN-03 | Baseline nhận lại người | 05/10 | Xong | Rank-1 cao nhất 33,62%; huấn luyện khái quát miền hơn 2,3–3,5 lần |
-| C-03 | Quy ước thống kê cả nhóm | 05/10 | Xong | Công cụ chung; so sánh cặp; luật cho metric hiếm lần trúng |
-| M4 | Hồ sơ pilot | 06/10 | Xong, đã duyệt | 5 tài liệu PDF |
-| VN-04 | Phân tích lỗi theo góc nhìn | 06/10 | Xong | Thu hẹp ứng viên làm Rank-1 tăng gần gấp đôi |
-| — | Đánh giá dữ liệu cũ | 07/10 | Xong | Dùng được cho CH1, không cho CH2 |
-| VN-05 · M5 | Quay pilot | 07/10 | **Chưa làm được** | — |
-| VN-06 | Sai số định vị | 08/10 | **Mô phỏng** | Độ trôi máy quay là nguồn sai lớn nhất |
-| VN-07 | Chọn ngưỡng bàn giao | 09/10 | **Mô phỏng** | Ngưỡng chốt trên phiên 1 |
-| VN-08 · M9 · M10 | Test bàn giao, giao Việt | 10/10 | **Mô phỏng** | Độ chính xác khi bàn giao 83,3% |
-| VN-09 | Kiểm tra chéo ĐT1 | 11/10 | Xong | Số chính đúng; 4 mục đóng gói cần sửa |
+| VN-01 · M1 | Giao gói dữ liệu cho Lương | ĐT3 | Xong | 98.549 ảnh, 250 mô tả, 500 ghi âm; toàn vẹn 510/510 |
+| VN-03 | Đo mức nhận lại người ban đầu | CH2 | Xong | Tốt nhất 33,62%; cách huấn luyện quan trọng hơn cỡ dữ liệu |
+| C-03 | Quy ước thống kê cả nhóm | Cả nhóm | Xong | Hai trường hợp cách cũ kết luận sai |
+| M4 | Hồ sơ xin quay pilot | CH1, CH2 | Xong, đã duyệt | 5 tài liệu PDF |
+| VN-04 | Phân tích vì sao nhận lại thất bại | CH2, CH3 | Xong | Thu hẹp ứng viên làm kết quả tăng gần gấp đôi |
+| — | Đánh giá video cũ | CH1, CH2 | Xong | Dùng được cho CH1, không cho CH2 |
+| VN-05 · M5 | Quay pilot | CH1, CH2 | **Chưa làm được** | — |
+| VN-06 | Sai số định vị | CH1 | **Mô phỏng** | Máy quay bị trôi là nguồn sai lớn nhất |
+| VN-07, VN-08 | Chọn ngưỡng, test bàn giao | CH2, CH3 | **Mô phỏng** | Đúng 83% trong số lần bàn giao |
+| VN-09 | Kiểm tra chéo kết quả ĐT1 | Cả nhóm | Xong | Số chính đúng; 4 chỗ cần sửa |
 
-**Về chữ "mô phỏng":** hai phiên pilot trong khuôn viên chưa quay được. Theo phương án
-dự phòng ghi ở mốc M6, VN-06 → VN-08 được làm trên dữ liệu có sẵn. Các kết quả đó
-**không phải** số đo trong khuôn viên trường và luôn được ghi tách riêng.
+## A.3. Giải thích thuật ngữ
 
-## A.2. Cách đọc kho mã nguồn
+| Thuật ngữ | Nghĩa |
+|---|---|
+| **Truy vấn / gallery** | Truy vấn là ảnh người cần tìm (từ camera mặt đất). Gallery là kho ảnh để tìm trong đó (từ drone). |
+| **Rank-1** | Tỉ lệ truy vấn mà ảnh hệ thống xếp **hạng nhất** đúng là người cần tìm. 33% nghĩa là 1/3 số lần đoán đúng ngay lần đầu. |
+| **mAP** | Điểm tổng hợp xét cả thứ hạng của **mọi** ảnh đúng, không chỉ ảnh đầu tiên. |
+| **Protocol** | Cách chia truy vấn và gallery do tác giả bộ dữ liệu quy định. Dùng nguyên protocol thì số mới so được với bài báo. |
+| **Mức ngẫu nhiên** | Điểm nếu hệ thống đoán bừa. Để biết con số có ý nghĩa hay không. |
+| **Khoảng tin cậy 95%** | Khoảng mà con số nhiều khả năng rơi vào nếu đo lại trên bộ truy vấn khác. Viết trong ngoặc vuông, ví dụ 33,62% [31,79 – 35,61]. |
+| **So sánh cặp** | So hai cách làm trên **cùng từng truy vấn**, lấy hiệu từng truy vấn rồi mới tính khoảng tin cậy. Khoảng của hiệu không chứa 0 thì hai cách khác nhau thật. |
+| **Homography** | Phép biến đổi quy toạ độ pixel trên ảnh về toạ độ mét trên mặt đất, tính từ 4 điểm mốc đã đo. |
+| **Trung vị, p95** | Trung vị: một nửa số lần sai ít hơn mức này. p95: 95% số lần sai ít hơn mức này — dùng để nói về **trường hợp xấu**. |
+| **Ngưỡng bàn giao** | Mức giống nhau tối thiểu để được phép giao. Thấp hơn ngưỡng thì từ chối. |
+| **Mô phỏng** | Dựng lại quy trình trên dữ liệu có sẵn hoặc trên máy tính, khi chưa có dữ liệu thực địa. |
+| **Giả định** | Con số điền tạm vào mô phỏng khi chưa đo được. Khác với **giả thuyết** — nhận định đem đi kiểm chứng. |
 
-Toàn bộ phần của ĐT2 nằm trong thư mục `dt2_handoff/`:
+## A.4. Cách đọc kho mã nguồn
+
+Phần của ĐT2 nằm trong thư mục `dt2_handoff/`:
 
 | Thư mục | Chứa gì | Đọc thế nào |
 |---|---|---|
-| `reports/` | Báo cáo từng nhiệm vụ (`.md`) | Mở trực tiếp trên GitHub, đọc như văn bản |
-| `metrics/` | Bảng số liệu (`.csv`) | Mở bằng Excel; mỗi dòng là **một chỉ số** của một lần chạy |
-| `predictions/` | Dự đoán thô từng truy vấn | Dùng để tính lại chỉ số mà không cần GPU |
-| `src/` | Mã nguồn | Lệnh chạy ghi ở cuối mỗi báo cáo |
-| `configs/` | Cấu hình từng lần chạy | Tham số và lệnh đã dùng |
-| `env/` | Môi trường từng lần chạy | Phiên bản thư viện, GPU, mã commit |
-| `checkpoints/` | Mã băm trọng số | Trọng số không đưa lên git, chỉ lưu mã băm để đối chiếu |
-| `handoff_M1/`, `handoff_M9/` | Bằng chứng bàn giao cho Lương, Việt | Có README riêng |
+| `reports/` | Báo cáo từng nhiệm vụ | Mở trực tiếp trên GitHub |
+| `metrics/` | Bảng số liệu `.csv` | Mở bằng Excel; mỗi dòng là **một chỉ số** |
+| `predictions/` | Kết quả thô từng truy vấn | Để người khác tính lại mà không cần chạy lại mô hình |
+| `src/` | Mã nguồn | Lệnh chạy ghi cuối mỗi báo cáo |
+| `handoff_M1/`, `handoff_M9/` | Bằng chứng giao cho Lương, Việt | Mỗi thư mục có README riêng |
 
-**Cách đọc một file metrics.** Mọi file `metrics/*.csv` theo cùng một mẫu 17 cột của
-nhóm. Các cột quan trọng:
+Trong file `metrics/*.csv`, các cột cần nhìn: **`split`** (dữ liệu hay điều kiện nào),
+**`metric`** và **`value`** (chỉ số và giá trị), **`ci95_low`**, **`ci95_high`** (khoảng tin
+cậy), **`n`** (số truy vấn), **`chance_level`** (mức ngẫu nhiên), **`notes`** (ghi chú).
 
-| Cột | Nghĩa |
-|---|---|
-| `split` | Protocol hoặc nhóm dữ liệu, ví dụ `exp4_cctv_to_aerial` là CCTV → UAV |
-| `metric`, `value` | Tên chỉ số và giá trị (phần trăm, trừ khi tên ghi đơn vị khác) |
-| `ci95_low`, `ci95_high` | Khoảng tin cậy 95% |
-| `n` | Số truy vấn tạo ra con số |
-| `chance_level` | Điểm nếu đoán ngẫu nhiên — để biết con số có ý nghĩa hay không |
-| `notes` | Giải thích điều kiện chạy |
-
-**Cách đọc khoảng tin cậy.** "33,62% [31,79 – 35,61]" nghĩa là nếu lấy một bộ truy vấn
-khác cùng cỡ, con số nhiều khả năng nằm trong khoảng đó. Hai cấu hình được coi là
-khác nhau thật khi **khoảng tin cậy của hiệu** giữa chúng không chứa 0 (quy ước C-03).
-
-# Phần B. Chi tiết từng nhiệm vụ
+# Phần B. Các nhiệm vụ đã hoàn thành
 
 ## B.1. VN-01 — Giao gói dữ liệu cho Lương (mốc M1)
 
-**Mục đích.** Giao cho Lương toàn bộ dữ liệu cần để chạy baseline tìm kiếm người theo
-mô tả (LG-02, LG-03).
+**Mục đích.** Giao cho Lương (ĐT3) dữ liệu cần để chạy thử tìm người theo mô tả tiếng
+Việt.
 
-**Ý nghĩa.** Là mốc đầu chuỗi: trễ thì ĐT3 không bắt đầu được. Việc đóng gói còn là
-dịp kiểm toán dữ liệu cũ trước khi người khác dùng.
+**Vì sao cần.** Đây là mốc đầu chuỗi. Không có gói này thì ĐT3 không bắt đầu được.
+
+**Cách làm.** Viết script tự đóng gói: chép ảnh, xuất danh sách ảnh và đặc trưng ra file
+dễ đọc, tính mã băm cho từng file để kiểm tra không hỏng khi chép, và tự sinh hướng dẫn
+sử dụng. Giao trực tiếp qua USB vì gói chứa ảnh người thật.
 
 **Kết quả.**
 
-- Gói 1,49 GB: 98.549 ảnh người, embedding 768 chiều, 250 mô tả tiếng Việt có ghi âm,
-  500 file ghi âm. Kiểm tra toàn vẹn **510/510 file**.
-- Phát hiện **3 vấn đề dữ liệu** và ghi cảnh báo trong gói: con số 93.548 ảnh trong
-  bảng tiến độ không tái lập được; embedding 768 chiều không dùng chung được với mô
-  hình 512 chiều; bảng mô tả có 409 dòng nhưng chỉ 250 dòng có nội dung.
-- Lương đã dùng gói này chạy được LG-02 và LG-03.
+- Gói 1,49 GB: 98.549 ảnh người, 250 mô tả tiếng Việt có ghi âm, 500 file ghi âm.
+- Kiểm tra toàn vẹn sau khi chép: **510/510 file** đúng.
+- Trong lúc đóng gói, phát hiện **3 vấn đề trong dữ liệu cũ** và ghi cảnh báo: con số
+  93.548 ảnh trong bảng tiến độ không tái lập được; đặc trưng có sẵn không dùng chung
+  được với mô hình Lương định dùng; bảng mô tả có 409 dòng nhưng chỉ 250 dòng có nội dung.
+- Lương đã dùng gói này chạy xong LG-02 và LG-03.
+
+**Đọc kết quả thế nào.** Mở `README_goi_M1.md` để xem số liệu và ba cảnh báo. Muốn chắc
+gói của Lương không bị hỏng, đối chiếu mã băm với `SHA256SUMS.txt`.
 
 **Dẫn chứng trên git.**
 
-| File | Cách đọc |
+| File | Nội dung |
 |---|---|
-| [handoff_M1/README_goi_M1.md](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/handoff_M1/README_goi_M1.md) | README kèm trong gói, có số liệu và 3 cảnh báo |
-| [handoff_M1/thong_ke.json](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/handoff_M1/thong_ke.json) | Số lượng từng thành phần |
-| [handoff_M1/SHA256SUMS.txt](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/handoff_M1/SHA256SUMS.txt) | Mã băm 510 file, đối chiếu với gói Lương giữ |
+| [handoff_M1/README_goi_M1.md](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/handoff_M1/README_goi_M1.md) | Hướng dẫn kèm gói, có số liệu và cảnh báo |
+| [handoff_M1/SHA256SUMS.txt](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/handoff_M1/SHA256SUMS.txt) | Mã băm 510 file |
 | [src/dong_goi_m1.py](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/src/dong_goi_m1.py) | Script đóng gói |
 
-Gói thật chứa ảnh người nên **không đưa lên git**, giao trực tiếp qua USB.
+## B.2. VN-03 — Đo mức nhận lại người ban đầu
 
-## B.2. VN-02 — Môi trường, dữ liệu và khoá checkpoint
+**Mục đích.** Biết một mô hình có sẵn **nhận lại người giữa camera mặt đất và drone**
+được tới đâu, trước khi cải tiến gì (CH2).
 
-**Mục đích.** Dựng môi trường chạy được, tải bộ dữ liệu chuẩn AG-ReID.v2 và chọn trọng
-số mô hình có công bố.
+**Vì sao cần.** Không có mốc ban đầu thì không biết cải tiến sau này có tác dụng hay
+không. Đo trên bộ dữ liệu chuẩn quốc tế thì kết quả so được với các nghiên cứu khác.
 
-**Ý nghĩa.** Mọi kết quả sau đều dựa vào đây. Khoá mã băm bảo đảm nửa tháng sau vẫn
-chứng minh được con số sinh từ trọng số nào.
-
-**Kết quả.**
-
-- RTX 3060 6 GB, Python 3.12, torch 2.7.1 + CUDA 11.8, torchreid 0.2.5.
-- AG-ReID.v2: 100.502 ảnh, 1.615 danh tính, 4 protocol chính thức của tác giả.
-- Hai checkpoint OSNet: bản đa nguồn (2.510 danh tính) và bản MSMT17 (1.041 danh tính).
-  Số danh tính khớp chính xác tổng của các tập huấn luyện — cách xác minh đáng tin hơn
-  tên file.
-
-**Dẫn chứng trên git.**
-
-| File | Cách đọc |
-|---|---|
-| [env/VN02-setup-20261004/](https://github.com/VINH1811/NCKH-DO_AN-DRONE/tree/main/dt2_handoff/env/VN02-setup-20261004) | `moi_truong.json`: GPU, CUDA, commit; `pip_freeze.txt`: thư viện |
-| [checkpoints/SHA256SUMS](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/checkpoints/SHA256SUMS) | Mã băm hai trọng số |
-| [checkpoints/checkpoint.lock.json](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/checkpoints/checkpoint.lock.json) | Kèm số danh tính của từng trọng số |
-| [src/ghi_moi_truong.py](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/src/ghi_moi_truong.py) | Script ghi môi trường và băm |
-
-## B.3. VN-03 — Baseline nhận lại người giữa mặt đất và trên cao
-
-**Mục đích.** Đo một mô hình nhận lại người có sẵn làm được tới đâu khi chuyển giữa
-camera mặt đất và UAV, theo đúng protocol của bài báo gốc.
-
-**Ý nghĩa.** Là mốc so sánh cho mọi cải tiến sau, và trả lời CH2 ở mức ban đầu.
+**Cách làm.** Dùng bộ dữ liệu **AG-ReID.v2** (100.502 ảnh, 1.615 người, quay bằng UAV ở
+độ cao 15–45 m, camera giám sát ~3 m và kính đeo ~1,5 m). Chạy hai phiên bản mô hình
+OSNet trên đúng **4 protocol của tác giả**, không chỉnh sửa gì.
 
 **Kết quả.**
 
-![Hình 1. Rank-1 của hai checkpoint trên bốn protocol. Thanh đen là khoảng tin cậy 95%.](hinh/h1_baseline_vn03.png)
+![Hình 1. Rank-1 của hai phiên bản mô hình trên bốn chiều. Thanh đen là khoảng tin cậy 95%.](hinh/h1_baseline_vn03.png)
 
-| Chiều | OSNet-AIN đa nguồn | OSNet MSMT17 | Hiệu cặp |
-|---|---|---|---|
-| UAV → CCTV | **33,62%** | 9,55% | +24,07 [+22,28 – +25,89] |
-| CCTV → UAV | **27,89%** | 9,00% | +18,88 [+16,84 – +20,98] |
-| UAV → kính đeo | **26,53%** | 8,78% | +17,75 [+15,80 – +19,69] |
-| Kính đeo → UAV | **20,13%** | 8,72% | +11,41 [+9,87 – +12,99] |
+| Chiều | n | Bản khái quát miền | Bản thường | Chênh lệch |
+|---|---:|---|---|---|
+| UAV → CCTV | 2.356 | **33,62%** | 9,55% | +24,07 [+22,28 – +25,89] |
+| CCTV → UAV | 1.811 | **27,89%** | 9,00% | +18,88 [+16,84 – +20,98] |
+| UAV → kính đeo | 2.209 | **26,53%** | 8,78% | +17,75 [+15,80 – +19,69] |
+| Kính đeo → UAV | 2.340 | **20,13%** | 8,72% | +11,41 [+9,87 – +12,99] |
 
-- Huấn luyện khái quát miền hơn huấn luyện cùng miền **2,3–3,5 lần**, có ý nghĩa ở cả
-  tám phép so.
-- Camera mặt đất đặt cao (CCTV ~3 m) khớp với UAV tốt hơn camera thấp (~1,5 m).
-- Chiều mặt đất → trên cao, cũng là chiều bàn giao thật, khó hơn: **27,89%**.
+**Đọc kết quả thế nào.**
+
+- Mức đoán bừa chỉ 0,11–0,19%, nên mọi con số trên đều có ý nghĩa thật.
+- Hai mô hình cùng kiến trúc, chỉ khác **cách huấn luyện**: bản được huấn luyện để khái
+  quát sang môi trường lạ tốt hơn **2,3–3,5 lần**. Khoảng tin cậy của chênh lệch đều xa 0.
+- Camera giám sát (~3 m) khớp với drone tốt hơn kính đeo (~1,5 m): camera càng cao, góc
+  nhìn càng gần drone.
+- Chiều **mặt đất → trên cao** khó hơn chiều ngược lại. Đây đúng là chiều của bài toán
+  bàn giao, nên con số để đặt kỳ vọng là **27,89%**, không phải 33,62%.
 
 **Dẫn chứng trên git.**
 
-| File | Cách đọc |
+| File | Nội dung |
 |---|---|
 | [reports/VN03_baseline.md](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/reports/VN03_baseline.md) | Báo cáo đầy đủ |
-| [metrics/ket_qua_chuan.csv](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/metrics/ket_qua_chuan.csv) | 24 dòng; lọc cột `metric` = `Rank1` hoặc `mAP`; dòng `_hieu_cap` là so sánh cặp |
-| [predictions/VN03-ain-20261004/](https://github.com/VINH1811/NCKH-DO_AN-DRONE/tree/main/dt2_handoff/predictions/VN03-ain-20261004) | Thứ hạng thô từng truy vấn (`.npz`) |
+| [metrics/ket_qua_chuan.csv](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/metrics/ket_qua_chuan.csv) | Lọc cột `metric` = `Rank1` hoặc `mAP`; dòng có `_hieu_cap` là chênh lệch |
 | [src/eval_agreid.py](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/src/eval_agreid.py) | Script đánh giá |
 
-## B.4. C-03 — Quy ước thống kê chung cho cả nhóm
+## B.3. C-03 — Quy ước thống kê chung cho cả nhóm
 
-**Mục đích.** Thống nhất cách báo cáo con số cho cả ba đề tài để số liệu so được với
-nhau và không ai kết luận sai.
+**Mục đích.** Thống nhất cách báo cáo con số để số liệu ba đề tài so được với nhau.
 
-**Ý nghĩa.** Là nền cho mọi kết luận "A tốt hơn B" trong báo cáo cuối của cả nhóm.
+**Vì sao cần.** Nói "cách A tốt hơn cách B" mà không có quy tắc chung thì mỗi người kết
+luận một kiểu, và có thể kết luận sai.
 
-**Kết quả.** Quy ước gồm: mỗi con số kèm n, mức ngẫu nhiên, khoảng tin cậy và tên
-phương pháp; so sánh hai cấu hình bằng **so sánh cặp trên cùng truy vấn**; với chỉ số
-hiếm lần trúng, kết luận dựa trên **kiểm định hoán vị**. Cả nhóm đã đồng ý.
+**Cách làm.** Soạn quy ước, gộp với đề xuất của Lương, viết công cụ dùng chung cho cả ba
+đề tài, rồi thử trên số liệu thật của Việt và Lương. Cả nhóm đã đồng ý.
 
-![Hình 2. Cùng một bộ số của ĐT1: nhìn hai khoảng tin cậy thì không kết luận được (trái); so sánh cặp thì có ý nghĩa (phải).](hinh/h2_c03_so_sanh_cap.png)
+**Kết quả.** Ba quy tắc chính:
 
-Hai bằng chứng quy ước cần thiết: so sánh hai detector của Việt (hai khoảng chồng
-nhau, nhưng hiệu cặp +1,58 [+1,05 – +2,15] là có ý nghĩa); Recall@1 = 2/70 của Lương
-(khoảng bootstrap chứa mức ngẫu nhiên, nhưng kiểm định hoán vị p = 0,000135 cho thấy
-vượt ngẫu nhiên). Ở cả hai, cách cũ cho kết luận sai.
+1. Mỗi con số phải kèm **số truy vấn n**, **mức ngẫu nhiên** và **khoảng tin cậy**.
+2. So hai cách làm bằng **so sánh cặp trên cùng truy vấn**, không nhìn hai khoảng tin cậy
+   có chồng nhau hay không.
+3. Với chỉ số rất ít lần đúng, kết luận "vượt ngẫu nhiên" dựa vào **kiểm định hoán vị**.
 
-Kèm theo, tôi viết ba công cụ dùng chung: chuẩn hoá file metrics về mẫu 17 cột, gộp
-metrics ba đề tài thành một bảng, xuất tài liệu ra PDF.
+![Hình 2. Cùng một bộ số của ĐT1. Trái: hai khoảng tin cậy chồng nhau nên không kết luận được. Phải: so sánh cặp cho thấy khác nhau thật.](hinh/h2_c03_so_sanh_cap.png)
+
+**Đọc kết quả thế nào.** Quy ước được chứng minh cần thiết bằng hai trường hợp thật, ở
+cả hai cách cũ đều kết luận sai:
+
+| Trường hợp | Cách cũ kết luận | Theo quy ước mới |
+|---|---|---|
+| Việt so hai detector YOLO11s và YOLO-World | Hai khoảng chồng nhau → **không chọn được** | Hiệu +1,58 [+1,05 – +2,15] → YOLO11s **tốt hơn thật**, hơn ở 59% số ảnh |
+| Lương: Recall@1 = 2/70 | Khoảng chứa mức ngẫu nhiên → **chưa đủ bằng chứng** | Kiểm định p = 0,000135 → **vượt ngẫu nhiên thật** |
+
+Kèm theo, tôi viết 3 công cụ dùng chung: chuẩn hoá file số liệu về một mẫu, gộp số liệu
+ba đề tài thành một bảng, và xuất tài liệu ra PDF.
 
 **Dẫn chứng trên git.**
 
-| File | Cách đọc |
+| File | Nội dung |
 |---|---|
-| [README.md mục 4](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/README.md) | Toàn văn quy ước |
+| [README.md, mục 4](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/README.md) | Toàn văn quy ước |
 | [common/bootstrap_ci.py](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/common/bootstrap_ci.py) | Công cụ khoảng tin cậy, so sánh cặp, kiểm định |
-| [common/gop_metrics.py](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/common/gop_metrics.py) | Gộp metrics ba đề tài |
-| [docs/metrics_tong_hop.csv](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/docs/metrics_tong_hop.csv) | Bảng gộp; lọc cột `de_tai` theo đề tài |
+| [docs/metrics_tong_hop.csv](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/docs/metrics_tong_hop.csv) | Bảng gộp số liệu ba đề tài; lọc theo cột `de_tai` |
 
-## B.5. M4 — Hồ sơ kế hoạch thu pilot
+## B.4. M4 — Hồ sơ xin quay pilot
 
-**Mục đích.** Xin phê duyệt thu dữ liệu trong khuôn viên trường.
+**Mục đích.** Xin phép quay dữ liệu thật trong khuôn viên trường.
 
-**Ý nghĩa.** Bảo đảm thu dữ liệu đúng quy định về dữ liệu cá nhân; không có phê duyệt
-thì không được quay.
+**Vì sao cần.** Quay người thật phải có đồng ý của họ và phê duyệt của Nhà trường.
 
-**Kết quả.** 5 tài liệu: tờ trình, phiếu đồng ý tham gia, kế hoạch vị trí quay, kịch
-bản 2 phiên, hướng dẫn viết mô tả. Không bay drone ở pilot mà lấy góc cao từ tầng
-4–6. Cam kết không nhận diện khuôn mặt, gán mã số thay tên, xoá video sau 90 ngày.
-**Chủ nhiệm đã duyệt** (mốc C-04).
+**Cách làm.** Soạn cùng Lương 5 tài liệu: tờ trình, phiếu đồng ý cho người tham gia, kế
+hoạch vị trí đặt máy, kịch bản 2 buổi quay, hướng dẫn viết mô tả. Vị trí đặt máy chọn
+dựa trên kết quả VN-03 (camera càng cao càng tốt).
 
-**Dẫn chứng trên git:** [docs/pilot/](https://github.com/VINH1811/NCKH-DO_AN-DRONE/tree/main/docs/pilot) — 5 file PDF, mở trực tiếp.
+**Kết quả.** Không bay drone ở buổi pilot mà đặt điện thoại trên tầng 4–6 để có góc nhìn
+từ trên cao. Cam kết không nhận diện khuôn mặt, gán mã số thay tên, xoá video sau 90
+ngày. **Chủ nhiệm đã duyệt.**
 
-## B.6. VN-04 — Phân tích lỗi theo góc nhìn
+**Dẫn chứng trên git:** [docs/pilot/](https://github.com/VINH1811/NCKH-DO_AN-DRONE/tree/main/docs/pilot) — 5 file PDF.
 
-**Mục đích.** Hiểu vì sao và khi nào nhận lại người thất bại, để thiết kế bàn giao
-tránh đúng chỗ đó.
+## B.5. VN-04 — Phân tích vì sao nhận lại thất bại
 
-**Ý nghĩa.** Biến con số baseline thành **quyết định thiết kế** cho drone: bay ở độ
-cao nào, lọc ứng viên ra sao.
+**Mục đích.** Hiểu **khi nào** và **vì sao** mô hình nhận nhầm người.
+
+**Vì sao cần.** Con số 27,89% chưa nói cho ta phải thiết kế drone thế nào. Biết nguyên
+nhân lỗi thì mới biết nên bay ở độ cao nào, lọc ứng viên ra sao.
+
+**Cách làm.** Đọc lại kết quả thô của VN-03, không chạy lại mô hình. Tách theo độ cao bay,
+theo cỡ người trong ảnh, phân loại từng lỗi, và thử chỉ so với người quay cùng buổi.
 
 **Kết quả.**
 
-![Hình 3. Rank-1 theo độ cao bay. Bay càng cao càng kém, ở cả bốn protocol.](hinh/h3_do_cao_vn04.png)
+![Hình 3. Rank-1 theo độ cao bay. Bay càng cao càng kém, ở cả bốn chiều.](hinh/h3_do_cao_vn04.png)
 
-- **Bay cao làm hại nhiều nhất ở chiều bàn giao thật**: CCTV → UAV từ 40,00% (bay
-  thấp) xuống 17,31% (bay cao).
-- Ở độ cao lớn, người to hơn trong ảnh cũng không khớp tốt hơn → nút thắt là **góc
-  nhìn**, không phải độ phân giải. Drone muốn xác nhận người thì phải hạ độ cao.
-- 84–88% lỗi là nhầm với người ở **phiên quay khác**. Giả thuyết "protocol tính oan"
-  bị bác bỏ.
+![Hình 5. Khi chỉ so với người quay cùng buổi, Rank-1 tăng gần gấp đôi.](hinh/h5_cung_phien_vn04.png)
 
-![Hình 5. Chỉ so với người cùng phiên quay, Rank-1 tăng gần gấp đôi.](hinh/h5_cung_phien_vn04.png)
+**Đọc kết quả thế nào.**
 
-- **Kết quả quan trọng nhất:** thu hẹp ứng viên về cùng phiên quay làm Rank-1 tăng gần
-  gấp đôi (CCTV → UAV: 27,89% lên ít nhất 49,75%). Định vị người trước rồi mới so khớp
-  ngoại hình là đòn bẩy lớn nhất đo được.
+- **Bay càng cao, nhận lại càng kém**, mạnh nhất ở đúng chiều bàn giao: CCTV → UAV từ
+  40,00% (bay thấp) xuống 17,31% (bay cao).
+- Ở độ cao lớn, người to hơn trong ảnh cũng không khớp tốt hơn. Nghĩa là vấn đề nằm ở
+  **góc nhìn** (từ trên xuống chỉ thấy đầu và vai), không phải ảnh nhỏ. → Drone muốn xác
+  nhận người thì **phải hạ thấp**, phóng to ảnh không thay được.
+- 84–88% lỗi là **nhầm với người ở buổi quay khác hẳn**.
+- **Kết quả quan trọng nhất:** chỉ so với người cùng buổi quay thì Rank-1 tăng gần gấp
+  đôi (27,89% lên ít nhất 49,75%). → **Biết người đang ở đâu, lúc nào trước, rồi mới so
+  ngoại hình**. Định vị (CH1) không chỉ để dẫn đường mà còn làm nhận lại chính xác hơn.
 
 **Dẫn chứng trên git.**
 
-| File | Cách đọc |
+| File | Nội dung |
 |---|---|
 | [reports/VN04_phan_tich_loi.md](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/reports/VN04_phan_tich_loi.md) | Báo cáo đầy đủ |
-| [metrics/VN04-phan-tich-loi-20261007.csv](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/metrics/VN04-phan-tich-loi-20261007.csv) | 64 dòng; `metric` bắt đầu bằng `Rank1_docao_` là theo độ cao, `loi_` là loại lỗi, `cung_phien` là thu hẹp ứng viên |
-| [src/vn04_phan_tich_loi.py](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/src/vn04_phan_tich_loi.py) | Chạy trên CPU, không cần GPU |
+| [metrics/VN04-phan-tich-loi-20261007.csv](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/metrics/VN04-phan-tich-loi-20261007.csv) | `metric` bắt đầu bằng `Rank1_docao_` là theo độ cao; `loi_` là loại lỗi |
 
-## B.7. Đánh giá dữ liệu cũ thay cho buổi quay pilot
+## B.6. Đánh giá video cũ thay cho buổi quay pilot
 
-**Mục đích.** Xem có dùng video đã quay trước đó thay cho pilot được không.
+**Mục đích.** Xem video đã quay trước đó có thay được buổi pilot không.
 
-**Ý nghĩa.** Nếu được thì đỡ một buổi quay; nếu không thì biết chính xác thiếu gì.
+**Vì sao cần.** Pilot chưa quay được; nếu video cũ dùng được thì không phải chờ.
+
+**Cách làm.** Xem khung hình mẫu của cả 9 nguồn quay để biết góc quay, đối chiếu giờ quay
+giữa các nguồn, và đo xem máy quay có bị xê dịch trong lúc quay không.
 
 **Kết quả.**
 
-![Hình 6. Trái: video SanTruong3 quay từ tầng cao. Phải: máy quay trôi chậm và đều trong buổi quay.](hinh/h6_santruong3_do_troi.png)
+![Hình 6. Trái: video SanTruong3 quay từ tầng cao. Phải: máy quay trôi dần trong buổi quay.](hinh/h6_santruong3_do_troi.png)
 
-- Trong 9 nguồn quay chỉ có **SanTruong3** là góc cao; không có hai nguồn nào quay
-  cùng lúc ở cùng chỗ.
-- Máy SanTruong3 trôi tối đa 11,6 điểm ảnh sau gần 2 giờ.
-- Kết luận: **dùng được cho CH1** (định vị), **không dùng được cho CH2** (cần cùng một
-  người thấy từ hai góc cùng lúc).
+**Đọc kết quả thế nào.**
 
-**Dẫn chứng trên git:** [reports/tong_ket/BaoCao_TongKet_DT2_NguyenVanVinh.pdf](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/reports/tong_ket/BaoCao_TongKet_DT2_NguyenVanVinh.pdf), mục 9.
+- Chỉ có **SanTruong3** quay từ trên cao. Không có hai nguồn nào quay **cùng lúc** ở
+  cùng chỗ.
+- Máy SanTruong3 trôi dần, lệch tới 11,6 điểm ảnh sau gần 2 giờ.
+- → **Dùng được cho CH1** (định vị chỉ cần một máy cố định). **Không dùng được cho CH2**
+  (phải thấy cùng một người từ mặt đất và từ trên cao cùng một lúc).
 
-## B.8. VN-06 — Sai số định vị (mô phỏng)
+# Phần C. Vì sao VN-06 → VN-08 phải mô phỏng
 
-**Mục đích.** Ước lượng định vị người trên bản đồ sai bao nhiêu mét (CH1).
+## C.1. Nguyên nhân: pilot chưa quay được
 
-**Ý nghĩa.** Sai số định vị quyết định vùng drone phải tìm. Biết trước nguồn sai lớn
-nhất thì buổi quay thật không lãng phí.
+Theo kế hoạch, VN-05 quay pilot ngày 07/10, rồi VN-06, VN-07, VN-08 chạy trên dữ liệu
+đó. Pilot chưa quay được nên ba việc sau **không có dữ liệu thật để chạy**. Mốc M6 đã ghi
+sẵn phương án dự phòng: báo cáo trên dữ liệu có sẵn. Tôi theo phương án đó nhưng làm
+thêm một bước: **dựng lại đúng quy trình pilot** trên dữ liệu có sẵn, để khi có pilot
+thật chỉ cần đổi dữ liệu đầu vào và chạy lại.
 
-**Kết quả.** Chưa có điểm mốc đo bằng thước nên mô phỏng 2.000 lần quy trình hiệu chuẩn
-4 điểm. Đầu vào đo thật: độ rung điểm chân (0,39% chiều cao người) và độ trôi máy của
-SanTruong3. Phần còn lại là giả định, đã ghi rõ.
+## C.2. Có đo thực tế được không — được, và chỉ một phần cần pilot
 
-![Hình 7. Sai số định vị p95 theo từng nguồn sai, với máy thấp và máy cao. Mô phỏng.](hinh/h7_dinh_vi_vn06.png)
+Mô phỏng VN-06 dùng một số **giả định** — con số điền tạm khi chưa có số đo. Chúng được
+dùng **không phải vì không đo được**, mà vì hạn chót tới trước buổi quay:
 
-- Hiệu chuẩn bằng thước gần như không gây sai (~4 cm trung vị).
-- **Máy quay bị trôi là nguồn sai lớn nhất**: sau 2 giờ, p95 lên 1,9–3,2 m.
-- Máy đặt cao chịu sai lệch điểm chân tốt hơn hẳn máy thấp.
-- → Khi quay thật: **kiểm tra mốc mỗi 30 phút**, điểm mốc phải bao hết vùng người đi.
+| Thông số | Trong mô phỏng | Đo thực tế được không | Đo bằng cách nào |
+|---|---|---|---|
+| Rung của điểm chân người | **Đã đo:** 0,39% chiều cao | — | Từ khoảng 2.500 người trong video cũ |
+| Độ trôi của máy quay | **Đã đo:** SanTruong3 | — | So khung hình theo thời gian |
+| Góc nhìn, tiêu cự máy quay | Giả định 69° | **Được, không cần pilot** | Chụp bàn cờ in sẵn 15–20 tấm, tính bằng OpenCV, mất 15 phút |
+| Sai số khi bấm điểm trên ảnh | Giả định 1,5 điểm ảnh | **Được, không cần pilot** | Hai người bấm cùng 5 mốc, mỗi người 3 lần, lấy độ lệch |
+| Sai số thước dây | Giả định 2 cm | **Được, không cần pilot** | Đo một đoạn 3 lần bởi 2 người |
+| Độ cao, góc chúc của máy | Giả định 2,5 m và 15 m | **Được** | Đo trực tiếp lúc dựng máy |
+| Lệch có hệ thống của điểm chân | Giả định 0, 3, 6% | **Chỉ đo được ở pilot** | Cho người đứng lên điểm đã đánh dấu, so vị trí hệ thống báo với vị trí thật |
+| **Sai số định vị cuối cùng (CH1)** | — | **Chỉ đo được ở pilot** | Đo tại điểm mốc không dùng để hiệu chuẩn |
 
-## B.9. VN-07 và VN-08 — Chọn ngưỡng và test bàn giao (mô phỏng)
+Như vậy **3 thông số đo được ngay mà không cần pilot**, chỉ có lệch điểm chân và con số
+CH1 cuối cùng mới thật sự phải chờ buổi quay.
 
-**Mục đích.** Dựng quy trình bàn giao hoàn chỉnh: chọn ngưỡng trên phiên 1, áp cố định
-lên phiên 2, rồi đếm số lần bàn giao đúng, sai, và từ chối.
+## C.3. Vì sao VN-07, VN-08 dùng bộ dữ liệu AG-ReID.v2
 
-**Ý nghĩa.** Đây là câu hỏi vận hành thật: hệ thống được phép nhầm bao nhiêu, và trả
-giá bằng bao nhiêu lần từ chối.
+Bàn giao cần thấy **cùng một người từ camera mặt đất và từ drone cùng lúc** (mục B.6).
+Video cũ của nhóm không có điều đó. AG-ReID.v2 có đúng cấu trúc này: nhiều buổi quay
+khác ngày, cùng người được quay từ mặt đất và từ UAV. Nên tôi dựng lại cả thiết kế pilot
+trên đó: chia buổi quay thành phiên 1 và phiên 2 theo ngày, chọn ngưỡng trên phiên 1 rồi
+khoá lại, test trên phiên 2.
 
-**Kết quả.** Dựng lại thiết kế pilot trên AG-ReID.v2: chia phiên theo ngày quay; thêm
-ca **mục tiêu vắng mặt** (xoá người đúng khỏi danh sách); thêm ca **người mặc giống**.
-Ngưỡng chọn sao cho khi mục tiêu vắng mặt, hệ thống nhận nhầm không quá 10%.
+## C.4. Mô phỏng có giá trị gì, không có giá trị gì
 
-![Hình 8. Kết quả bàn giao trên phiên 2, chiều CCTV → UAV. Mô phỏng trên AG-ReID.v2.](hinh/h8_ban_giao_vn08.png)
+| Có giá trị | Không có giá trị |
+|---|---|
+| Biết trước nguồn sai nào đáng lo để buổi quay thật tránh | **Không phải** sai số thật trong khuôn viên trường |
+| Kiểm tra quy trình chọn ngưỡng có an toàn không | **Không** thay được con số CH1, CH2 cuối cùng |
+| Script đã sẵn sàng, có pilot thì chạy lại ngay | Không được trộn với số liệu thực địa khi báo cáo |
 
-| Phiên 2, CCTV → UAV | Ngoại hình | + Giới hạn thời gian |
+## C.5. VN-06 — Sai số định vị (mô phỏng)
+
+**Mục đích.** Ước lượng định vị người trên mặt đất sẽ sai bao nhiêu mét, và sai do đâu.
+
+**Cách làm.** Mô phỏng 2.000 lần quy trình sẽ làm ngoài sân: hiệu chuẩn bằng 4 điểm mốc,
+rồi đo sai ở các điểm khác. Thêm dần từng nguồn sai để xem nguồn nào lớn nhất. Thử với
+máy đặt thấp (chân máy 2,5 m) và máy đặt cao (tầng cao 15 m).
+
+![Hình 7. Sai số định vị p95 khi thêm dần từng nguồn sai. Mô phỏng.](hinh/h7_dinh_vi_vn06.png)
+
+**Đọc kết quả thế nào** (p95 — trường hợp xấu):
+
+- Chỉ sai do đo thước và bấm điểm: **0,11–0,16 m** — gần như không đáng kể.
+- Thêm lệch điểm chân 6%: máy thấp **1,14 m**, máy cao **0,36 m** → **máy cao chịu
+  sai tốt hơn hẳn**.
+- Thêm máy trôi sau 2 giờ: lên **1,92–3,23 m** → **máy quay bị trôi là nguồn sai lớn
+  nhất**, lớn hơn mọi nguồn khác cộng lại.
+- → Khi quay thật: **kiểm tra lại mốc mỗi 30 phút**, chọn 4 điểm mốc bao hết vùng người
+  đi, đặt máy càng cao càng tốt.
+
+## C.6. VN-07, VN-08 — Chọn ngưỡng và test bàn giao (mô phỏng)
+
+**Mục đích.** Dựng quy trình bàn giao hoàn chỉnh và đếm số lần giao đúng, giao sai, từ chối.
+
+**Cách làm.**
+
+- Hai điều kiện: **A** — chỉ so ngoại hình; **B** — so ngoại hình và chỉ xét người cùng
+  buổi quay (giới hạn thời gian).
+- Thêm ca **mục tiêu vắng mặt**: xoá người đúng khỏi danh sách, xem hệ thống có biết từ
+  chối không.
+- Thêm ca **người mặc giống**: có người khác cùng loại áo, quần, túi, màu tóc.
+- **Chọn ngưỡng trên phiên 1** sao cho khi mục tiêu vắng mặt, hệ thống nhận nhầm không
+  quá 10%. Khoá ngưỡng, rồi mới test trên phiên 2.
+
+![Hình 8. Kết quả bàn giao trên phiên 2, chiều CCTV → UAV. Mô phỏng.](hinh/h8_ban_giao_vn08.png)
+
+| Phiên 2, CCTV → UAV, 849 truy vấn | A: ngoại hình | B: + thời gian |
 |---|---|---|
 | Bàn giao đúng | 15,55% | **24,62%** |
 | Bàn giao sai | 3,42% | 4,95% |
 | Từ chối | 81,04% | 70,44% |
-| Đúng trong số lần bàn giao | 81,99% | **83,27%** |
-| Nhận nhầm khi mục tiêu vắng | 4,83% | 7,42% |
+| Đúng trong số lần đã bàn giao | 81,99% | **83,27%** |
+| Nhận nhầm khi mục tiêu vắng mặt | 4,83% | 7,42% |
 
-- Ngưỡng chọn trên phiên 1 **vẫn an toàn trên phiên 2** (dưới mức 10%).
-- Giới hạn thời gian tăng bàn giao đúng **+9,07 điểm** [+7,18 – +10,95].
-- Khi có người mặc giống mục tiêu, bàn giao sai tăng lên 6,75%.
-- Camera thấp (kính đeo) chỉ đúng 60% trong số lần bàn giao → không dùng làm nguồn.
-- Để giữ an toàn, hệ thống từ chối ~70% số ca. Bước nhận lại hiện chỉ nên **xác nhận**,
-  chưa tự quyết bàn giao được.
+**Đọc kết quả thế nào.**
 
-**M9:** 251 mục tiêu đã xác minh (83,3% đúng) giao Việt, kèm ảnh mẫu để drone khoá lại.
-**M10:** dự đoán thô từng truy vấn cho người kiểm tra chéo.
+- **Ngưỡng chọn trên phiên 1 vẫn an toàn trên phiên 2**: nhận nhầm khi vắng mặt dưới
+  mức 10% đã đặt ra. Nghĩa là quy trình chọn ngưỡng dùng được cho pilot thật.
+- Thêm giới hạn thời gian thì bàn giao đúng tăng **+9,07 điểm** [+7,18 – +10,95] — thêm
+  một bằng chứng cho kết luận "biết vị trí, thời gian trước" ở VN-04.
+- Khi giao, hệ thống **đúng khoảng 5/6 lần**. Lần sai còn lại nguy hiểm vì drone bám
+  nhầm người, và tăng lên 6,75% khi có người mặc giống mục tiêu.
+- Để giữ mức an toàn đó, hệ thống **từ chối khoảng 70% số ca**. → Bước nhận lại hiện
+  chỉ nên dùng để **xác nhận**, cần thêm vị trí và người duyệt mới quyết định giao.
+- Camera thấp (kính đeo) chỉ đúng 60% trong số lần giao → không dùng làm nguồn bàn giao.
+
+**Đã giao:** **M9** — 251 mục tiêu đã xác minh cho Việt, kèm ảnh mẫu để drone khoá lại
+khi mất dấu. **M10** — kết quả thô từng truy vấn cho người kiểm tra chéo.
 
 **Dẫn chứng trên git (VN-06 → VN-08).**
 
-| File | Cách đọc |
+| File | Nội dung |
 |---|---|
 | [reports/VN06-08_mo_phong_pilot.md](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/reports/VN06-08_mo_phong_pilot.md) | Báo cáo đầy đủ, có thiết kế chốt trước khi chạy |
-| [metrics/VN06-mo-phong-dinh-vi-20261010.csv](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/metrics/VN06-mo-phong-dinh-vi-20261010.csv) | Cột `split` = cấu hình máy và kịch bản; `value` tính bằng mét |
-| [metrics/VN0708-mo-phong-agreid-20261010.csv](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/metrics/VN0708-mo-phong-agreid-20261010.csv) | `split` dạng `exp4_..._phien2_B`: protocol, phiên, điều kiện (A ngoại hình, B + thời gian) |
-| [predictions/VN0708-mo-phong-agreid-20261010/](https://github.com/VINH1811/NCKH-DO_AN-DRONE/tree/main/dt2_handoff/predictions/VN0708-mo-phong-agreid-20261010) | Mỗi dòng một truy vấn: điểm, ngưỡng, quyết định, kết quả. `split_manifest_*.csv` ghi ngày nào thuộc phiên nào |
-| [handoff_M9/](https://github.com/VINH1811/NCKH-DO_AN-DRONE/tree/main/dt2_handoff/handoff_M9) | `muc_tieu_xac_minh.json`; ý nghĩa từng trường ở README |
-| [env/VN0708-mo-phong-20261010/](https://github.com/VINH1811/NCKH-DO_AN-DRONE/tree/main/dt2_handoff/env/VN0708-mo-phong-20261010) | Môi trường lần chạy, mã nguồn ở commit `e5c3682` |
+| [metrics/VN06-mo-phong-dinh-vi-20261010.csv](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/metrics/VN06-mo-phong-dinh-vi-20261010.csv) | Cột `split` = cấu hình máy và kịch bản; giá trị tính bằng mét |
+| [metrics/VN0708-mo-phong-agreid-20261010.csv](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/dt2_handoff/metrics/VN0708-mo-phong-agreid-20261010.csv) | `split` dạng `exp4_..._phien2_B` = chiều, phiên, điều kiện |
+| [predictions/VN0708-mo-phong-agreid-20261010/](https://github.com/VINH1811/NCKH-DO_AN-DRONE/tree/main/dt2_handoff/predictions/VN0708-mo-phong-agreid-20261010) | Mỗi dòng một truy vấn: điểm, ngưỡng, quyết định, đúng/sai |
+| [handoff_M9/](https://github.com/VINH1811/NCKH-DO_AN-DRONE/tree/main/dt2_handoff/handoff_M9) | Danh sách mục tiêu giao Việt; ý nghĩa từng trường ở README |
 
-## B.10. VN-09 — Kiểm tra chéo rút gọn kết quả của Việt (ĐT1)
+# Phần D. VN-09 — Kiểm tra chéo kết quả của Việt (ĐT1)
 
-**Mục đích.** Xác minh độc lập rằng kết quả ĐT1 nộp lên đúng và tái lập được.
+**Mục đích.** Kiểm tra độc lập rằng số liệu ĐT1 nộp lên là đúng và làm lại được.
 
-**Ý nghĩa.** Là điều kiện nghiệm thu đợt test: không ai tự chấm kết quả của mình.
+**Vì sao cần.** Là điều kiện nghiệm thu đợt test: không ai tự chấm kết quả của mình.
 
-**Kết quả.**
+**Cách làm.** Đếm và đối chiếu file kết quả Việt lưu, tự tính lại các chỉ số tổng từ số
+liệu từng đoạn video, tính lại khoảng tin cậy, kiểm tra mã băm của mô hình, và chạy thử
+bộ phát hiện người của Việt trên vài khung hình.
 
-![Hình 9. Cùng điểm ước lượng, nhưng khoảng tin cậy Việt khai hẹp hơn nhiều so với tính lại theo sequence.](hinh/h9_kiem_cheo_vn09.png)
+![Hình 9. Cùng giá trị, nhưng khoảng tin cậy Việt khai hẹp hơn nhiều so với tính lại.](hinh/h9_kiem_cheo_vn09.png)
 
-- **Khớp:** IDF1 0,2699, MOTA 0,1078, 213 lần đổi ID tính lại chính xác từ 7 sequence;
-  mã băm trọng số khớp; detector chạy thử đúng định dạng.
-- **Cần sửa:** khoảng tin cậy ghi tay, không có mã nào tính ra, và hẹp hơn 4–8 lần so
-  với tính lại; n = 2.746 không rõ nguồn; "heartbeat 20 Hz" là tham số cài đặt chứ
-  không phải số đo; video demo được vẽ lại trên nền xám và chưa có trên git; gói M10
-  chỉ có dự đoán 1/7 sequence.
-- Phần chạy lại evaluator với nhãn gốc để dành cho kiểm tra chéo đầy đủ 12–13/10.
+**Đọc kết quả thế nào.**
+
+- **Đúng:** IDF1 0,2699, MOTA 0,1078 và 213 lần đổi ID — tính lại khớp chính xác. Mô
+  hình đúng phiên bản, bộ phát hiện chạy được. *(IDF1, MOTA là chỉ số đo độ bám theo:
+  giữ đúng người qua các khung hình, càng gần 1 càng tốt.)*
+- **Cần sửa:** khoảng tin cậy được ghi tay, không có mã nào tính ra, và hẹp hơn 4–8 lần
+  so với tính lại (Hình 9); con số n = 2.746 không rõ nguồn; "heartbeat 20 Hz" là số
+  cài đặt chứ chưa phải số đo; video demo được vẽ lại chứ không phải ghi hình; gói chỉ
+  có kết quả của 1/7 đoạn video.
 
 **Dẫn chứng trên git.**
 
-| File | Cách đọc |
+| File | Nội dung |
 |---|---|
 | [docs/crosscheck/dt1_follow.md](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/docs/crosscheck/dt1_follow.md) | Biên bản: mục 1 đã khớp, mục 2–3 cần sửa |
 | [docs/crosscheck/kiem_cheo_dt1.py](https://github.com/VINH1811/NCKH-DO_AN-DRONE/blob/main/docs/crosscheck/kiem_cheo_dt1.py) | Chạy lại mọi phép kiểm, không cần GPU |
 
-# Phần C. Việc còn lại và giới hạn
+# Phần E. Việc tiếp theo
 
-| Việc | Ghi chú |
-|---|---|
-| Quay 2 phiên pilot thật | Hai phiên khác ngày, cùng khung giờ; kiểm tra mốc mỗi 30 phút |
-| Chạy lại VN-06 → VN-08 trên pilot | Cùng script, chỉ đổi dữ liệu đầu vào |
-| Thêm giới hạn vị trí vào bàn giao | Cần toạ độ từ hiệu chuẩn pilot |
-| Nối chuỗi tìm kiếm → bàn giao → bám theo | Cần M8 từ Lương |
-| Kiểm tra chéo đầy đủ ĐT1 (12–13/10) | Cần Việt commit đủ 7 sequence |
-| Lịch dùng GPU (C-02) | Chưa ai lập; tốc độ đo chưa trong khung giờ riêng |
+| Việc | Cần pilot không | Ghi chú |
+|---|---|---|
+| Đo góc nhìn máy quay, sai số bấm điểm, sai số thước | **Không** | Thay 3 giả định ở mục C.2 bằng số đo; làm được ngay |
+| Quay 2 phiên pilot | — | Hai ngày khác nhau, cùng khung giờ; kiểm tra mốc mỗi 30 phút |
+| Chạy lại VN-06 → VN-08 trên pilot | Có | Cùng script, chỉ đổi dữ liệu |
+| Thêm giới hạn vị trí vào bàn giao | Có | Cần toạ độ từ hiệu chuẩn pilot |
+| Nối chuỗi tìm kiếm → bàn giao → bám theo | Không | Cần mốc M8 từ Lương |
+| Kiểm tra chéo đầy đủ ĐT1 (12–13/10) | Không | Cần Việt đưa đủ kết quả 7 đoạn video |
 
-**Giới hạn cần nói rõ khi báo cáo:** VN-06 → VN-08 là mô phỏng; nhóm "giống áo" so theo
-loại trang phục, chưa có màu; mọi kết quả nhận lại người mới trên một mô hình.
+**Giới hạn cần nói rõ khi báo cáo:** VN-06 → VN-08 là mô phỏng; ca "người mặc giống" so
+theo loại trang phục, chưa có màu; mọi kết quả nhận lại người mới thử trên một mô hình.
 
 # Phụ lục. Danh sách commit chính
 
 | Commit | Nội dung |
 |---|---|
-| `de6903b` | VN-02, VN-03 |
+| `de6903b` | VN-03 |
 | `298f470`, `9d3752b`, `74183e5` | C-03 |
-| `005ee99` | Công cụ chuẩn hoá và gộp metrics |
+| `005ee99` | Công cụ chuẩn hoá và gộp số liệu |
 | `7d15a3c` | Hồ sơ pilot M4 |
 | `6a92e3c` | VN-04 |
 | `e5c3682`, `8427083` | VN-06 → VN-08, M9, M10 |

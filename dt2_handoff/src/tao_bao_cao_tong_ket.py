@@ -273,8 +273,7 @@ def h0_chuoi_nhiem_vu():
     ax.set_ylim(0, 4.6)
     ax.set_axis_off()
     hop = {
-        "VN-01": (0.9, 3.6, "VN-01 · M1", "Gói dữ liệu", "xong"),
-        "VN-02": (0.9, 2.2, "VN-02", "Môi trường", "xong"),
+        "VN-01": (0.9, 2.9, "VN-01 · M1", "Gói dữ liệu", "xong"),
         "VN-03": (3.0, 2.2, "VN-03", "Baseline", "xong"),
         "C-03": (3.0, 3.6, "C-03", "Quy ước thống kê", "xong"),
         "VN-04": (5.1, 2.2, "VN-04", "Phân tích lỗi", "xong"),
@@ -293,7 +292,7 @@ def h0_chuoi_nhiem_vu():
         ax.text(x, y + 0.13, a, ha="center", va="center", fontsize=12,
                 color="white", weight="bold")
         ax.text(x, y - 0.17, b, ha="center", va="center", fontsize=12, color="white")
-    ngang = [("VN-02", "VN-03"), ("VN-03", "VN-04"), ("VN-04", "VN-07"),
+    ngang = [("VN-03", "VN-04"), ("VN-04", "VN-07"),
              ("VN-07", "VN-08"), ("VN-05", "VN-06")]
     for a, b in ngang:
         xa, ya = hop[a][:2]
@@ -313,7 +312,7 @@ def h0_chuoi_nhiem_vu():
                         arrowprops=dict(arrowstyle="-|>", color=MUC2, lw=1.4))
     ax.annotate("", xy=(8.75, 1.76), xytext=(8.07, 0.95),
                 arrowprops=dict(arrowstyle="-|>", color=MUC2, lw=1.4))
-    ax.text(0.9, 4.2, "→ giao Lương", ha="center", fontsize=12, color=MUC2)
+    ax.text(0.9, 3.5, "→ giao Lương", ha="center", fontsize=12, color=MUC2)
     ax.text(9.75, 1.45, "→ giao Việt (M9)", ha="center", fontsize=12, color=MUC2)
     for i, (tt, nhan) in enumerate([("xong", "Đã xong"), ("mophong", "Làm bằng mô phỏng"),
                                     ("chua", "Chưa làm được")]):

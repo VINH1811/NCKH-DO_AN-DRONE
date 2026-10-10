@@ -26,6 +26,11 @@ from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
+from lxml import etree
+
+
+def etree_str(el) -> str:
+    return etree.tostring(el, encoding="unicode")
 from docx.shared import Cm, Pt, RGBColor
 
 FONT = "Times New Roman"
@@ -159,7 +164,10 @@ def chinh_docx(duong_dan: str) -> None:
     # không bị bỏ lại một mình ở cuối trang
     for el in d.element.body.iterchildren():
         nxt = el.getnext()
-        if el.tag == qn("w:p") and nxt is not None and nxt.tag == qn("w:tbl"):
+        truoc_anh = (nxt is not None and nxt.tag == qn("w:p")
+                     and "blip" in etree_str(nxt))
+        if el.tag == qn("w:p") and nxt is not None and (
+                nxt.tag == qn("w:tbl") or truoc_anh):
             # vòng lặp đoạn ở trên đã ghi keepNext = 0, nên phải ghi đè chứ
             # không chỉ thêm khi chưa có
             pPr = el.get_or_add_pPr()
