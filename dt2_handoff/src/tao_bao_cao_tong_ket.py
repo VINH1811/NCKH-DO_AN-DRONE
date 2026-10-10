@@ -264,6 +264,157 @@ def h6_santruong3():
     return pd.DataFrame({"phut": np.round(phut, 1), "lech_lon_nhat_px": np.round(lech, 1)})
 
 
+
+def h0_chuoi_nhiem_vu():
+    """Sơ đồ chuỗi nhiệm vụ ĐT2 và các mốc giao nhận với Việt, Lương."""
+    from matplotlib.patches import FancyBboxPatch
+    fig, ax = plt.subplots(figsize=(11, 4.6))
+    ax.set_xlim(0, 11)
+    ax.set_ylim(0, 4.6)
+    ax.set_axis_off()
+    hop = {
+        "VN-01": (0.9, 3.6, "VN-01 · M1", "Gói dữ liệu", "xong"),
+        "VN-02": (0.9, 2.2, "VN-02", "Môi trường", "xong"),
+        "VN-03": (3.0, 2.2, "VN-03", "Baseline", "xong"),
+        "C-03": (3.0, 3.6, "C-03", "Quy ước thống kê", "xong"),
+        "VN-04": (5.1, 2.2, "VN-04", "Phân tích lỗi", "xong"),
+        "M4": (5.1, 3.6, "M4", "Hồ sơ pilot", "xong"),
+        "VN-05": (5.1, 0.8, "VN-05 · M5", "Quay pilot", "chua"),
+        "VN-06": (7.2, 0.8, "VN-06", "Định vị", "mophong"),
+        "VN-07": (7.2, 2.2, "VN-07", "Chọn ngưỡng", "mophong"),
+        "VN-08": (9.3, 2.2, "VN-08", "Test · M9, M10", "mophong"),
+        "VN-09": (9.3, 3.6, "VN-09", "Kiểm tra chéo", "xong"),
+    }
+    mau = {"xong": XANH, "mophong": NGOC, "chua": XAM}
+    for k, (x, y, a, b, tt) in hop.items():
+        ax.add_patch(FancyBboxPatch((x - 0.85, y - 0.42), 1.7, 0.84,
+                                    boxstyle="round,pad=0.02,rounding_size=0.08",
+                                    fc=mau[tt], ec="white", lw=2))
+        ax.text(x, y + 0.13, a, ha="center", va="center", fontsize=12,
+                color="white", weight="bold")
+        ax.text(x, y - 0.17, b, ha="center", va="center", fontsize=12, color="white")
+    ngang = [("VN-02", "VN-03"), ("VN-03", "VN-04"), ("VN-04", "VN-07"),
+             ("VN-07", "VN-08"), ("VN-05", "VN-06")]
+    for a, b in ngang:
+        xa, ya = hop[a][:2]
+        xb, yb = hop[b][:2]
+        ax.annotate("", xy=(xb - 0.87, yb), xytext=(xa + 0.87, ya),
+                    arrowprops=dict(arrowstyle="-|>", color=MUC2, lw=1.4))
+    doc = [("C-03", "VN-03"), ("M4", "VN-05")]
+    for a, b in doc:
+        xa, ya = hop[a][:2]
+        xb, yb = hop[b][:2]
+        if b == "VN-05":
+            ax.annotate("", xy=(xb + 0.95, yb), xytext=(xa + 0.95, ya),
+                        arrowprops=dict(arrowstyle="-|>", color=MUC2, lw=1.4,
+                                        connectionstyle="arc3,rad=-0.25"))
+        else:
+            ax.annotate("", xy=(xb, yb + 0.44), xytext=(xa, ya - 0.44),
+                        arrowprops=dict(arrowstyle="-|>", color=MUC2, lw=1.4))
+    ax.annotate("", xy=(8.75, 1.76), xytext=(8.07, 0.95),
+                arrowprops=dict(arrowstyle="-|>", color=MUC2, lw=1.4))
+    ax.text(0.9, 4.2, "→ giao Lương", ha="center", fontsize=12, color=MUC2)
+    ax.text(9.75, 1.45, "→ giao Việt (M9)", ha="center", fontsize=12, color=MUC2)
+    for i, (tt, nhan) in enumerate([("xong", "Đã xong"), ("mophong", "Làm bằng mô phỏng"),
+                                    ("chua", "Chưa làm được")]):
+        ax.add_patch(FancyBboxPatch((0.2 + i * 2.6, 0.05), 0.3, 0.25,
+                                    boxstyle="round,pad=0.01", fc=mau[tt], ec="none"))
+        ax.text(0.6 + i * 2.6, 0.17, nhan, va="center", fontsize=12, color=MUC)
+    luu(fig, "h0_chuoi_nhiem_vu.png")
+
+
+def h7_dinh_vi():
+    """VN-06: p95 sai số định vị theo kịch bản, hai cấu hình máy."""
+    d = pd.read_csv(os.path.join(DT2, "metrics/VN06-mo-phong-dinh-vi-20261010.csv"),
+                    encoding="utf-8-sig")
+    d = d[d.metric == "sai_so_dinh_vi_p95_m"].copy()
+    tach = d.split.str.split(" | ", regex=False)
+    d["ch"], d["kb"] = tach.str[0], tach.str[1]
+    kb = list(dict.fromkeys(d.kb))
+    nhan = ["Chỉ hiệu chuẩn", "+ rung chân (đo được)", "+ lệch chân 3%", "+ lệch chân 6%",
+            "lệch 3% + trôi 30 phút", "lệch 3% + trôi 2 giờ", "lệch 3%, ngoài vùng"]
+    fig, ax = plt.subplots(figsize=(10, 4.6))
+    y = np.arange(len(kb))[::-1]
+    h = 0.38
+    for j, (ch, mau) in enumerate([("Chân máy 2,5 m", CAM), ("Tầng cao 15 m", XANH)]):
+        v = [float(d[(d.ch == ch) & (d.kb == k)].value.iloc[0]) for k in kb]
+        ax.barh(y + (0.5 - j) * h, v, h - 0.04, color=mau, label=ch)
+        for yi, vi in zip(y + (0.5 - j) * h, v):
+            ax.text(vi + 0.04, yi, f"{vi:.2f}", va="center", fontsize=12, color=MUC)
+    ax.set_yticks(y, nhan)
+    ax.set_xlabel("Sai số định vị p95 (mét) — mô phỏng")
+    ax.set_xlim(0, 3.7)
+    ax.legend(loc="lower right")
+    ax.grid(axis="y", visible=False)
+    luu(fig, "h7_dinh_vi_vn06.png")
+
+
+def h8_ban_giao():
+    """VN-08: kết quả bàn giao trên phiên 2, CCTV -> UAV."""
+    d = pd.read_csv(os.path.join(DT2, "metrics/VN0708-mo-phong-agreid-20261010.csv"),
+                    encoding="utf-8-sig")
+    fig, ax = plt.subplots(figsize=(10, 3.4))
+    dk = [("A", "Ngoại hình"), ("B", "Ngoại hình + thời gian")]
+    loai = [("ban_giao_dung", XANH, "Bàn giao đúng"), ("ban_giao_sai", CAM, "Bàn giao sai"),
+            ("ban_giao_tu_choi", XAM, "Từ chối")]
+    y = np.arange(len(dk))[::-1]
+    trai = np.zeros(len(dk))
+    for m, mau, nhan in loai:
+        v = np.array([float(d[(d.split == f"exp4_cctv_to_aerial_phien2_{k}") &
+                               (d.metric == m)].value.iloc[0]) for k, _ in dk])
+        ax.barh(y, v, left=trai, color=mau, height=0.56, label=nhan,
+                edgecolor="white", linewidth=2)
+        for yi, l, vi in zip(y, trai, v):
+            if vi > 6:
+                ax.text(l + vi / 2, yi, f"{vi:.1f}%", ha="center", va="center",
+                        fontsize=12, color="white")
+            else:                       # đoạn hẹp: ghi nhãn phía trên thanh
+                ax.text(l + vi / 2, yi + 0.36, f"{vi:.1f}%", ha="center",
+                        va="bottom", fontsize=12, color=MUC)
+        trai += v
+    ax.set_yticks(y, [n for _, n in dk])
+    ax.set_xlim(0, 100)
+    ax.set_xlabel("Tỉ lệ trên 849 truy vấn phiên 2, CCTV → UAV (%) — mô phỏng trên AG-ReID.v2")
+    ax.set_ylim(-0.5, 1.75)
+    ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.27), ncol=3, fontsize=12)
+    ax.grid(axis="y", visible=False)
+    luu(fig, "h8_ban_giao_vn08.png")
+
+
+def h9_kiem_cheo():
+    """VN-09: khoảng tin cậy Việt khai so với tính lại theo sequence."""
+    s = pd.read_csv(os.path.join(GOC, "dt1_follow/metrics/VT05-tracking-20261007.csv"))
+    s = s[s.sequence != "OVERALL"].fillna(0)
+    O, P = s.num_objects.values, s.num_predictions.values
+    idtp, tp, sw = s.idr.values * O, s.recall.values * O, s.id_switches.values
+    rng = np.random.default_rng(0)
+    b1, b2 = [], []
+    for _ in range(10000):
+        k = rng.integers(0, len(s), len(s))
+        b1.append(2 * idtp[k].sum() / (O[k].sum() + P[k].sum()))
+        b2.append(1 - ((O[k] - tp[k]).sum() + (P[k] - tp[k]).sum() + sw[k].sum()) / O[k].sum())
+    fig, ax = plt.subplots(figsize=(10, 3.4))
+    hang = [("IDF1", 0.2699, (0.2410, 0.2985), (np.percentile(b1, 2.5), np.percentile(b1, 97.5))),
+            ("MOTA", 0.1078, (0.0820, 0.1340), (np.percentile(b2, 2.5), np.percentile(b2, 97.5)))]
+    for i, (ten, v, khai, lai) in enumerate(hang):
+        yb = 2.6 - i * 1.6
+        ax.errorbar(v, yb + 0.25, xerr=[[v - khai[0]], [khai[1] - v]], fmt="o", color=CAM,
+                    ms=8, elinewidth=2, capsize=5)
+        ax.errorbar(v, yb - 0.25, xerr=[[v - lai[0]], [lai[1] - v]], fmt="o", color=XANH,
+                    ms=8, elinewidth=2, capsize=5)
+        ax.text(khai[1] + 0.012, yb + 0.25, f"Việt khai  [{khai[0]:.3f} – {khai[1]:.3f}]",
+                va="center", fontsize=12, color=MUC)
+        ax.text(lai[1] + 0.012, yb - 0.25, f"Tính lại  [{lai[0]:.3f} – {lai[1]:.3f}]",
+                va="center", fontsize=12, color=MUC)
+        ax.text(-0.33, yb, ten, va="center", fontsize=13, color=MUC, weight="bold")
+    ax.axvline(0, color=XAM, lw=1, ls="--")
+    ax.set_yticks([])
+    ax.set_xlim(-0.35, 0.75)
+    ax.set_ylim(0.4, 3.3)
+    ax.set_xlabel("Cùng điểm ước lượng, khác khoảng tin cậy 95%")
+    ax.grid(axis="y", visible=False)
+    luu(fig, "h9_kiem_cheo_vn09.png")
+
 # ─────────────────────────── file thống kê ───────────────────────────
 def ghi_excel(duong_dan, sheets: dict):
     from openpyxl import Workbook
@@ -330,6 +481,10 @@ def main() -> int:
     h4_loai_loi(v4)
     h5_cung_phien(kq, v4)
     troi = h6_santruong3()
+    h0_chuoi_nhiem_vu()
+    h7_dinh_vi()
+    h8_ban_giao()
+    h9_kiem_cheo()
 
     # ── bảng cho file thống kê
     tong_quan = pd.DataFrame([

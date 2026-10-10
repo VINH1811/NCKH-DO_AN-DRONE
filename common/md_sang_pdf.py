@@ -155,6 +155,18 @@ def chinh_docx(duong_dan: str) -> None:
                 dat_font(r, CO_BODY)
             p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
 
+    # đoạn dẫn ngay trước một bảng ("Dẫn chứng trên git.") đi cùng bảng đó,
+    # không bị bỏ lại một mình ở cuối trang
+    for el in d.element.body.iterchildren():
+        nxt = el.getnext()
+        if el.tag == qn("w:p") and nxt is not None and nxt.tag == qn("w:tbl"):
+            # vòng lặp đoạn ở trên đã ghi keepNext = 0, nên phải ghi đè chứ
+            # không chỉ thêm khi chưa có
+            pPr = el.get_or_add_pPr()
+            for cu in pPr.findall(qn("w:keepNext")):
+                pPr.remove(cu)
+            pPr.append(OxmlElement("w:keepNext"))
+
     # co ảnh về đúng bề rộng vùng chữ, giữ tỉ lệ; ảnh nhỏ hơn thì để nguyên
     rong = Cm(21.0) - LE_NGANG * 2
     for sh in d.inline_shapes:
@@ -169,11 +181,18 @@ def chinh_docx(duong_dan: str) -> None:
             trPr = row._tr.get_or_add_trPr()
             for el in trPr.findall(qn("w:cantSplit")):
                 trPr.remove(el)
+            if i == 0:
+                # dòng tiêu đề lặp lại khi bảng sang trang, và không đứng trơ
+                # một mình ở cuối trang
+                if trPr.find(qn("w:tblHeader")) is None:
+                    trPr.append(OxmlElement("w:tblHeader"))
             for c in row.cells:
                 for p in c.paragraphs:
                     pf = p.paragraph_format
                     pf.space_before = pf.space_after = Pt(1)
                     pf.line_spacing = 1.0
+                    if i == 0:
+                        pf.keep_with_next = True
                     for r in p.runs:
                         dat_font(r, CO_BANG, dam=True if i == 0 else None)
     d.save(duong_dan)

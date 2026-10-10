@@ -1,0 +1,72 @@
+{
+  "so_track": 38063,
+  "so_camera": 18,
+  "cam_edata": [
+    "DuongGiangVien/Cam1",
+    "SanCanteenLemon/Cam1",
+    "SanCanteenLemon/Cam2",
+    "SanCanteenLemon/Cam3",
+    "SanTruong/Cam1",
+    "SanTruong/Cam2",
+    "SanTruong/Cam3",
+    "SanhGiangDuongHai/Cam1",
+    "SanhGiangDuongMot/Cam1"
+  ],
+  "nguon_video": [
+    "DuongGiangVien",
+    "SanCanteenLemon1",
+    "SanCanteenLemon2",
+    "SanCanteenLemon3",
+    "SanTruong1",
+    "SanTruong2",
+    "SanhGiangDuongHai",
+    "SanhGiangDuongMot"
+  ],
+  "so_keyframe": 98552,
+  "kf_theo_nguon": {
+    "video": 71214,
+    "drone": 3902,
+    "edata": 23436
+  },
+  "so_mo_ta": 250,
+  "mo_ta_theo_camera": {
+    "DuongGiangVien": 3,
+    "SanCanteenLemon3": 4,
+    "SanhGiangDuongHai": 2,
+    "SanCanteenLemon2": 1,
+    "SanTruong1": 2,
+    "SanCanteenLemon1": 8,
+    "SanhGiangDuongMot": 2,
+    "SanCanteenLemon/Cam1": 39,
+    "SanTruong/Cam1": 49,
+    "SanTruong/Cam2": 42,
+    "SanhGiangDuongHai/Cam1": 11,
+    "SanCanteenLemon/Cam2": 10,
+    "SanTruong/Cam3": 48,
+    "SanCanteenLemon/Cam3": 11,
+    "SanhGiangDuongMot/Cam1": 18
+  },
+  "mo_ta_theo_nguon": {
+    "video": 22,
+    "edata": 228
+  },
+  "so_emb": 98552,
+  "emb_la_chieu": 0,
+  "chuan_hoa": true,
+  "annot_audio": [
+    250,
+    25277905
+  ],
+  "audio_nhieu_nguoi": [
+    250,
+    98512807
+  ],
+  "co_db": true,
+  "co_anh": true,
+  "anh": [
+    98549,
+    3,
+    556572520
+  ],
+  "tao_luc": "04/10/2026 16:27"
+}
