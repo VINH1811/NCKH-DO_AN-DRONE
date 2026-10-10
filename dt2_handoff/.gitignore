@@ -5,6 +5,7 @@ data/*
 !data/splits/
 checkpoints/*
 !checkpoints/SHA256SUMS
+!checkpoints/checkpoint.lock.json
 *.pt
 *.onnx
 *.zip

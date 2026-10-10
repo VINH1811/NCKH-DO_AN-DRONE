@@ -1,0 +1,40 @@
+[
+  {
+    "duong_dan": "E:/RTCN/models/osnet_ain_x1_0_dangguon_msdc.pth",
+    "ten": "osnet_ain_x1_0_dangguon_msdc.pth",
+    "byte": 55926164,
+    "sha256": "2f38acc25e28cb29407635db2be315edc08d5457a904b72a9a11e427f41f3242",
+    "khoa_cap_cao": [
+      "epoch",
+      "optimizer",
+      "rank1",
+      "scheduler"
+    ],
+    "so_tensor": 552,
+    "so_danh_tinh_huan_luyen": 2510,
+    "epoch": 50,
+    "rank1": 0.7333729267120361
+  },
+  {
+    "duong_dan": "E:/RTCN/models/osnet_x1_0_msmt17.pth",
+    "ten": "osnet_x1_0_msmt17.pth",
+    "byte": 10994685,
+    "sha256": "b7d73dc67c016fd044e4027ff856019496392a7aca8fa0ed56d862a1632c1cf2",
+    "khoa_cap_cao": [
+      "classifier.bias",
+      "classifier.weight",
+      "conv1.bn.bias",
+      "conv1.bn.num_batches_tracked",
+      "conv1.bn.running_mean",
+      "conv1.bn.running_var",
+      "conv1.bn.weight",
+      "conv1.conv.weight",
+      "conv2.0.conv1.bn.bias",
+      "conv2.0.conv1.bn.num_batches_tracked",
+      "conv2.0.conv1.bn.running_mean",
+      "conv2.0.conv1.bn.running_var"
+    ],
+    "so_tensor": 567,
+    "so_danh_tinh_huan_luyen": 1041
+  }
+]
